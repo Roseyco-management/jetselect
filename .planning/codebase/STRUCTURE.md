@@ -1,0 +1,153 @@
+# Codebase Structure
+
+**Analysis Date:** 2026-01-27
+
+## Directory Layout
+
+```
+jetselect/
+├── improved/                 # Production-ready static site (192KB)
+│   ├── index.html           # Main entry point (15KB)
+│   ├── css/
+│   │   └── style.css        # All styling (15KB)
+│   ├── js/
+│   │   └── script.js        # Interactive logic (12KB)
+│   ├── images/              # Static assets
+│   ├── README.md            # Feature documentation
+│   ├── COMPARISON.md        # Before/after analysis
+│   └── QUICKSTART.md        # Deployment guide
+│
+├── original/                # WordPress scrape (628KB, reference only)
+│   ├── pages/
+│   ├── css/
+│   ├── images/
+│   └── scrape_summary.json
+│
+├── .claude/                 # Claude Code settings
+├── .planning/               # GSD project planning
+│   └── codebase/           # This directory
+├── .git/
+└── README.md                # Project overview
+```
+
+## Directory Purposes
+
+**`improved/`**
+- Purpose: Production-ready implementation of JetSelect website
+- Contains: Self-contained static site with no build process
+- Key files: index.html (entry), style.css (design), script.js (logic)
+- Subdirectories: css/, js/, images/
+
+**`improved/css/`**
+- Purpose: Styling layer
+- Contains: Single stylesheet with CSS custom properties
+- Key files: `style.css` - 1082 lines, organized in sections
+- Subdirectories: None
+
+**`improved/js/`**
+- Purpose: Client-side application logic
+- Contains: JavaScript classes and event handlers
+- Key files: `script.js` - 783 lines, 2 main classes
+- Subdirectories: None
+
+**`improved/images/`**
+- Purpose: Static image assets
+- Contains: Logo, favicon, hero image, content images
+- Key files: Jetselect-logo1.jpeg, Favicon-Jetselect.png, Tot-5-edited-1.jpg, Afgelegen.jpg
+- Subdirectories: None
+
+**`original/`**
+- Purpose: Reference implementation (WordPress scrape)
+- Contains: Original website for comparison and asset extraction
+- Key files: pages/index.html (WordPress-generated)
+- Subdirectories: pages/, css/, images/, icons/
+
+## Key File Locations
+
+**Entry Points:**
+- `improved/index.html` - HTML entry point, loads CSS/JS
+- `improved/js/script.js` - JavaScript initialization (line 680, DOMContentLoaded)
+
+**Configuration:**
+- No configuration files (static site, zero dependencies)
+- Translations: `improved/js/script.js`, lines 9-280
+
+**Core Logic:**
+- Wizard logic: `improved/js/script.js`, JetSelector class (lines 355-676)
+- Language system: `improved/js/script.js`, LanguageManager class (lines 283-353)
+- Form handling: `improved/js/script.js`, lines 596-630 (wizard), 688-700 (contact), 704-716 (callback)
+
+**Testing:**
+- Not present - no test files or test directory
+
+**Documentation:**
+- `improved/README.md` - Feature list, usage, customization guide
+- `improved/QUICKSTART.md` - Deployment and integration guide
+- `improved/COMPARISON.md` - Original vs improved metrics
+- `README.md` (root) - Project overview
+
+## Naming Conventions
+
+**Files:**
+- kebab-case.html: HTML pages
+- kebab-case.css: Stylesheets
+- kebab-case.js: JavaScript files
+- PascalCase-kebab.jpeg: Image files (brand assets)
+- UPPERCASE.md: Important documentation
+
+**Directories:**
+- lowercase: All directories (improved, original, css, js, images)
+
+**Special Patterns:**
+- index.html: Main entry point (single-page application)
+- style.css: Single stylesheet (no partials or modules)
+- script.js: All JavaScript logic (no modules or imports)
+
+## Where to Add New Code
+
+**New Feature:**
+- Primary code: `improved/js/script.js` (add methods to JetSelector class)
+- Tests: Not currently set up - would go in `improved/tests/` or `improved/js/__tests__/`
+- Config if needed: No config system - hardcode or add to JavaScript object
+
+**New Form Field:**
+- Implementation: `improved/index.html` (add to Step 6 form)
+- Types: Update FormData collection in `improved/js/script.js`, line 601
+- Validation: Add HTML5 attributes to form field
+
+**New Wizard Step:**
+- Definition: `improved/index.html` (add `.step-container[data-step="N"]`)
+- Handler: Update `totalSteps` in `improved/js/script.js`, line 358
+- Styling: `improved/css/style.css` (follow existing step patterns)
+
+**New Language:**
+- Translations: `improved/js/script.js`, add new language object (follow `nl`/`en` pattern)
+- Button: `improved/index.html`, add language toggle button (line 25-27)
+- Handler: Automatically supported by LanguageManager
+
+**Styling Changes:**
+- CSS variables: `improved/css/style.css`, lines 6-42 (theme customization)
+- Component styles: `improved/css/style.css`, find relevant section by comment headers
+- Responsive: `improved/css/style.css`, lines 974-1063 (media queries)
+
+## Special Directories
+
+**`improved/images/`**
+- Purpose: Static assets served directly
+- Source: Scraped from original WordPress site
+- Committed: Yes (no build step to optimize)
+
+**`.planning/`**
+- Purpose: GSD project planning documents
+- Source: Generated by Claude Code GSD workflows
+- Committed: Yes (project context)
+
+**`original/`**
+- Purpose: Historical reference and comparison
+- Source: Website scraper output
+- Committed: Yes (for comparison and asset extraction)
+
+---
+
+*Structure analysis: 2026-01-27*
+*Update when directory structure changes*
