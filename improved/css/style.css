@@ -1060,6 +1060,7 @@ body {
     :root {
         --spacing-xl: 3rem;
         --spacing-lg: 2rem;
+        --spacing-mobile-safe: 1rem;
     }
 
     .hero {
@@ -1082,6 +1083,73 @@ body {
         min-width: 35px;
         font-size: 1.2rem;
     }
+
+    /* Touch-optimized tap targets (44px minimum) */
+    .step-circle {
+        width: 44px;
+        height: 44px;
+        font-size: 1rem;
+    }
+
+    .lang-btn {
+        padding: 0.75rem 1.25rem;
+        min-height: 44px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cta-button {
+        min-height: 48px;
+        padding: 1.125rem 2.5rem;
+        width: 100%;
+        text-align: center;
+    }
+
+    .option-card {
+        min-height: 60px;
+        padding: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        padding: 1rem;
+        min-height: 48px;
+        font-size: 1rem;
+    }
+
+    .submit-button {
+        min-height: 48px;
+        padding: 1.125rem 2.5rem;
+    }
+
+    .nav-btn {
+        min-height: 44px;
+        padding: 1rem 2rem;
+        flex: 1;
+    }
+
+    .nav-buttons {
+        flex-direction: column;
+        gap: 1rem;
+        width: 100%;
+    }
+
+    .callback-submit {
+        min-height: 44px;
+        padding: 1rem 1.5rem;
+    }
+
+    /* Increase spacing between tappable elements */
+    .options-grid {
+        gap: 1rem;
+    }
+
+    .contact-form,
+    .contact-form-standalone {
+        gap: 1.25rem;
+    }
 }
 
 /* ==========================================
@@ -1100,4 +1168,90 @@ body {
 /* Smooth transitions for all interactive elements */
 a, button, input, textarea, select {
     transition: var(--transition-normal);
+}
+
+/* ==========================================
+   TOUCH OPTIMIZATION
+   ========================================== */
+
+/* Remove default tap highlight on all touch devices */
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+
+/* Touch-specific: Remove hover states on touch devices */
+@media (hover: none) {
+    .option-card:hover {
+        transform: none;
+        box-shadow: var(--shadow-sm);
+        border-color: transparent;
+    }
+
+    .option-card:hover::before {
+        left: -100%;
+    }
+
+    .option-card:hover .option-icon {
+        filter: grayscale(50%);
+        transform: none;
+    }
+
+    .cta-button:hover {
+        transform: none;
+        box-shadow: 0 10px 30px rgba(250, 105, 47, 0.45);
+        background: var(--accent-color);
+    }
+
+    .nav-btn:hover {
+        transform: none;
+        box-shadow: none;
+        background: transparent;
+        color: var(--primary-color);
+    }
+
+    .next-btn:hover {
+        background: var(--accent-color);
+        border-color: var(--accent-color);
+    }
+
+    .submit-button:hover {
+        transform: none;
+        box-shadow: 0 8px 25px rgba(17, 90, 78, 0.3);
+        background: var(--primary-color);
+    }
+
+    .lang-btn:hover {
+        border-color: var(--light-gray);
+        color: var(--dark-gray);
+    }
+
+    .content-image img:hover {
+        transform: none;
+        box-shadow: var(--shadow-md);
+    }
+
+    .callback-submit:hover {
+        transform: none;
+        box-shadow: none;
+        background: var(--accent-color);
+    }
+}
+
+/* Touch feedback: Active states for tap feedback */
+.option-card:active {
+    transform: scale(0.98);
+    opacity: 0.9;
+}
+
+.cta-button:active,
+.submit-button:active,
+.nav-btn:active,
+.callback-submit:active {
+    transform: scale(0.97);
+    opacity: 0.95;
+}
+
+.lang-btn:active {
+    transform: scale(0.95);
+    opacity: 0.9;
 }
