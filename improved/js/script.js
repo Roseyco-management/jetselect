@@ -497,12 +497,13 @@ class JetSelector {
         const step = card.closest('.step-container').dataset.step;
         const value = card.dataset.value;
 
-        // Remove selected class from siblings
+        // Visual feedback with animation
         const siblings = card.parentElement.querySelectorAll('.option-card');
         siblings.forEach(sibling => sibling.classList.remove('selected'));
-
-        // Add selected class to clicked card
         card.classList.add('selected');
+
+        // Animate selection
+        window.animationManager.scaleSelect(card);
 
         // Store selection
         const stepKey = this.getStepKey(parseInt(step));
@@ -512,7 +513,7 @@ class JetSelector {
         const nextBtn = document.getElementById('nextBtn');
         nextBtn.disabled = false;
 
-        // Add a slight delay then auto-advance
+        // Auto-advance with delay for animation
         setTimeout(() => {
             if (this.currentStep < this.totalSteps) {
                 this.nextStep();
@@ -569,22 +570,37 @@ class JetSelector {
     }
 
     showStep(step) {
-        // Hide all steps
         const steps = document.querySelectorAll('.step-container');
-        steps.forEach(s => s.classList.remove('active'));
+        const currentActive = document.querySelector('.step-container.active');
+        const newStep = document.querySelector(`.step-container[data-step="${step}"]`);
 
-        // Show current step
-        const currentStepElement = document.querySelector(`.step-container[data-step="${step}"]`);
-        if (currentStepElement) {
-            currentStepElement.classList.add('active');
+        if (newStep) {
+            // Fade out current step first
+            if (currentActive && currentActive !== newStep) {
+                window.animationManager.fadeOut(currentActive).finished.then(() => {
+                    currentActive.classList.remove('active');
+                    // Then fade in new step
+                    newStep.classList.add('active');
+                    window.animationManager.fadeIn(newStep);
+                });
+            } else {
+                // First load - just fade in
+                newStep.classList.add('active');
+                window.animationManager.fadeIn(newStep);
+            }
         }
+
+        this.updateProgress();
     }
 
     updateProgress() {
-        // Update progress bar
+        // Smooth progress bar animation
         const progressFill = document.getElementById('progressFill');
         const progress = (this.currentStep / this.totalSteps) * 100;
-        progressFill.style.width = `${progress}%`;
+        motion.animate(progressFill,
+            { width: `${progress}%` },
+            { duration: 0.6, easing: 'cubic-bezier(0.16, 1, 0.3, 1)' }
+        );
 
         // Update step indicators
         const progressSteps = document.querySelectorAll('.progress-step');
