@@ -622,18 +622,28 @@ class JetSelector {
 
         // Store selection
         const stepKey = this.getStepKey(parseInt(step));
+        const wasAlreadySelected = this.selections[stepKey] === value;
         this.selections[stepKey] = value;
 
         // Enable next button
         const nextBtn = document.getElementById('nextBtn');
         nextBtn.disabled = false;
 
-        // Auto-advance with delay for animation
-        setTimeout(() => {
-            if (this.currentStep < this.totalSteps) {
-                this.nextStep();
-            }
-        }, 500);
+        // Show loading spinner on card if this is a new selection
+        if (!wasAlreadySelected) {
+            window.animationManager.showSpinner(card);
+
+            // Auto-advance after 400ms loading state
+            setTimeout(() => {
+                window.animationManager.hideSpinner(card);
+
+                setTimeout(() => {
+                    if (this.currentStep < this.totalSteps) {
+                        this.nextStep();
+                    }
+                }, 100); // Small delay after spinner hide for smooth transition
+            }, 400);
+        }
     }
 
     getStepKey(step) {
