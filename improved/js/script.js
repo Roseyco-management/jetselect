@@ -279,7 +279,87 @@ const translations = {
     }
 };
 
-// Language Manager
+// ==========================================
+// ANIMATION MANAGER
+// ==========================================
+
+class AnimationManager {
+    constructor() {
+        // Luxury brand timing curves
+        this.easings = {
+            smooth: 'cubic-bezier(0.16, 1, 0.3, 1)', // Framer Motion default
+            snappy: 'cubic-bezier(0.4, 0, 0.2, 1)',   // Material Design
+            bounce: 'cubic-bezier(0.68, -0.55, 0.27, 1.55)'
+        };
+
+        this.durations = {
+            fast: 300,
+            normal: 600,
+            slow: 900
+        };
+    }
+
+    init() {
+        // Check Motion One availability
+        if (typeof motion === 'undefined') {
+            console.warn('Motion One not loaded - animations disabled');
+            return false;
+        }
+        return true;
+    }
+
+    fadeIn(selector, options = {}) {
+        const defaults = {
+            opacity: [0, 1],
+            transform: ['translateY(20px)', 'translateY(0)']
+        };
+        const config = {
+            duration: options.duration || this.durations.normal / 1000,
+            easing: options.easing || this.easings.smooth
+        };
+        return motion.animate(selector, defaults, config);
+    }
+
+    fadeOut(selector, options = {}) {
+        const defaults = {
+            opacity: [1, 0],
+            transform: ['translateY(0)', 'translateY(-20px)']
+        };
+        const config = {
+            duration: options.duration || this.durations.fast / 1000,
+            easing: options.easing || this.easings.smooth
+        };
+        return motion.animate(selector, defaults, config);
+    }
+
+    slideIn(selector, options = {}) {
+        const defaults = {
+            opacity: [0, 1],
+            transform: ['translateX(-30px)', 'translateX(0)']
+        };
+        const config = {
+            duration: options.duration || this.durations.normal / 1000,
+            easing: options.easing || this.easings.smooth
+        };
+        return motion.animate(selector, defaults, config);
+    }
+
+    scaleSelect(selector, options = {}) {
+        const defaults = {
+            transform: ['scale(0.95)', 'scale(1)']
+        };
+        const config = {
+            duration: options.duration || this.durations.fast / 1000,
+            easing: options.easing || this.easings.snappy
+        };
+        return motion.animate(selector, defaults, config);
+    }
+}
+
+// ==========================================
+// LANGUAGE MANAGER
+// ==========================================
+
 class LanguageManager {
     constructor() {
         this.currentLang = localStorage.getItem('jetselect-lang') || 'nl';
@@ -683,6 +763,11 @@ class JetSelector {
 document.addEventListener('DOMContentLoaded', () => {
     // Initialize language manager first
     window.languageManager = new LanguageManager();
+
+    // Initialize animation manager
+    const animationManager = new AnimationManager();
+    animationManager.init();
+    window.animationManager = animationManager;
 
     // Initialize jet selector
     const jetSelector = new JetSelector();
