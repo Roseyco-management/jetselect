@@ -994,6 +994,49 @@ body {
    ========================================== */
 
 @media (max-width: 768px) {
+    /* Tablet spacing adjustments */
+    :root {
+        --spacing-xl: 3rem;
+        --spacing-lg: 2rem;
+    }
+
+    /* Hero section tablet optimization */
+    .hero {
+        height: 90vh;
+    }
+
+    .hero-title {
+        font-size: clamp(2rem, 4.5vw, 2.5rem);
+    }
+
+    .hero-subtitle {
+        font-size: clamp(1rem, 2vw, 1.1rem);
+    }
+
+    /* Wizard section tablet refinements */
+    .step-container {
+        padding: 2rem;
+    }
+
+    .options-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    /* Typography tablet scaling */
+    .section-title {
+        font-size: clamp(1.75rem, 3.5vw, 2rem);
+    }
+
+    .content-text h2 {
+        font-size: clamp(1.6rem, 3vw, 2rem);
+    }
+
+    .step-title {
+        font-size: clamp(1.6rem, 3vw, 2rem);
+    }
+
+    /* Navigation */
     .nav-links {
         gap: var(--spacing-sm);
     }
@@ -1006,18 +1049,17 @@ body {
         margin-left: 0;
     }
 
-    .options-grid {
-        grid-template-columns: 1fr;
-    }
-
+    /* Forms */
     .contact-form {
         grid-template-columns: 1fr;
     }
 
     .contact-form-standalone {
         grid-template-columns: 1fr;
+        padding: 2rem;
     }
 
+    /* Progress indicator */
     .progress-steps {
         font-size: 0.7rem;
     }
@@ -1032,7 +1074,7 @@ body {
         display: none;
     }
 
-    /* New sections responsive */
+    /* Content sections */
     .process-grid {
         grid-template-columns: 1fr;
         gap: var(--spacing-md);
@@ -1057,24 +1099,73 @@ body {
 }
 
 @media (max-width: 480px) {
+    /* Mobile spacing system */
     :root {
-        --spacing-xl: 3rem;
-        --spacing-lg: 2rem;
+        --spacing-xl: 2rem;
+        --spacing-lg: 1.5rem;
         --spacing-mobile-safe: 1rem;
     }
 
+    /* Hero section mobile optimization */
     .hero {
-        height: 80vh;
+        height: 85vh;
     }
 
+    .hero-title {
+        font-size: clamp(1.75rem, 4vw, 2rem);
+    }
+
+    .hero-subtitle {
+        font-size: clamp(0.95rem, 2vw, 1rem);
+    }
+
+    /* Wizard section mobile refinements */
+    .step-container {
+        padding: 1.5rem;
+    }
+
+    .options-grid {
+        gap: 0.75rem;
+    }
+
+    /* Typography mobile scaling */
+    .section-title {
+        font-size: clamp(1.5rem, 3.5vw, 1.75rem);
+    }
+
+    .content-text h2 {
+        font-size: clamp(1.5rem, 3vw, 1.75rem);
+    }
+
+    .step-title {
+        font-size: clamp(1.5rem, 3vw, 1.75rem);
+    }
+
+    .option-card h3 {
+        font-size: 1.1rem;
+    }
+
+    .content-text h3,
+    .footer-section h3 {
+        font-size: 1.1rem;
+    }
+
+    /* Form layout mobile */
+    .form-group label {
+        font-size: 1rem;
+    }
+
+    .contact-form,
+    .contact-form-standalone {
+        gap: 1.25rem;
+        padding: 1.5rem;
+    }
+
+    /* Process and benefit icons */
     .process-number {
         width: 60px;
         height: 60px;
         font-size: 2rem;
-    }
-
-    .section-title {
-        font-size: 1.8rem;
     }
 
     .benefit-icon {
@@ -1139,16 +1230,6 @@ body {
     .callback-submit {
         min-height: 44px;
         padding: 1rem 1.5rem;
-    }
-
-    /* Increase spacing between tappable elements */
-    .options-grid {
-        gap: 1rem;
-    }
-
-    .contact-form,
-    .contact-form-standalone {
-        gap: 1.25rem;
     }
 }
 
