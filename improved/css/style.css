@@ -445,9 +445,10 @@ body {
 }
 
 .option-card:hover {
-    transform: translateY(-8px);
+    transform: translateY(-4px) scale(1.03);
     box-shadow: var(--shadow-lg);
     border-color: var(--primary-color);
+    transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .option-card.selected {
@@ -467,6 +468,22 @@ body {
 .option-card.selected .option-icon {
     filter: grayscale(0%);
     transform: scale(1.1);
+}
+
+.option-card:hover .option-icon {
+    animation: iconPulse 1s ease-out forwards;
+}
+
+@keyframes iconPulse {
+    0% {
+        transform: scale(1.1);
+    }
+    50% {
+        transform: scale(1.15);
+    }
+    100% {
+        transform: scale(1.1);
+    }
 }
 
 .option-card h3 {
@@ -1275,6 +1292,7 @@ a, button, input, textarea, select {
     .option-card:hover .option-icon {
         filter: grayscale(50%);
         transform: none;
+        animation: none;
     }
 
     .cta-button:hover {

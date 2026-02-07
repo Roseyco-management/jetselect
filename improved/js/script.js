@@ -620,6 +620,11 @@ class JetSelector {
         // Animate selection
         window.animationManager.scaleSelect(card);
 
+        // Add click feedback pulse (independent of existing animations)
+        if (typeof motion !== 'undefined') {
+            motion.animate(card, { scale: [1, 1.05, 1] }, { duration: 0.3, easing: 'ease-out' });
+        }
+
         // Store selection
         const stepKey = this.getStepKey(parseInt(step));
         const wasAlreadySelected = this.selections[stepKey] === value;
