@@ -453,8 +453,11 @@ body {
 
 .option-card.selected {
     border-color: var(--accent-color);
-    background: linear-gradient(135deg, rgba(250, 105, 47, 0.05), rgba(17, 90, 78, 0.05));
-    box-shadow: 0 8px 30px rgba(250, 105, 47, 0.2);
+    background: linear-gradient(135deg, rgba(250, 105, 47, 0.25), rgba(17, 90, 78, 0.25));
+    box-shadow: 0 0 0 2px var(--primary-color), 0 4px 20px rgba(17, 90, 78, 0.3);
+    transform: scale(1.01);
+    transition: box-shadow 0.4s cubic-bezier(0.16, 1, 0.3, 1),
+                transform 0.2s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .option-icon {
