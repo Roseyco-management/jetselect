@@ -30,7 +30,7 @@ Transform JetSelect into the #1 private jet purchase destination in the Netherla
 **v2.0 SEO Domination:**
 - [x] **Phase 7: Competitive Analysis & Keyword Research** - SERP analysis, competitor profiling, keyword database (Complete: 2026-02-07)
 - [x] **Phase 8: Topical Map & Content Architecture** - Semantic clustering, pillar pages, 100+ page sitemap (Complete: 2026-02-07)
-- [~] **Phase 9: Technical SEO Infrastructure** - Schema.org, Core Web Vitals, mobile-first, sitemaps (2/3 plans)
+- [~] **Phase 9: Technical SEO Infrastructure** - Schema.org, meta tags, sitemaps, Core Web Vitals (3/4 plans)
 - [ ] **Phase 10: Pillar Pages & Core Content** - Homepage optimization, aircraft guides, buying process
 - [ ] **Phase 11: City & Regional Landing Pages** - Amsterdam, Rotterdam, provinces, airports (20+ pages)
 - [ ] **Phase 12: Aircraft & Route Content** - Individual aircraft pages, route comparisons (30+ pages)
@@ -153,13 +153,14 @@ Plans:
 **Depends on**: Phase 8
 **Research**: Likely (Schema.org implementation, Core Web Vitals optimization)
 **Research topics**: Schema.org markup for service businesses (Organization, LocalBusiness, Product, FAQPage, BreadcrumbList), Core Web Vitals optimization techniques for static sites, hreflang implementation patterns for nl-NL/en-NL, XML sitemap generation best practices
-**Plans**: 2 of 3 complete
+**Plans**: 3 of 4 complete
 **Status**: In progress
 
 Plans:
 - [x] 09-01: Schema.org & Structured Data - COMPLETE (2026-02-07)
 - [x] 09-02: Meta Tags & International SEO - COMPLETE (2026-02-07)
-- [ ] 09-03: Core Web Vitals & Performance Optimization
+- [x] 09-03: Sitemaps & Crawl Control - COMPLETE (2026-02-07)
+- [ ] 09-04: Core Web Vitals & Performance Optimization
 
 **Deliverables:**
 - Schema.org markup (Organization, LocalBusiness, Product, FAQPage, BreadcrumbList)

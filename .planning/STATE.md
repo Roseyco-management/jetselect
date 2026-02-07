@@ -12,18 +12,18 @@ See: .planning/PROJECT.md (updated 2026-01-27)
 **Milestones:** v1.0 UI/UX Polish (Phases 1-6) + v2.0 SEO Domination (Phases 7-15)
 
 Phase: 9 of 15 (Technical SEO Infrastructure)
-Plan: 09-02 complete (Meta Tags & International SEO)
-Status: Phase 9 IN PROGRESS - 2 of 3 plans complete
-Last activity: 2026-02-07 — Phase 9 Plan 2 completed (hreflang tags, Open Graph, Twitter Cards, canonical URLs)
+Plan: 09-03 complete (Sitemaps & Crawl Control)
+Status: Phase 9 IN PROGRESS - 3 of 4 plans complete
+Last activity: 2026-02-07 — Phase 9 Plan 3 completed (XML sitemap with 111 URLs, robots.txt with sitemap reference)
 
-Progress: ████░░░░░░ 40.0% (6 plans complete across all phases)
+Progress: █████░░░░░ 46.7% (7 plans complete across all phases)
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 6
-- Average duration: 0.28 hours (17 min)
-- Total execution time: 2.46 hours
+- Total plans completed: 7
+- Average duration: 0.23 hours (14 min)
+- Total execution time: 2.53 hours
 
 **By Phase:**
 
@@ -31,11 +31,11 @@ Progress: ████░░░░░░ 40.0% (6 plans complete across all phas
 |-------|-------|-------|----------|
 | Phase 7 | 3 | 1.69h | 0.56h |
 | Phase 8 | 1 | 0.72h | 0.72h |
-| Phase 9 | 2 | 0.05h | 0.03h |
+| Phase 9 | 3 | 0.12h | 0.04h |
 
 **Recent Trend:**
-- Last 5 plans: 13min, 43min, 1min, 2min
-- Trend: Technical SEO implementation (structured data, meta tags) executing rapidly with clear patterns
+- Last 5 plans: 43min, 1min, 2min, 4min
+- Trend: Technical SEO implementation (structured data, meta tags, sitemaps) executing rapidly with clear patterns established
 
 ## Accumulated Context
 
@@ -86,6 +86,13 @@ Recent decisions affecting current work:
 - Social sharing: 1200x630px image format for optimal Facebook/LinkedIn/Twitter previews (og-image.jpg path configured, image creation deferred)
 - Pattern documentation: Commented HTML templates for hreflang and canonical implementation across 111 future pages in Phases 10-13
 
+**Phase 9 Sitemap & Crawl Control Strategy (2026-02-07):**
+- XML sitemap: 111 URLs total (1 active homepage + 110 commented future pages) organized by phase (10/11/12/13) for progressive uncommenting
+- Priority mapping: P0=1.0, P1=0.8, P2=0.6-0.7, P3=0.4-0.5 (from Phase 8 architecture)
+- Changefreq: weekly (homepage), monthly (pillars/clusters), yearly (supporting)
+- Bilingual hreflang: xhtml:link tags for nl-NL, en-NL, x-default (consistent with Plan 09-02)
+- robots.txt: Empty Disallow (full crawler access), sitemap reference https://jetselect.nl/sitemap.xml, future guidance for admin/API sections
+
 ### Deferred Issues
 
 None yet.
@@ -106,6 +113,6 @@ None yet.
 ## Session Continuity
 
 Last session: 2026-02-07
-Stopped at: Phase 9 Plan 2 complete - Meta tags and international SEO implemented (hreflang, Open Graph, Twitter Cards, canonical URLs)
+Stopped at: Phase 9 Plan 3 complete - Sitemaps & Crawl Control (XML sitemap, robots.txt)
 Resume file: None
-Next action: Execute Phase 9 Plan 3 (Sitemaps & Crawl Control) OR Execute Phase 10 (Pillar Pages & Core Content Production) OR resume Phase 1 (UI/UX) per parallel strategy
+Next action: Execute Phase 9 Plan 4 (Core Web Vitals & Performance) OR Execute Phase 10 (Pillar Pages & Core Content Production) OR resume Phase 1 (UI/UX) per parallel strategy
