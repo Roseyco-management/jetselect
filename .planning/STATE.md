@@ -11,19 +11,19 @@ See: .planning/PROJECT.md (updated 2026-01-27)
 
 **Milestones:** v1.0 UI/UX Polish (Phases 1-6) + v2.0 SEO Domination (Phases 7-15)
 
-Phase: 8 of 15 (Topical Map & Content Architecture)
-Plan: 08-01 complete (Topical Map & Content Architecture Design)
-Status: Phase 8 COMPLETE - Ready for Phase 9 (Technical SEO) and Phase 10 (Content Production)
-Last activity: 2026-02-07 — Phase 8 Plan 1 completed (8 semantic clusters, 5 pillar pages, 111-page sitemap with bilingual URLs)
+Phase: 9 of 15 (Technical SEO Infrastructure)
+Plan: 09-01 complete (Schema.org & Structured Data)
+Status: Phase 9 IN PROGRESS - 1 of 3 plans complete
+Last activity: 2026-02-07 — Phase 9 Plan 1 completed (Organization, LocalBusiness, BreadcrumbList schemas + FAQPage template)
 
-Progress: ███░░░░░░░ 26.7% (4 plans complete across all phases)
+Progress: ████░░░░░░ 33.3% (5 plans complete across all phases)
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 4
-- Average duration: 0.54 hours (32 min)
-- Total execution time: 2.41 hours
+- Total plans completed: 5
+- Average duration: 0.40 hours (24 min)
+- Total execution time: 2.43 hours
 
 **By Phase:**
 
@@ -31,10 +31,11 @@ Progress: ███░░░░░░░ 26.7% (4 plans complete across all phas
 |-------|-------|-------|----------|
 | Phase 7 | 3 | 1.69h | 0.56h |
 | Phase 8 | 1 | 0.72h | 0.72h |
+| Phase 9 | 1 | 0.02h | 0.02h |
 
 **Recent Trend:**
-- Last 5 plans: 75min, 13min, 13min, 43min
-- Trend: Consistent execution speed (strategic planning work)
+- Last 5 plans: 13min, 13min, 43min, 1min
+- Trend: Simple technical implementation (Schema.org markup) completed rapidly
 
 ## Accumulated Context
 
@@ -73,6 +74,12 @@ Recent decisions affecting current work:
 - B2B segment: Separate business aviation pillar with tax/ROI/financing focus (underserved by competitors)
 - Rent vs buy pillar: ZERO-competition opportunity elevated to standalone pillar (converts charter browsers to ownership)
 
+**Phase 9 Schema.org Strategy (2026-02-07):**
+- Structured data format: JSON-LD in head over microdata attributes (Google's preferred format, cleaner HTML)
+- Schema organization: Separate script blocks per schema type vs. single combined @graph (easier maintenance)
+- Template approach: FAQPage schema as commented HTML template for Phase 10 consistency
+- Schema scope: Organization + LocalBusiness + BreadcrumbList active; FAQPage template ready; Product/Review/Event schemas deferred to later phases
+
 ### Deferred Issues
 
 None yet.
@@ -93,6 +100,6 @@ None yet.
 ## Session Continuity
 
 Last session: 2026-02-07
-Stopped at: Phase 8 Plan 1 complete - 8 semantic clusters, 5 pillar pages architected, 111-page sitemap created with bilingual URLs
-Resume file: None (Phase 8 complete)
-Next action: Execute Phase 9 (Technical SEO Infrastructure) OR Execute Phase 10 (Pillar Pages & Core Content Production) OR resume Phase 1 (UI/UX) per parallel strategy
+Stopped at: Phase 9 Plan 1 complete - Schema.org structured data implemented (Organization, LocalBusiness, BreadcrumbList + FAQPage template)
+Resume file: None
+Next action: Execute Phase 9 Plan 2 (Meta Tags & International SEO) OR Execute Phase 10 (Pillar Pages & Core Content Production) OR resume Phase 1 (UI/UX) per parallel strategy
