@@ -74,15 +74,25 @@
 
 ## python-seo-analyzer - On-Page SEO Analysis
 
-**Location:** `/Users/baileybarry/Resources/repos/seo/python-seo-analyzer/`
+**Location:** Installed globally via pip
 
-**Status:** Ready for testing
+**Status:** ✓ Installed and ready for use
+
+**Installation:**
+```bash
+pip3 install pyseoanalyzer
+```
 
 **Usage:**
 ```bash
-cd /Users/baileybarry/Resources/repos/seo/python-seo-analyzer
-# Test on JetSelect homepage
-python3 analyze.py /Users/baileybarry/jetselect/improved/index.html
+# Analyze a competitor website
+python-seo-analyzer https://example.com/
+
+# With HTML output
+python-seo-analyzer https://example.com/ --output-format html > analysis.html
+
+# With sitemap
+python-seo-analyzer https://example.com/ --sitemap https://example.com/sitemap.xml
 ```
 
 **Purpose:**
@@ -90,36 +100,60 @@ python3 analyze.py /Users/baileybarry/jetselect/improved/index.html
 - Extract heading structure (H1-H6)
 - Check meta tags, alt text, keyword density
 - Validate technical SEO elements
+- Crawl websites to analyze multiple pages
 
 **Output Format:**
+- JSON (default) or HTML format
 - Console output with SEO score and recommendations
-- Detailed breakdown of SEO factors
+- Detailed breakdown of SEO factors per page
+
+**Note:** This tool is designed for URL-based analysis (website crawling), not local HTML files. Use Lighthouse CLI or DevTools for local file analysis.
 
 ---
 
 ## Lighthouse - Technical SEO Auditor
 
-**Location:** Built into Chrome DevTools
+**Location:** Lighthouse CLI installed at `/Users/baileybarry/.npm-global/bin/lighthouse`
 
-**Status:** Available (Chrome browser required)
+**Status:** ⚠️ Requires Chrome browser installation
 
-**Usage:**
-1. Open `/Users/baileybarry/jetselect/improved/index.html` in Chrome
-2. Open DevTools (Cmd+Option+I)
-3. Go to "Lighthouse" tab
-4. Select categories: Performance, Accessibility, Best Practices, SEO
-5. Click "Analyze page load"
-6. Export report as JSON
+**Installation Check:**
+- Lighthouse CLI: ✓ Installed
+- Chrome Browser: ✗ Not found
+- Chromium-based browser required for Lighthouse CLI to function
+
+**CLI Usage (when Chrome is installed):**
+```bash
+# Analyze local file
+lighthouse file:///path/to/index.html --output json --output-path report.json
+
+# Analyze remote URL
+lighthouse https://example.com --output json --output-path report.json
+
+# With specific categories
+lighthouse https://example.com --only-categories=performance,seo,accessibility
+```
+
+**DevTools Usage (Alternative):**
+1. Install Chrome browser
+2. Open `/Users/baileybarry/jetselect/improved/index.html` in Chrome
+3. Open DevTools (Cmd+Option+I)
+4. Go to "Lighthouse" tab
+5. Select categories: Performance, Accessibility, Best Practices, SEO
+6. Click "Analyze page load"
+7. Export report as JSON
 
 **Baseline Audit:**
-- Report saved to: `.planning/phases/07-competitive-analysis-keyword-research/baseline-lighthouse.json`
-- Date: TBD (needs to be run)
+- Report location: `.planning/phases/07-competitive-analysis-keyword-research/baseline-lighthouse.json`
+- Status: Pending - requires Chrome browser installation
 - Purpose: Track technical SEO improvements over time
 
 **Core Web Vitals Tracked:**
 - Largest Contentful Paint (LCP)
 - First Input Delay (FID) / Interaction to Next Paint (INP)
 - Cumulative Layout Shift (CLS)
+
+**Blocker:** Chrome browser must be installed to run Lighthouse audits. User action required.
 
 ---
 
@@ -151,9 +185,13 @@ python3 analyze.py /Users/baileybarry/jetselect/improved/index.html
 
 ## Next Steps
 
-1. **Task 1 Complete:** SerpBear installed and configured (pending SERP API key)
-2. **Task 2:** Verify python-seo-analyzer works with JetSelect site
-3. **Task 2:** Run baseline Lighthouse audit and save report
-4. **Task 3:** Create data collection templates (KEYWORDS.md, COMPETITORS.md, etc.)
+1. **Task 1 Complete:** ✓ SerpBear installed and configured (pending SERP API key)
+2. **Task 2 In Progress:**
+   - ✓ python-seo-analyzer installed and ready for competitor URL analysis
+   - ⚠️ Lighthouse baseline audit pending Chrome installation
+3. **Task 3 Pending:** Create data collection templates (KEYWORDS.md, COMPETITORS.md, etc.)
 
-**Authentication Gate:** User must obtain free ScrapingRobot API key to enable rank tracking. Without API key, SerpBear cannot scrape Google results.
+## Blockers & User Actions Required
+
+1. **SerpBear Rank Tracking:** Obtain free ScrapingRobot API key (https://scrapingrobot.com)
+2. **Lighthouse Audits:** Install Chrome browser for automated audits (optional - can use DevTools manually)

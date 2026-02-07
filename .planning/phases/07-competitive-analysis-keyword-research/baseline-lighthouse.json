@@ -1,0 +1,21 @@
+{
+  "lighthouse_version": "pending",
+  "status": "NOT_RUN",
+  "note": "Baseline Lighthouse audit pending Chrome browser installation.",
+  "blocker": "Chrome browser required for Lighthouse CLI to function",
+  "instructions": "To generate this report:",
+  "steps": [
+    "1. Install Chrome browser",
+    "2. Run: lighthouse file:///Users/baileybarry/jetselect/improved/index.html --output json --output-path /Users/baileybarry/jetselect/.planning/phases/07-competitive-analysis-keyword-research/baseline-lighthouse.json",
+    "OR use Chrome DevTools > Lighthouse tab and export JSON report"
+  ],
+  "target_url": "file:///Users/baileybarry/jetselect/improved/index.html",
+  "categories_to_audit": [
+    "performance",
+    "accessibility",
+    "best-practices",
+    "seo"
+  ],
+  "created_at": "2026-02-07",
+  "created_by": "Phase 7 Plan 1: Tool Setup & Data Infrastructure"
+}
