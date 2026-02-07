@@ -743,16 +743,101 @@ class JetSelector {
         const progressSteps = document.querySelectorAll('.progress-step');
         progressSteps.forEach((step, index) => {
             const stepNumber = index + 1;
+            const stepCircle = step.querySelector('.step-circle');
+
             if (stepNumber < this.currentStep) {
+                // Step is completed
+                const wasActive = step.classList.contains('active');
                 step.classList.add('completed');
                 step.classList.remove('active');
+
+                // Add checkmark animation if transitioning from active to completed
+                if (wasActive && stepCircle) {
+                    this.animateCheckmark(stepCircle);
+                }
             } else if (stepNumber === this.currentStep) {
+                // Step is active
+                const wasAlreadyActive = step.classList.contains('active');
                 step.classList.add('active');
                 step.classList.remove('completed');
+
+                // Pulse animation on first activation only
+                if (!wasAlreadyActive && stepCircle) {
+                    this.pulseStep(stepCircle);
+                }
             } else {
                 step.classList.remove('active', 'completed');
             }
         });
+    }
+
+    pulseStep(stepCircle) {
+        // Single pulse animation: scale 1 → 1.1 → 1
+        motion.animate(stepCircle,
+            {
+                transform: ['scale(1)', 'scale(1.1)', 'scale(1)']
+            },
+            {
+                duration: 0.6,
+                easing: 'cubic-bezier(0.16, 1, 0.3, 1)'
+            }
+        );
+
+        // Add pulsing class for CSS box-shadow animation
+        stepCircle.classList.add('pulsing');
+
+        // Remove pulsing class after animation completes
+        setTimeout(() => {
+            stepCircle.classList.remove('pulsing');
+        }, 600);
+    }
+
+    animateCheckmark(stepCircle) {
+        // Check if checkmark already exists (avoid duplicates)
+        if (stepCircle.querySelector('.checkmark-svg')) return;
+
+        // Get the step number element
+        const numberSpan = stepCircle.childNodes[0];
+
+        // Fade out the number first
+        if (numberSpan) {
+            motion.animate(numberSpan,
+                { opacity: [1, 0] },
+                { duration: 0.2, easing: 'cubic-bezier(0.16, 1, 0.3, 1)' }
+            ).finished.then(() => {
+                // Create SVG checkmark (16x16px, white stroke)
+                const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+                svg.setAttribute('class', 'checkmark-svg');
+                svg.setAttribute('width', '16');
+                svg.setAttribute('height', '16');
+                svg.setAttribute('viewBox', '0 0 16 16');
+                svg.style.cssText = 'position: absolute; opacity: 0;';
+
+                const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+                path.setAttribute('d', 'M3 8 L6 11 L13 4');
+                path.setAttribute('fill', 'none');
+                path.setAttribute('stroke', 'white');
+                path.setAttribute('stroke-width', '2');
+                path.setAttribute('stroke-linecap', 'round');
+                path.setAttribute('stroke-linejoin', 'round');
+                path.setAttribute('stroke-dasharray', '20');
+                path.setAttribute('stroke-dashoffset', '20');
+
+                svg.appendChild(path);
+                stepCircle.appendChild(svg);
+
+                // Animate checkmark: fade in + stroke draw
+                motion.animate(svg,
+                    { opacity: [0, 1] },
+                    { duration: 0.2, easing: 'cubic-bezier(0.16, 1, 0.3, 1)' }
+                );
+
+                motion.animate(path,
+                    { strokeDashoffset: [20, 0] },
+                    { duration: 0.4, easing: 'cubic-bezier(0.16, 1, 0.3, 1)' }
+                );
+            });
+        }
     }
 
     updateNavigationButtons() {

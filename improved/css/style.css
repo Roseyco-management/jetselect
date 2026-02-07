@@ -342,6 +342,7 @@ body {
     justify-content: center;
     font-weight: 600;
     transition: var(--transition-normal);
+    position: relative;
 }
 
 .progress-step.active .step-circle {
@@ -351,10 +352,22 @@ body {
     transform: scale(1.1);
 }
 
+.progress-step.active .step-circle.pulsing {
+    box-shadow: 0 0 0 8px rgba(17, 90, 78, 0.3);
+    transition: box-shadow 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
 .progress-step.completed .step-circle {
     background: var(--accent-color);
     border-color: var(--accent-color);
     color: var(--white);
+}
+
+.checkmark-svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 /* Step Container */
