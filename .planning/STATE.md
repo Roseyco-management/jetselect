@@ -11,29 +11,30 @@ See: .planning/PROJECT.md (updated 2026-01-27)
 
 **Milestones:** v1.0 UI/UX Polish (Phases 1-6) + v2.0 SEO Domination (Phases 7-15)
 
-Phase: 7 of 15 (Competitive Analysis & Keyword Research)
-Plan: 07-03 complete (Data Synthesis & Opportunity Mapping)
-Status: Phase 7 COMPLETE - Ready for Phase 8 (Topical Map & Content Architecture)
-Last activity: 2026-02-07 — Phase 7 Plan 3 completed (50 opportunities mapped, executive summary created, Phase 8 direction defined)
+Phase: 8 of 15 (Topical Map & Content Architecture)
+Plan: 08-01 complete (Topical Map & Content Architecture Design)
+Status: Phase 8 COMPLETE - Ready for Phase 9 (Technical SEO) and Phase 10 (Content Production)
+Last activity: 2026-02-07 — Phase 8 Plan 1 completed (8 semantic clusters, 5 pillar pages, 111-page sitemap with bilingual URLs)
 
-Progress: ██░░░░░░░░ 20.0% (3 plans complete across all phases)
+Progress: ███░░░░░░░ 26.7% (4 plans complete across all phases)
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 3
-- Average duration: 0.56 hours (34 min)
-- Total execution time: 1.69 hours
+- Total plans completed: 4
+- Average duration: 0.54 hours (32 min)
+- Total execution time: 2.41 hours
 
 **By Phase:**
 
 | Phase | Plans | Total | Avg/Plan |
 |-------|-------|-------|----------|
 | Phase 7 | 3 | 1.69h | 0.56h |
+| Phase 8 | 1 | 0.72h | 0.72h |
 
 **Recent Trend:**
-- Last 5 plans: 75min, 13min, 13min
-- Trend: Accelerating dramatically (automation + data synthesis efficiency)
+- Last 5 plans: 75min, 13min, 13min, 43min
+- Trend: Consistent execution speed (strategic planning work)
 
 ## Accumulated Context
 
@@ -61,6 +62,17 @@ Recent decisions affecting current work:
 - SERP feature strategy: 11 featured snippets (ZERO current owners), 14 PAA questions
 - Interactive tool specifications: Cost calculator, aircraft selector, rent vs buy calculator, ROI calculator, financing calculator
 
+**Phase 8 Content Architecture (2026-02-07):**
+- Semantic clustering: 8 topical clusters (Buying Process, Cost & Economics, Financing, Business Aviation, Aircraft Types, Used Market, Netherlands-Specific, Ownership Alternatives) with 67 keywords organized by search intent and business value
+- Pillar architecture: 5 flagship pillar pages (Ultimate Buying Guide, Netherlands Guide, Business Aircraft Guide, Cost Guide, Rent vs Buy) with complete content briefs (H2/H3 outlines, interactive tools, SERP targets)
+- Sitemap: 111 pages total (5 pillars + 58 clusters + 48 supporting) with bilingual URL structure (Dutch primary, English secondary)
+- URL patterns: /kopen/ (buying), /gids/ (guides), /locaties/ (cities), /vliegtuigen/ (aircraft), /zakelijk/ (business), /tools/ (calculators)
+- Internal linking topology: Hub-spoke model concentrates authority on pillar pages
+- Content volume: 210,500 words planned across Phases 10-13 (26-week production timeline)
+- Interactive tools: 10 calculators/selectors specified (operating cost, aircraft selector, ROI, rent vs buy, financing, airport comparison, tax calculator, timeline estimator, quick recommender, break-even)
+- B2B segment: Separate business aviation pillar with tax/ROI/financing focus (underserved by competitors)
+- Rent vs buy pillar: ZERO-competition opportunity elevated to standalone pillar (converts charter browsers to ownership)
+
 ### Deferred Issues
 
 None yet.
@@ -81,6 +93,6 @@ None yet.
 ## Session Continuity
 
 Last session: 2026-02-07
-Stopped at: Phase 7 Plan 3 complete - 50 opportunities mapped, executive summary created, competitive intelligence synthesized
-Resume file: None (Phase 7 complete)
-Next action: Plan Phase 8 (Topical Map & Content Architecture) OR resume Phase 1 (UI/UX) per parallel strategy
+Stopped at: Phase 8 Plan 1 complete - 8 semantic clusters, 5 pillar pages architected, 111-page sitemap created with bilingual URLs
+Resume file: None (Phase 8 complete)
+Next action: Execute Phase 9 (Technical SEO Infrastructure) OR Execute Phase 10 (Pillar Pages & Core Content Production) OR resume Phase 1 (UI/UX) per parallel strategy
