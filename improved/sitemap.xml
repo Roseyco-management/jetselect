@@ -1,0 +1,1210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- Active URLs (currently live) -->
+
+  <url>
+    <loc>https://jetselect.nl/</loc>
+    <lastmod>2026-02-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/" />
+  </url>
+
+  <!-- ====================================================================== -->
+  <!-- PHASE 10 CONTENT (28 pages) - Uncomment when created                  -->
+  <!-- ====================================================================== -->
+
+  <!-- Tier 1: Pillar Pages (5 pages) - Priority 1.0 / changefreq monthly -->
+  <!--
+  <url>
+    <loc>https://jetselect.nl/kopen/privet-jet</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/kopen/privet-jet" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/buy/private-jet" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/kopen/privet-jet" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/kopen/nederland</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/kopen/nederland" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/buy/netherlands" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/kopen/nederland" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/zakelijk/vliegtuig-kopen</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/zakelijk/vliegtuig-kopen" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/business/aircraft-purchase" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/zakelijk/vliegtuig-kopen" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/gids/kosten</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/gids/kosten" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/guide/costs" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/gids/kosten" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/kopen/huren-vs-kopen</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/kopen/huren-vs-kopen" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/buy/rent-vs-buy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/kopen/huren-vs-kopen" />
+  </url>
+  -->
+
+  <!-- Buying Process Cluster (12 pages) - Priority 0.8 / changefreq monthly -->
+  <!--
+  <url>
+    <loc>https://jetselect.nl/kopen/privet-jet/advies</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/kopen/privet-jet/advies" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/buy/private-jet/advice" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/kopen/privet-jet/advies" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/kopen/privet-jet/eerste-keer</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/kopen/privet-jet/eerste-keer" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/buy/private-jet/first-time" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/kopen/privet-jet/eerste-keer" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/kopen/privet-jet/begeleiding</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/kopen/privet-jet/begeleiding" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/buy/private-jet/assistance" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/kopen/privet-jet/begeleiding" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/kopen/privet-jet/broker</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/kopen/privet-jet/broker" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/buy/private-jet/broker" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/kopen/privet-jet/broker" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/kopen/privet-jet/makelaar</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/kopen/privet-jet/makelaar" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/buy/private-jet/broker-directory" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/kopen/privet-jet/makelaar" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/kopen/privet-jet/particulier</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/kopen/privet-jet/particulier" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/buy/private-jet/private-individual" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/kopen/privet-jet/particulier" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/kopen/privet-jet/aanschaffen</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/kopen/privet-jet/aanschaffen" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/buy/private-jet/acquisition" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/kopen/privet-jet/aanschaffen" />
+  </url>
+  -->
+
+  <!-- Cost & Economics Cluster (10 pages) - Priority 0.8 / changefreq monthly -->
+  <!--
+  <url>
+    <loc>https://jetselect.nl/tools/kosten-calculator</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/tools/kosten-calculator" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/tools/cost-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/tools/kosten-calculator" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/gids/kosten/verborgen-kosten</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/gids/kosten/verborgen-kosten" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/guide/costs/hidden-costs" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/gids/kosten/verborgen-kosten" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/gids/kosten/jaarlijks-budget</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/gids/kosten/jaarlijks-budget" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/guide/costs/annual-budget" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/gids/kosten/jaarlijks-budget" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/gids/kosten/vaste-kosten</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/gids/kosten/vaste-kosten" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/guide/costs/fixed-costs" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/gids/kosten/vaste-kosten" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/gids/kosten/variabele-kosten</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/gids/kosten/variabele-kosten" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/guide/costs/variable-costs" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/gids/kosten/variabele-kosten" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/gids/kosten/eigendom-vs-huren</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/gids/kosten/eigendom-vs-huren" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/guide/costs/ownership-vs-charter" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/gids/kosten/eigendom-vs-huren" />
+  </url>
+  -->
+
+  <!-- Business Aviation Cluster (13 pages) - Priority 0.8 / changefreq monthly -->
+  <!--
+  <url>
+    <loc>https://jetselect.nl/tools/roi-calculator</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/tools/roi-calculator" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/tools/roi-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/tools/roi-calculator" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/zakelijk/voordelen</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/zakelijk/voordelen" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/business/benefits" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/zakelijk/voordelen" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/zakelijk/gebruik</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/zakelijk/gebruik" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/business/use-cases" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/zakelijk/gebruik" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/zakelijk/selectie</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/zakelijk/selectie" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/business/aircraft-selection" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/zakelijk/selectie" />
+  </url>
+  -->
+
+  <!-- Cost/Pricing Supporting Pages (8 pages) - Priority 0.6 / changefreq yearly -->
+  <!--
+  <url>
+    <loc>https://jetselect.nl/blog/wat-kost-privet-jet</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/blog/wat-kost-privet-jet" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/blog/what-does-private-jet-cost" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/blog/wat-kost-privet-jet" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/blog/privet-jet-prijs</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/blog/privet-jet-prijs" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/blog/private-jet-pricing" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/blog/privet-jet-prijs" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/blog/kosten-privet-jet-kopen</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/blog/kosten-privet-jet-kopen" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/blog/cost-of-buying-private-jet" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/blog/kosten-privet-jet-kopen" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/blog/prijs-nederland</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/blog/prijs-nederland" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/blog/price-netherlands" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/blog/prijs-nederland" />
+  </url>
+  -->
+
+  <!-- Ownership Alternatives Supporting Pages (8 pages) - Priority 0.6 / changefreq yearly -->
+  <!--
+  <url>
+    <loc>https://jetselect.nl/tools/huren-vs-kopen-calculator</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/tools/huren-vs-kopen-calculator" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/tools/rent-vs-buy-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/tools/huren-vs-kopen-calculator" />
+  </url>
+  -->
+
+  <!-- ====================================================================== -->
+  <!-- PHASE 11 CONTENT (11 pages) - Uncomment when created                  -->
+  <!-- ====================================================================== -->
+
+  <!-- Location Pages - Priority 0.7-0.8 / changefreq monthly -->
+  <!--
+  <url>
+    <loc>https://jetselect.nl/locaties/amsterdam</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/locaties/amsterdam" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/locations/amsterdam" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/locaties/amsterdam" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/locaties/amsterdam/kopen</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/locaties/amsterdam/kopen" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/locations/amsterdam/buy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/locaties/amsterdam/kopen" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/locaties/rotterdam</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/locaties/rotterdam" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/locations/rotterdam" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/locaties/rotterdam" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/locaties/den-haag</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/locaties/den-haag" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/locations/the-hague" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/locaties/den-haag" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/locaties/utrecht</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/locaties/utrecht" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/locations/utrecht" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/locaties/utrecht" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/locaties/eindhoven</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/locaties/eindhoven" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/locations/eindhoven" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/locaties/eindhoven" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/locaties/maastricht</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/locaties/maastricht" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/locations/maastricht" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/locaties/maastricht" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/locaties/schiphol</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/locaties/schiphol" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/locations/schiphol" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/locaties/schiphol" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/locaties/rotterdam-airport</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/locaties/rotterdam-airport" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/locations/rotterdam-airport" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/locaties/rotterdam-airport" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/locaties/luchthavens-vergelijking</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/locaties/luchthavens-vergelijking" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/locations/airport-comparison" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/locaties/luchthavens-vergelijking" />
+  </url>
+  -->
+
+  <!-- ====================================================================== -->
+  <!-- PHASE 12 CONTENT (25 pages) - Uncomment when created                  -->
+  <!-- ====================================================================== -->
+
+  <!-- Aircraft Category Pages - Priority 0.7-0.8 / changefreq monthly -->
+  <!--
+  <url>
+    <loc>https://jetselect.nl/vliegtuigen/lichte-jets</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/vliegtuigen/lichte-jets" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/aircraft/light-jets" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/vliegtuigen/lichte-jets" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/vliegtuigen/midsize-jets</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/vliegtuigen/midsize-jets" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/aircraft/midsize-jets" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/vliegtuigen/midsize-jets" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/vliegtuigen/large-cabin</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/vliegtuigen/large-cabin" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/aircraft/large-cabin" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/vliegtuigen/large-cabin" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/vliegtuigen/heavy-jets</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/vliegtuigen/heavy-jets" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/aircraft/heavy-jets" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/vliegtuigen/heavy-jets" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/tools/vliegtuig-selector</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/tools/vliegtuig-selector" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/tools/aircraft-selector" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/tools/vliegtuig-selector" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/vliegtuigen/vergelijking</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/vliegtuigen/vergelijking" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/aircraft/comparison" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/vliegtuigen/vergelijking" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/vliegtuigen/te-koop</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/vliegtuigen/te-koop" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/aircraft/for-sale" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/vliegtuigen/te-koop" />
+  </url>
+  -->
+
+  <!-- Used Aircraft Pages - Priority 0.8 / changefreq monthly -->
+  <!--
+  <url>
+    <loc>https://jetselect.nl/kopen/tweedehands</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/kopen/tweedehands" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/buy/used" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/kopen/tweedehands" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/kopen/gebruikt</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/kopen/gebruikt" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/buy/pre-owned" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/kopen/gebruikt" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/kopen/privet-jet/inspectie</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/kopen/privet-jet/inspectie" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/buy/private-jet/inspection" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/kopen/privet-jet/inspectie" />
+  </url>
+  -->
+
+  <!-- Aircraft Brand/Model Pages (12 pages) - Priority 0.5-0.7 / changefreq yearly -->
+  <!--
+  <url>
+    <loc>https://jetselect.nl/vliegtuigen/gulfstream</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/vliegtuigen/gulfstream" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/aircraft/gulfstream" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/vliegtuigen/gulfstream" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/vliegtuigen/gulfstream-g650</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/vliegtuigen/gulfstream-g650" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/aircraft/gulfstream-g650" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/vliegtuigen/gulfstream-g650" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/vliegtuigen/gulfstream-g280</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/vliegtuigen/gulfstream-g280" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/aircraft/gulfstream-g280" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/vliegtuigen/gulfstream-g280" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/vliegtuigen/bombardier</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/vliegtuigen/bombardier" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/aircraft/bombardier" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/vliegtuigen/bombardier" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/vliegtuigen/bombardier-global</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/vliegtuigen/bombardier-global" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/aircraft/bombardier-global" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/vliegtuigen/bombardier-global" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/vliegtuigen/cessna</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/vliegtuigen/cessna" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/aircraft/cessna" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/vliegtuigen/cessna" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/vliegtuigen/citation</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/vliegtuigen/citation" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/aircraft/citation" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/vliegtuigen/citation" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/vliegtuigen/citation-jet</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/vliegtuigen/citation-jet" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/aircraft/citation-jet" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/vliegtuigen/citation-jet" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/vliegtuigen/embraer</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/vliegtuigen/embraer" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/aircraft/embraer" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/vliegtuigen/embraer" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/vliegtuigen/embraer-phenom</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/vliegtuigen/embraer-phenom" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/aircraft/embraer-phenom" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/vliegtuigen/embraer-phenom" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/vliegtuigen/embraer-praetor</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/vliegtuigen/embraer-praetor" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/aircraft/embraer-praetor" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/vliegtuigen/embraer-praetor" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/vliegtuigen/zakelijk-te-koop</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/vliegtuigen/zakelijk-te-koop" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/aircraft/business-for-sale" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/vliegtuigen/zakelijk-te-koop" />
+  </url>
+  -->
+
+  <!-- ====================================================================== -->
+  <!-- PHASE 13 CONTENT (47 pages) - Uncomment when created                  -->
+  <!-- ====================================================================== -->
+
+  <!-- Financing & Leasing Cluster (4 pages) - Priority 0.7-0.8 / changefreq monthly -->
+  <!--
+  <url>
+    <loc>https://jetselect.nl/kopen/privet-jet/leasing</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/kopen/privet-jet/leasing" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/buy/private-jet/leasing" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/kopen/privet-jet/leasing" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/kopen/privet-jet/financiering</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/kopen/privet-jet/financiering" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/buy/private-jet/financing" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/kopen/privet-jet/financiering" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/kopen/privet-jet/fractional</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/kopen/privet-jet/fractional" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/buy/private-jet/fractional" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/kopen/privet-jet/fractional" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/tools/financiering-calculator</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/tools/financiering-calculator" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/tools/financing-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/tools/financiering-calculator" />
+  </url>
+  -->
+
+  <!-- Remaining Business Aviation Cluster Pages - Priority 0.6-0.8 / changefreq monthly -->
+  <!--
+  <url>
+    <loc>https://jetselect.nl/zakelijk/belasting</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/zakelijk/belasting" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/business/tax" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/zakelijk/belasting" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/zakelijk/financiering</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/zakelijk/financiering" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/business/financing" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/zakelijk/financiering" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/zakelijk/structuur</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/zakelijk/structuur" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/business/structure" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/zakelijk/structuur" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/zakelijk/operationele-kosten</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/zakelijk/operationele-kosten" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/business/operating-costs" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/zakelijk/operationele-kosten" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/zakelijk/belastingplanning</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/zakelijk/belastingplanning" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/business/tax-planning" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/zakelijk/belastingplanning" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/zakelijk/business-case</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/zakelijk/business-case" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/business/business-case" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/zakelijk/business-case" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/zakelijk/governance</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/zakelijk/governance" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/business/governance" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/zakelijk/governance" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/zakelijk/persoonlijk-gebruik</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/zakelijk/persoonlijk-gebruik" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/business/personal-use" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/zakelijk/persoonlijk-gebruik" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/zakelijk/wederverkoop</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/zakelijk/wederverkoop" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/business/resale" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/zakelijk/wederverkoop" />
+  </url>
+  -->
+
+  <!-- Business Segment Supporting Pages (8 pages) - Priority 0.5-0.7 / changefreq yearly -->
+  <!--
+  <url>
+    <loc>https://jetselect.nl/zakelijk/aanschaf</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/zakelijk/aanschaf" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/business/acquisition" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/zakelijk/aanschaf" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/zakelijk/huren</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/zakelijk/huren" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/business/charter" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/zakelijk/huren" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/zakelijk/case-studies</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/zakelijk/case-studies" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/business/case-studies" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/zakelijk/case-studies" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/zakelijk/productiviteit</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/zakelijk/productiviteit" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/business/productivity" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/zakelijk/productiviteit" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/zakelijk/tijdsbesparing</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/zakelijk/tijdsbesparing" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/business/time-savings" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/zakelijk/tijdsbesparing" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/zakelijk/concurrentievoordeel</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/zakelijk/concurrentievoordeel" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/business/competitive-advantage" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/zakelijk/concurrentievoordeel" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/zakelijk/cfo-gids</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/zakelijk/cfo-gids" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/business/cfo-guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/zakelijk/cfo-gids" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/zakelijk/raad-van-bestuur</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/zakelijk/raad-van-bestuur" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/business/board-approval" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/zakelijk/raad-van-bestuur" />
+  </url>
+  -->
+
+  <!-- Remaining Buying Process Pages - Priority 0.6-0.7 / changefreq monthly -->
+  <!--
+  <url>
+    <loc>https://jetselect.nl/kopen/privet-jet/eigenaar-worden</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/kopen/privet-jet/eigenaar-worden" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/buy/private-jet/becoming-owner" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/kopen/privet-jet/eigenaar-worden" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/kopen/privet-jet/onderhandeling</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/kopen/privet-jet/onderhandeling" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/buy/private-jet/negotiation" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/kopen/privet-jet/onderhandeling" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/kopen/privet-jet/closing</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/kopen/privet-jet/closing" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/buy/private-jet/closing" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/kopen/privet-jet/closing" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/kopen/privet-jet/levering</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/kopen/privet-jet/levering" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/buy/private-jet/delivery" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/kopen/privet-jet/levering" />
+  </url>
+  -->
+
+  <!-- Remaining Cost Pages - Priority 0.5-0.6 / changefreq yearly -->
+  <!--
+  <url>
+    <loc>https://jetselect.nl/gids/kosten/verzekering</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/gids/kosten/verzekering" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/guide/costs/insurance" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/gids/kosten/verzekering" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/gids/kosten/hangar</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/gids/kosten/hangar" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/guide/costs/hangar" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/gids/kosten/hangar" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/gids/kosten/bemanning</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/gids/kosten/bemanning" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/guide/costs/crew" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/gids/kosten/bemanning" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/gids/kosten/onderhoud</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/gids/kosten/onderhoud" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/guide/costs/maintenance" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/gids/kosten/onderhoud" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/blog/investering</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/blog/investering" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/blog/investment" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/blog/investering" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/blog/waardevermindering</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/blog/waardevermindering" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/blog/depreciation" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/blog/waardevermindering" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/blog/wederverkoopwaarde</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/blog/wederverkoopwaarde" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/blog/resale-value" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/blog/wederverkoopwaarde" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/blog/kostenreductie</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/blog/kostenreductie" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/blog/cost-reduction" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/blog/kostenreductie" />
+  </url>
+  -->
+
+  <!-- Ownership Alternatives Supporting Pages (continued) - Priority 0.6-0.7 / changefreq yearly -->
+  <!--
+  <url>
+    <loc>https://jetselect.nl/huren/charter-gids</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/huren/charter-gids" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/charter/charter-guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/huren/charter-gids" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/huren/empty-legs</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/huren/empty-legs" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/charter/empty-legs" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/huren/empty-legs" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/huren/lege-vluchten</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/huren/lege-vluchten" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/charter/empty-flights" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/huren/lege-vluchten" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/huren/amsterdam</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/huren/amsterdam" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/charter/amsterdam" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/huren/amsterdam" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/huren/amsterdam-charter</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/huren/amsterdam-charter" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/charter/amsterdam-charter" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/huren/amsterdam-charter" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/huren/vliegtuig-delen</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/huren/vliegtuig-delen" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/charter/aircraft-sharing" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/huren/vliegtuig-delen" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/huren/jet-card</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/huren/jet-card" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/charter/jet-card" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/huren/jet-card" />
+  </url>
+  -->
+
+  <!-- Netherlands Regulations - Priority 0.6-0.7 / changefreq yearly -->
+  <!--
+  <url>
+    <loc>https://jetselect.nl/kopen/nederland/regelgeving</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/kopen/nederland/regelgeving" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/buy/netherlands/regulations" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/kopen/nederland/regelgeving" />
+  </url>
+  -->
+
+  <!-- Process & Legal Supporting Pages (6 pages) - Priority 0.5 / changefreq yearly -->
+  <!--
+  <url>
+    <loc>https://jetselect.nl/blog/registratie-proces</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/blog/registratie-proces" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/blog/registration-process" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/blog/registratie-proces" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/blog/easa-vereisten</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/blog/easa-vereisten" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/blog/easa-requirements" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/blog/easa-vereisten" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/blog/vergunningen</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/blog/vergunningen" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/blog/permits" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/blog/vergunningen" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/blog/taxatie</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/blog/taxatie" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/blog/appraisal" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/blog/taxatie" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/blog/escrow</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/blog/escrow" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/blog/escrow" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/blog/escrow" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/blog/eigendomsoverdracht</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/blog/eigendomsoverdracht" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/blog/title-transfer" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/blog/eigendomsoverdracht" />
+  </url>
+  -->
+
+  <!-- Market & Trends Supporting Pages (6 pages) - Priority 0.5-0.6 / changefreq yearly -->
+  <!--
+  <url>
+    <loc>https://jetselect.nl/blog/marktoverzicht</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/blog/marktoverzicht" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/blog/market-overview" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/blog/marktoverzicht" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/blog/vloot-samenstelling</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/blog/vloot-samenstelling" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/blog/fleet-composition" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/blog/vloot-samenstelling" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/blog/populaire-modellen</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/blog/populaire-modellen" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/blog/popular-models" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/blog/populaire-modellen" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/blog/markttrends</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/blog/markttrends" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/blog/market-trends" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/blog/markttrends" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/blog/prijsontwikkeling</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/blog/prijsontwikkeling" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/blog/price-trends" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/blog/prijsontwikkeling" />
+  </url>
+
+  <url>
+    <loc>https://jetselect.nl/blog/international-kopers</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/blog/international-kopers" />
+    <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/blog/international-buyers" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/blog/international-kopers" />
+  </url>
+  -->
+
+</urlset>
