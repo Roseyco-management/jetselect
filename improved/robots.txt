@@ -1,0 +1,21 @@
+# JetSelect.nl robots.txt
+# Purpose: Guide search engine crawlers, reference sitemap
+
+# Allow all crawlers full access (no restrictions)
+User-agent: *
+Disallow:
+
+# Sitemap location
+Sitemap: https://jetselect.nl/sitemap.xml
+
+# Optional: Crawl-delay for aggressive crawlers
+# (Uncomment if server experiences crawler load issues)
+# User-agent: *
+# Crawl-delay: 1
+
+# Future: When backend/admin sections added, disallow:
+# Disallow: /admin/
+# Disallow: /api/
+# Disallow: /*.json$
+
+# Future: When duplicate content issues arise, use canonical tags instead of Disallow
