@@ -68,6 +68,48 @@ Not executed - requires URL crawl in Plan 3
 
 **Key Takeaway:** Mature, dual-service competitor with strong local authority. Primary threat for transactional keywords. Gap opportunity: educational content and technical comparison tools.
 
+### Strategic Analysis
+
+**Content Strategy Assessment:**
+- **Keyword Categories Targeted:** Transactional (buying + renting), location-based (Amsterdam, Rotterdam airports), aircraft types
+- **Content Depth:** Medium depth service pages (500-1000 words), lacks comprehensive guides
+- **Content Gaps:**
+  - No educational blog or buying guides
+  - Missing aircraft comparison tools
+  - No cost calculators or ROI tools
+  - No video content (walkthroughs, testimonials)
+  - Weak long-tail keyword coverage (no "how to", "what is", "why" content)
+  - No fractional ownership or alternative models discussed
+
+**Strengths:**
+- **Strong Local Authority:** 25+ years experience, established Netherlands presence
+- **Dual Service Model:** Captures both buying and renting searches (full funnel)
+- **Location SEO:** Airport-specific landing pages (Amsterdam, Rotterdam)
+- **Pricing Transparency:** Provides direct pricing examples (trust signal)
+- **Professional Branding:** Polished, bilingual presentation
+- **SERP Features:** Owns sitelinks for top rankings
+
+**Weaknesses/Opportunities:**
+- **Thin Educational Content:** Service pages only, no comprehensive guides to capture informational queries
+- **No Comparison Tools:** Missing aircraft selector, cost calculator, or ROI calculator
+- **Missing Social Proof:** No visible customer reviews or testimonials in SERPs
+- **No Video Content:** Zero video presence (opportunity for JetSelect differentiation)
+- **Limited Technical Content:** Missing detailed aircraft specifications, operating cost breakdowns
+- **Weak Long-tail Coverage:** Not targeting PAA questions ("hoeveel kost", "wat is beste", "hoe werkt")
+- **No Featured Snippets:** Doesn't own any featured snippets despite top rankings
+
+**Competitive Positioning - How JetSelect Can Differentiate:**
+1. **Content Dominance:** Create Netherlands' most comprehensive private jet buying guide (10x content depth)
+2. **Interactive Tools:** Build aircraft comparison wizard, operating cost calculator, ROI calculator
+3. **Educational Hub:** Target all 14 identified PAA questions with dedicated, authoritative content
+4. **Video First-Mover:** Launch video walkthroughs, customer testimonials, aircraft tours
+5. **Featured Snippet Strategy:** Structure content to capture featured snippets (lists, tables, clear answers)
+6. **Buying Specialization:** Position as buying-only experts vs generalist buy/rent competitors
+7. **Business Aircraft Focus:** Separate business segment with tax/ROI/productivity content
+8. **Review Integration:** Collect and display customer testimonials (trust differentiation)
+
+**Estimated Market Share:** ~35% of Netherlands private jet buying searches (top competitor by rankings)
+
 ---
 
 ### Competitor 2: JetServiceNL
@@ -124,6 +166,47 @@ Not executed - requires URL crawl in Plan 3
 
 **Key Takeaway:** Strong charter competitor with pricing transparency and empty legs differentiation. Not a direct buying competitor but captures rental vs buy consideration stage. Gap: No buying pathway for converters.
 
+### Strategic Analysis
+
+**Content Strategy Assessment:**
+- **Keyword Categories Targeted:** Charter/rental transactional, pricing/cost informational, empty legs niche
+- **Content Depth:** Medium depth with pricing focus (specific examples: €5,800 Rotterdam-London)
+- **Content Gaps:**
+  - No buying services (charter-only = missed transactional buying searches)
+  - Limited educational content beyond service descriptions
+  - No blog or comprehensive guides
+  - Missing aircraft comparison or selection tools
+  - No rent vs buy comparison content (opportunity to convert charter browsers to buyers)
+  - No fractional ownership or alternative ownership models
+
+**Strengths:**
+- **Pricing Transparency:** Specific pricing examples build trust (€5,800 Rotterdam-London)
+- **Empty Legs Niche:** Captures cost-conscious segment with deals section
+- **Experience Trust Signal:** 50+ years combined experience (strong authority)
+- **Concierge Services:** Full-service offering (ground transport, hotels, events) = premium positioning
+- **International Coverage:** Europe/North Africa reach appeals to cross-border clients
+- **Fixed-Price Offers:** Reduces uncertainty for first-time charter customers
+
+**Weaknesses/Opportunities:**
+- **Charter-Only Model:** Misses buying searches entirely (no "kopen" keyword rankings)
+- **No Buying Pathway:** Lost conversion opportunity when charter customers consider purchasing
+- **Limited Educational Content:** No comprehensive guides, blog, or thought leadership
+- **No Comparison Tools:** Missing aircraft selector, cost calculator tools
+- **No Customer Reviews Visible:** No testimonials or social proof in SERPs
+- **Missed Business Segment:** No dedicated business aircraft or ROI-focused content
+- **No Featured Snippets:** Doesn't own any featured snippets
+
+**Competitive Positioning - How JetSelect Can Differentiate:**
+1. **Buying Focus:** Specialize in buying vs charter generalists (clear positioning)
+2. **Rent vs Buy Guide:** Create authoritative comparison content to capture their charter browsers considering ownership
+3. **Educational Content:** Build comprehensive buying guides they lack (capture informational queries)
+4. **Business ROI Content:** Target CFOs/business decision-makers they don't serve
+5. **Ownership Alternatives:** Cover fractional, shared, leasing models they ignore
+6. **Cost Calculator Tools:** Build operating cost calculator to show ownership economics
+7. **Featured Snippet Strategy:** Capture snippets for cost/pricing queries they rank for but don't own
+
+**Estimated Market Share:** ~20% of Netherlands private jet charter searches, 0% of buying searches (not competing directly on buying keywords)
+
 ---
 
 ### Competitor 3: Dutch Aviation Partner
@@ -178,6 +261,48 @@ Not executed - requires URL crawl in Plan 3
 
 **Key Takeaway:** Direct buying competitor with unique "no cure no pay" angle. Smaller presence than First Class Aviation but targeting same transactional keywords. Gap: comprehensive educational content to capture earlier funnel.
 
+### Strategic Analysis
+
+**Content Strategy Assessment:**
+- **Keyword Categories Targeted:** Buying transactional ("privéjet kopen", "vliegtuig kopen"), dual service (buying + charter)
+- **Content Depth:** Service-focused with unique value proposition, thin content overall
+- **Content Gaps:**
+  - No educational content library or buying guides
+  - No blog or resources section
+  - Missing aircraft inventory or database (marketplace integration)
+  - No pricing transparency (vs competitors showing prices)
+  - No technical specifications or aircraft comparison content
+  - No customer testimonials visible
+
+**Strengths:**
+- **Unique Value Proposition:** "No cure no pay" eliminates buyer risk (strong differentiator)
+- **Dual Service Model:** Buying + charter captures full consideration journey
+- **Specialist Positioning:** A-Z buying guidance (consulting/advisory angle)
+- **Service Differentiation:** Clear explanation of value-add services
+- **Bilingual Content:** Dutch and English for international buyers
+
+**Weaknesses/Opportunities:**
+- **Thin Content:** Service pages only, no educational content to capture informational queries
+- **No Pricing:** Lack of pricing transparency vs competitors (First Class Aviation, JetServiceNL)
+- **No Inventory:** Missing aircraft database or listings (vs marketplace competitors)
+- **Limited Technical Content:** No aircraft specifications, operating costs, ROI calculators
+- **No Social Proof:** No visible customer testimonials or case studies
+- **Small Brand Presence:** Weaker authority signals vs First Class Aviation's 25+ years
+- **No Blog/Guides:** Missing content marketing to capture early-stage researchers
+- **No Featured Snippets:** Doesn't own any SERP features
+
+**Competitive Positioning - How JetSelect Can Differentiate:**
+1. **Price Transparency:** Show pricing vs their opaque model (build trust earlier)
+2. **Educational Authority:** Create comprehensive buying guides to capture researchers before they reach service pages
+3. **Inventory Integration:** Show available aircraft (marketplace feel) vs consultation-only model
+4. **Interactive Tools:** Build aircraft selector, cost calculator, ROI calculator they lack
+5. **Social Proof at Scale:** Collect and display customer testimonials, case studies, success stories
+6. **Content Volume:** 10x their content depth with blog, guides, FAQs, video
+7. **Featured Snippet Ownership:** Capture snippets for buying keywords they rank for but don't own
+8. **Business Segment Focus:** Dedicated business aircraft content with tax/ROI focus (they don't segment)
+
+**Estimated Market Share:** ~10-15% of Netherlands private jet buying searches (smaller player, unique positioning)
+
 ---
 
 ### Competitor 4: Global Aviation
@@ -230,6 +355,52 @@ Not executed - requires URL crawl in Plan 3
 ```
 
 **Key Takeaway:** Smaller competitor with better content marketing strategy. Shows value of blog/news content for capturing informational queries. Direct gap to exploit: more comprehensive educational content and aircraft comparison tools.
+
+### Strategic Analysis
+
+**Content Strategy Assessment:**
+- **Keyword Categories Targeted:** Charter transactional, pricing informational, luxury segment
+- **Content Depth:** Medium depth with active blog/news section (better than top 3 competitors)
+- **Content Gaps:**
+  - Blog exists but not comprehensive (opportunity to create deeper guides)
+  - Limited aircraft inventory visibility
+  - Missing advanced comparison or selection tools
+  - No fractional ownership or alternative models content
+  - Limited business aircraft focus (more luxury lifestyle angle)
+
+**Strengths:**
+- **Active Content Marketing:** Blog/news section (better than First Class Aviation, Dutch Aviation Partner)
+- **Full Transaction Spectrum:** Buying AND selling services (captures both sides)
+- **Expert Guidance Positioning:** Consultation/advisory angle builds authority
+- **Pricing Transparency:** Examples provided (builds trust)
+- **Regulatory Content:** Articles about Schiphol ban, regulations (thought leadership opportunity)
+- **News/Updates:** Regular content shows active business vs static competitors
+
+**Weaknesses/Opportunities:**
+- **Smaller Brand Presence:** Less authority than First Class Aviation (25 years vs unknown tenure)
+- **Limited Inventory Visibility:** No clear aircraft listings or database
+- **Missing Comparison Tools:** No aircraft selector, cost calculator, ROI tools
+- **Lifestyle vs Business:** More luxury angle, missing business/ROI content for corporate buyers
+- **Thin Blog Content:** Has blog but articles are thin vs comprehensive guides
+- **No Video Content:** Missing video walkthroughs, testimonials, tours
+- **No Featured Snippets:** Doesn't own SERP features despite content efforts
+- **Missing Alternative Models:** No fractional ownership, leasing, or shared ownership content
+
+**Competitive Positioning - How JetSelect Can Differentiate:**
+1. **Content Depth:** Create comprehensive guides vs their thin blog posts (10x content quality)
+2. **Interactive Tools:** Build aircraft comparison wizard, cost calculator, ROI calculator they lack
+3. **Business Segment Focus:** Dedicated business aircraft section with tax/ROI/productivity content
+4. **Video Content:** First-mover advantage with video walkthroughs, customer testimonials
+5. **Featured Snippet Strategy:** Structure content to capture snippets for queries they blog about
+6. **Alternative Ownership Models:** Cover fractional, shared, leasing options they ignore
+7. **Inventory Integration:** Show available aircraft (marketplace feel) vs consultation-only
+8. **Technical Specifications:** Deep aircraft specs, operating costs, performance data
+9. **Question-Based Content:** Target all 14 PAA questions with authoritative answers
+10. **Netherlands-Specific Authority:** Focus on Dutch regulations, tax, airports (vs general European)
+
+**Estimated Market Share:** ~10% of Netherlands private jet searches (smaller player, content marketing focus)
+
+**Key Learning:** Their blog/news content proves content marketing works for capturing informational queries. JetSelect can dominate by creating deeper, more comprehensive guides with interactive tools they lack.
 
 ---
 
