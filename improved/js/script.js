@@ -354,6 +354,37 @@ class AnimationManager {
         };
         return motion.animate(selector, defaults, config);
     }
+
+    staggerIn(cards, options = {}) {
+        if (!cards || cards.length === 0) return;
+
+        // Convert NodeList to Array if needed
+        const cardArray = Array.from(cards);
+
+        // Animate each card with staggered delay
+        cardArray.forEach((card, index) => {
+            // Skip if already animated
+            if (card.dataset.animated === 'true') return;
+
+            const delay = index * (options.staggerDelay || 0.08); // 80ms default
+
+            const defaults = {
+                opacity: [0, 1],
+                transform: ['translateY(20px)', 'translateY(0)']
+            };
+
+            const config = {
+                duration: options.duration || this.durations.normal / 1000,
+                easing: options.easing || this.easings.smooth,
+                delay: delay
+            };
+
+            motion.animate(card, defaults, config).finished.then(() => {
+                // Mark as animated to prevent re-animation on back navigation
+                card.dataset.animated = 'true';
+            });
+        });
+    }
 }
 
 // ==========================================
@@ -582,11 +613,23 @@ class JetSelector {
                     // Then fade in new step
                     newStep.classList.add('active');
                     window.animationManager.fadeIn(newStep);
+
+                    // Apply staggered animation to option cards
+                    const cards = newStep.querySelectorAll('.option-card');
+                    if (cards.length > 0) {
+                        window.animationManager.staggerIn(cards);
+                    }
                 });
             } else {
                 // First load - just fade in
                 newStep.classList.add('active');
                 window.animationManager.fadeIn(newStep);
+
+                // Apply staggered animation to option cards
+                const cards = newStep.querySelectorAll('.option-card');
+                if (cards.length > 0) {
+                    window.animationManager.staggerIn(cards);
+                }
             }
         }
 
