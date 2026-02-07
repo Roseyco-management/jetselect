@@ -385,6 +385,90 @@ class AnimationManager {
             });
         });
     }
+
+    showSpinner(element) {
+        if (!element) return;
+
+        // Check if spinner already exists
+        if (element.querySelector('.spinner-overlay')) return;
+
+        // Create spinner overlay
+        const overlay = document.createElement('div');
+        overlay.className = 'spinner-overlay';
+        overlay.style.cssText = `
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(255, 255, 255, 0.9);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: inherit;
+            z-index: 10;
+        `;
+
+        // Create inline SVG spinner
+        const spinner = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+        spinner.setAttribute('width', '20');
+        spinner.setAttribute('height', '20');
+        spinner.setAttribute('viewBox', '0 0 20 20');
+        spinner.style.cssText = `display: block;`;
+
+        const circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+        circle.setAttribute('cx', '10');
+        circle.setAttribute('cy', '10');
+        circle.setAttribute('r', '8');
+        circle.setAttribute('fill', 'none');
+        circle.setAttribute('stroke', '#115A4E'); // Brand teal color
+        circle.setAttribute('stroke-width', '2');
+        circle.setAttribute('stroke-linecap', 'round');
+        circle.setAttribute('stroke-dasharray', '40');
+        circle.setAttribute('stroke-dashoffset', '10');
+
+        spinner.appendChild(circle);
+        overlay.appendChild(spinner);
+
+        // Ensure element has position relative/absolute
+        const elementPosition = window.getComputedStyle(element).position;
+        if (elementPosition === 'static') {
+            element.style.position = 'relative';
+        }
+
+        element.appendChild(overlay);
+
+        // Fade in overlay
+        motion.animate(overlay,
+            { opacity: [0, 1] },
+            { duration: this.durations.fast / 1000, easing: this.easings.smooth }
+        );
+
+        // Start continuous rotation
+        motion.animate(spinner,
+            { transform: ['rotate(0deg)', 'rotate(360deg)'] },
+            {
+                duration: 1,
+                easing: 'linear',
+                repeat: Infinity
+            }
+        );
+    }
+
+    hideSpinner(element) {
+        if (!element) return;
+
+        const overlay = element.querySelector('.spinner-overlay');
+        if (!overlay) return;
+
+        // Fade out and remove
+        motion.animate(overlay,
+            { opacity: [1, 0] },
+            { duration: this.durations.fast / 1000, easing: this.easings.smooth }
+        ).finished.then(() => {
+            overlay.remove();
+        });
+    }
 }
 
 // ==========================================
