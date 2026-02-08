@@ -469,6 +469,64 @@ class AnimationManager {
             overlay.remove();
         });
     }
+
+    observeScrollReveal() {
+        // Select all elements with scroll-reveal class
+        const elements = document.querySelectorAll('.scroll-reveal');
+        if (!elements || elements.length === 0) return;
+
+        // Set up IntersectionObserver with early trigger
+        const observerOptions = {
+            threshold: 0.15,
+            rootMargin: '-50px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const element = entry.target;
+
+                    // Skip if already animated
+                    if (element.dataset.animated === 'true') {
+                        observer.unobserve(element);
+                        return;
+                    }
+
+                    // Check if element contains option cards
+                    const optionsGrid = element.querySelector('.options-grid');
+                    if (optionsGrid) {
+                        // Animate cards with stagger
+                        const cards = optionsGrid.querySelectorAll('.option-card');
+                        if (cards && cards.length > 0) {
+                            this.staggerIn(cards, { staggerDelay: 0.08, duration: 0.5 });
+                        }
+                        // Mark parent as animated
+                        element.dataset.animated = 'true';
+                    } else {
+                        // Animate the section itself with fadeInUp
+                        motion.animate(element,
+                            {
+                                opacity: [0, 1],
+                                transform: ['translateY(30px)', 'translateY(0)']
+                            },
+                            {
+                                duration: 0.6,
+                                easing: this.easings.smooth
+                            }
+                        ).finished.then(() => {
+                            element.dataset.animated = 'true';
+                        });
+                    }
+
+                    // Disconnect observer after animation
+                    observer.unobserve(element);
+                }
+            });
+        }, observerOptions);
+
+        // Observe all scroll-reveal elements
+        elements.forEach(el => observer.observe(el));
+    }
 }
 
 // ==========================================
@@ -1328,6 +1386,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const animationManager = new AnimationManager();
     animationManager.init();
     window.animationManager = animationManager;
+
+    // Initialize scroll reveal animations
+    animationManager.observeScrollReveal();
 
     // Initialize jet selector
     const jetSelector = new JetSelector();

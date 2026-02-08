@@ -1457,3 +1457,20 @@ a, button, input, textarea, select {
     transform: scale(0.95);
     opacity: 0.9;
 }
+
+/* ==========================================
+   SCROLL REVEAL ANIMATIONS
+   ========================================== */
+
+/* Initial state for scroll-reveal elements */
+.scroll-reveal {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: none; /* Prevent CSS transition interference */
+}
+
+/* Initial state for option cards in non-active steps during scroll */
+.step-container:not(.active) .option-card {
+    opacity: 0;
+    transform: translateY(20px);
+}
