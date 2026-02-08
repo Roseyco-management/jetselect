@@ -39,6 +39,10 @@
     --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.08);
     --shadow-md: 0 6px 24px rgba(0, 0, 0, 0.14);
     --shadow-lg: 0 12px 48px rgba(0, 0, 0, 0.18);
+
+    /* Feedback Colors */
+    --error-color: #ff4444;
+    --success-color: #28a745;
 }
 
 * {
@@ -602,7 +606,7 @@ body {
 
 /* Error states */
 .error-message {
-    color: #ff4444;
+    color: var(--error-color);
     font-size: 0.85rem;
     margin-top: 0.25rem;
     display: block;
@@ -619,7 +623,7 @@ body {
 
 .form-group input.invalid,
 .form-group textarea.invalid {
-    border-color: #ff4444;
+    border-color: var(--error-color);
     box-shadow: 0 0 0 3px rgba(255, 68, 68, 0.1);
 }
 
@@ -641,7 +645,7 @@ body {
     right: 12px;
     top: 50%;
     transform: translateY(-50%);
-    color: #28a745;
+    color: var(--success-color);
     font-size: 1.2rem;
     font-weight: bold;
     pointer-events: none;
@@ -655,7 +659,7 @@ body {
     position: absolute;
     right: 12px;
     top: 41px;
-    color: #28a745;
+    color: var(--success-color);
     font-size: 1.2rem;
     font-weight: bold;
     opacity: 0;
