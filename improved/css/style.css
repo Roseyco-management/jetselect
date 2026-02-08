@@ -49,6 +49,7 @@
 
 html {
     scroll-behavior: smooth;
+    scroll-padding-top: 80px;
 }
 
 body {
@@ -56,6 +57,7 @@ body {
     color: var(--dark-gray);
     line-height: 1.75;
     overflow-x: hidden;
+    overscroll-behavior-y: none;
 }
 
 .container {
@@ -380,6 +382,7 @@ body {
 .step-container {
     display: none;
     animation: fadeIn 0.5s ease;
+    contain: layout style paint;
 }
 
 .step-container.active {
