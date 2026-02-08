@@ -1115,6 +1115,9 @@ class JetSelector {
         this.updateNavigationButtons();
         this.smoothScrollTo('#selector', -100);
 
+        // Trigger success screen animation
+        this.animateSuccessScreen();
+
         // In production, you would do something like:
         // fetch('/api/submit', {
         //     method: 'POST',
@@ -1131,6 +1134,139 @@ class JetSelector {
         // .catch(error => {
         //     this.showNotification('Er is een fout opgetreden. Probeer het opnieuw.', 'error');
         // });
+    }
+
+    animateSuccessScreen() {
+        // Check Motion One availability
+        if (typeof motion === 'undefined') {
+            console.warn('Motion One not loaded - success animation disabled');
+            return;
+        }
+
+        // Get elements
+        const successIcon = document.querySelector('.success-icon');
+        const heading = document.querySelector('[data-step="7"] .step-title');
+        const message = document.querySelector('[data-step="7"] .step-description');
+        const button = document.querySelector('[data-step="7"] .cta-button');
+
+        if (!successIcon || !heading || !message || !button) {
+            console.warn('Success screen elements not found');
+            return;
+        }
+
+        // Stage 1: Icon reveal with spring bounce (0-600ms)
+        motion.animate(
+            successIcon,
+            {
+                scale: [0, 1.2, 1],
+                opacity: [0, 1]
+            },
+            {
+                duration: 0.6,
+                easing: 'spring(1, 80, 10, 0)'
+            }
+        );
+
+        // Stage 2: Heading entrance (starts 300ms)
+        motion.animate(
+            heading,
+            {
+                y: [20, 0],
+                opacity: [0, 1]
+            },
+            {
+                duration: 0.5,
+                easing: [0.16, 1, 0.3, 1],
+                delay: 0.3
+            }
+        );
+
+        // Stage 3: Message text (starts 450ms)
+        motion.animate(
+            message,
+            {
+                y: [20, 0],
+                opacity: [0, 1]
+            },
+            {
+                duration: 0.5,
+                easing: [0.16, 1, 0.3, 1],
+                delay: 0.45
+            }
+        );
+
+        // Stage 4: Button (starts 600ms)
+        motion.animate(
+            button,
+            {
+                scale: [0.8, 1],
+                opacity: [0, 1]
+            },
+            {
+                duration: 0.5,
+                easing: [0.16, 1, 0.3, 1],
+                delay: 0.6
+            }
+        );
+
+        // Stage 5: Confetti effect (starts 200ms, during icon animation)
+        this.createConfetti(successIcon);
+
+        // After animation completes (~1.1s), add pulse class for continuous animation
+        setTimeout(() => {
+            successIcon.classList.add('pulse');
+        }, 1100);
+    }
+
+    createConfetti(iconElement) {
+        const dotCount = 10;
+        const colors = ['#115A4E', '#FA692F']; // Teal and orange
+        const iconRect = iconElement.getBoundingClientRect();
+        const centerX = iconRect.left + iconRect.width / 2;
+        const centerY = iconRect.top + iconRect.height / 2;
+
+        for (let i = 0; i < dotCount; i++) {
+            const dot = document.createElement('div');
+            dot.className = 'confetti-dot';
+            dot.style.cssText = `
+                position: fixed;
+                left: ${centerX}px;
+                top: ${centerY}px;
+                width: 8px;
+                height: 8px;
+                border-radius: 50%;
+                background: ${colors[i % colors.length]};
+                pointer-events: none;
+                z-index: 1000;
+            `;
+
+            document.body.appendChild(dot);
+
+            // Calculate radial position (360° / dotCount)
+            const angle = (i / dotCount) * Math.PI * 2;
+            const distance = 60; // px to travel outward
+            const translateX = Math.cos(angle) * distance;
+            const translateY = Math.sin(angle) * distance;
+
+            // Animate radially outward with fade
+            motion.animate(
+                dot,
+                {
+                    x: [0, translateX],
+                    y: [0, translateY],
+                    opacity: [1, 0],
+                    scale: [1, 0.5]
+                },
+                {
+                    duration: 0.8,
+                    easing: [0.16, 1, 0.3, 1],
+                    delay: 0.2 + (i * 0.03) // Stagger by 30ms
+                }
+            ).finished.then(() => {
+                // Clean up after animation completes
+                dot.remove();
+            });
+        }
     }
 
     showNotification(message, type = 'warning') {

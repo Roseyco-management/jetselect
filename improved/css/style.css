@@ -708,16 +708,41 @@ body {
     align-items: center;
     justify-content: center;
     margin: 0 auto var(--spacing-md);
-    animation: scaleIn 0.5s ease;
+    position: relative;
+    /* Initial state for entrance animation - JS will animate this */
+    opacity: 0;
+    transform: scale(0);
 }
 
-@keyframes scaleIn {
-    from {
-        transform: scale(0);
-    }
-    to {
+/* Continuous pulse after entrance animation completes */
+.success-icon.pulse {
+    animation: success-pulse 2s ease-in-out infinite;
+}
+
+@keyframes success-pulse {
+    0%, 100% {
         transform: scale(1);
     }
+    50% {
+        transform: scale(1.05);
+    }
+}
+
+/* Initial hidden state for success screen elements */
+[data-step="7"] .step-title,
+[data-step="7"] .step-description,
+[data-step="7"] .cta-button {
+    opacity: 0;
+}
+
+/* Confetti dots - will be created dynamically by JS */
+.confetti-dot {
+    position: fixed;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 1000;
 }
 
 /* Navigation Buttons */
