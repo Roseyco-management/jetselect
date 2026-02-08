@@ -564,6 +564,7 @@ body {
 .form-group {
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 .form-group.full-width {
@@ -589,8 +590,82 @@ body {
 .form-group input:focus,
 .form-group textarea:focus {
     outline: none;
-    border-color: var(--accent-color);
-    box-shadow: 0 0 0 3px rgba(250, 105, 47, 0.1);
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px rgba(17, 90, 78, 0.15);
+    transition: box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+/* Error states */
+.error-message {
+    color: #ff4444;
+    font-size: 0.85rem;
+    margin-top: 0.25rem;
+    display: block;
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.error-message.show {
+    opacity: 1;
+    max-height: 50px;
+}
+
+.form-group input.invalid,
+.form-group textarea.invalid {
+    border-color: #ff4444;
+    box-shadow: 0 0 0 3px rgba(255, 68, 68, 0.1);
+}
+
+.form-group input:focus.invalid,
+.form-group textarea:focus.invalid {
+    box-shadow: 0 0 0 3px rgba(255, 68, 68, 0.2);
+}
+
+/* Valid state with checkmark */
+.form-group input.input-valid,
+.form-group textarea.input-valid {
+    padding-right: 40px;
+}
+
+.form-group input.input-valid::after,
+.form-group textarea.input-valid::after {
+    content: '✓';
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #28a745;
+    font-size: 1.2rem;
+    font-weight: bold;
+    pointer-events: none;
+}
+
+.form-group {
+    position: relative;
+}
+
+.form-group .checkmark {
+    position: absolute;
+    right: 12px;
+    top: 41px;
+    color: #28a745;
+    font-size: 1.2rem;
+    font-weight: bold;
+    opacity: 0;
+    transform: scale(0);
+    transition: opacity 0.3s ease, transform 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+    pointer-events: none;
+}
+
+.form-group.full-width .checkmark {
+    top: 41px;
+}
+
+.form-group .checkmark.show {
+    opacity: 1;
+    transform: scale(1);
 }
 
 .submit-button {

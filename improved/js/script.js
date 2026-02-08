@@ -585,6 +585,9 @@ class JetSelector {
         const contactForm = document.getElementById('contactForm');
         contactForm.addEventListener('submit', (e) => this.handleFormSubmit(e));
 
+        // Form field validation
+        this.setupFormValidation();
+
         // Smooth scroll for CTA button
         const ctaButtons = document.querySelectorAll('.cta-button');
         ctaButtons.forEach(btn => {
@@ -606,6 +609,166 @@ class JetSelector {
                 }
             });
         });
+    }
+
+    setupFormValidation() {
+        const form = document.getElementById('contactForm');
+        if (!form) return;
+
+        const fields = form.querySelectorAll('input, textarea');
+
+        fields.forEach(field => {
+            // Validate on blur
+            field.addEventListener('blur', () => {
+                this.validateField(field);
+
+                // Show checkmark if valid and has value
+                if (field.validity.valid && field.value.trim()) {
+                    this.showCheckmark(field);
+                } else {
+                    this.hideCheckmark(field);
+                }
+            });
+
+            // Clear error on input (don't validate on every keystroke)
+            field.addEventListener('input', () => {
+                if (field.classList.contains('invalid') && field.validity.valid) {
+                    this.clearFieldError(field);
+                }
+
+                // Hide checkmark if field becomes empty
+                if (!field.value.trim()) {
+                    this.hideCheckmark(field);
+                }
+            });
+        });
+    }
+
+    validateField(field) {
+        const fieldId = field.id;
+        const errorElement = document.getElementById(`${fieldId}-error`);
+        const lang = window.languageManager.getCurrentLang();
+
+        let errorMessage = '';
+
+        if (!field.validity.valid) {
+            if (field.validity.valueMissing) {
+                errorMessage = lang === 'nl' ? 'Dit veld is verplicht' : 'This field is required';
+            } else if (field.validity.typeMismatch && field.type === 'email') {
+                errorMessage = lang === 'nl' ? 'Voer een geldig e-mailadres in' : 'Enter a valid email address';
+            } else if (field.validity.tooShort) {
+                errorMessage = lang === 'nl' ? `Minimaal ${field.minLength} tekens` : `Minimum ${field.minLength} characters`;
+            }
+
+            // Add invalid class and show error
+            field.classList.add('invalid');
+
+            if (errorElement) {
+                errorElement.textContent = errorMessage;
+                errorElement.classList.add('show');
+
+                // Animate error message with Motion One
+                if (typeof motion !== 'undefined') {
+                    motion.animate(errorElement,
+                        { opacity: [0, 1], maxHeight: ['0px', '50px'] },
+                        { duration: 0.3, easing: 'cubic-bezier(0.16, 1, 0.3, 1)' }
+                    );
+                }
+            }
+
+            return false;
+        } else {
+            this.clearFieldError(field);
+            return true;
+        }
+    }
+
+    clearFieldError(field) {
+        const fieldId = field.id;
+        const errorElement = document.getElementById(`${fieldId}-error`);
+
+        field.classList.remove('invalid');
+
+        if (errorElement && errorElement.classList.contains('show')) {
+            // Animate error message out
+            if (typeof motion !== 'undefined') {
+                motion.animate(errorElement,
+                    { opacity: [1, 0], maxHeight: ['50px', '0px'] },
+                    { duration: 0.3, easing: 'cubic-bezier(0.16, 1, 0.3, 1)' }
+                ).finished.then(() => {
+                    errorElement.classList.remove('show');
+                    errorElement.textContent = '';
+                });
+            } else {
+                errorElement.classList.remove('show');
+                errorElement.textContent = '';
+            }
+        }
+    }
+
+    showCheckmark(field) {
+        const formGroup = field.closest('.form-group');
+        if (!formGroup) return;
+
+        // Check if checkmark already exists
+        let checkmark = formGroup.querySelector('.checkmark');
+
+        if (!checkmark) {
+            checkmark = document.createElement('span');
+            checkmark.className = 'checkmark';
+            checkmark.textContent = '✓';
+            formGroup.appendChild(checkmark);
+        }
+
+        // Show with animation
+        setTimeout(() => {
+            checkmark.classList.add('show');
+
+            // Animate with Motion One if available
+            if (typeof motion !== 'undefined') {
+                motion.animate(checkmark,
+                    { scale: [0, 1.2, 1] },
+                    { duration: 0.3, easing: 'cubic-bezier(0.68, -0.55, 0.27, 1.55)' }
+                );
+            }
+        }, 10);
+    }
+
+    hideCheckmark(field) {
+        const formGroup = field.closest('.form-group');
+        if (!formGroup) return;
+
+        const checkmark = formGroup.querySelector('.checkmark');
+        if (checkmark) {
+            checkmark.classList.remove('show');
+        }
+    }
+
+    validateAllFields(form) {
+        const fields = form.querySelectorAll('input[required], textarea[required]');
+        let isValid = true;
+        let firstInvalidField = null;
+
+        fields.forEach(field => {
+            const fieldValid = this.validateField(field);
+            if (!fieldValid) {
+                isValid = false;
+                if (!firstInvalidField) {
+                    firstInvalidField = field;
+                }
+            }
+        });
+
+        return { isValid, firstInvalidField };
+    }
+
+    shakeButton(button) {
+        if (typeof motion !== 'undefined') {
+            motion.animate(button,
+                { transform: ['translateX(-10px)', 'translateX(10px)', 'translateX(-10px)', 'translateX(10px)', 'translateX(0)'] },
+                { duration: 0.4, easing: 'cubic-bezier(0.16, 1, 0.3, 1)' }
+            );
+        }
     }
 
     handleOptionSelect(card) {
@@ -919,7 +1082,25 @@ class JetSelector {
     handleFormSubmit(e) {
         e.preventDefault();
 
-        const formData = new FormData(e.target);
+        const form = e.target;
+        const submitButton = form.querySelector('.submit-button');
+
+        // Validate all fields
+        const validation = this.validateAllFields(form);
+
+        if (!validation.isValid) {
+            // Shake the submit button
+            this.shakeButton(submitButton);
+
+            // Focus the first invalid field
+            if (validation.firstInvalidField) {
+                validation.firstInvalidField.focus();
+            }
+
+            return;
+        }
+
+        const formData = new FormData(form);
         const data = {
             ...Object.fromEntries(formData),
             selections: this.selections

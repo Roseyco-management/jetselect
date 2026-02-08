@@ -454,23 +454,28 @@
                 <form class="contact-form" id="contactForm">
                     <div class="form-group">
                         <label for="name" data-i18n="wizard.form.nameLabel">Naam *</label>
-                        <input type="text" id="name" name="name" required>
+                        <input type="text" id="name" name="name" required minlength="2">
+                        <span class="error-message" id="name-error"></span>
                     </div>
                     <div class="form-group">
                         <label for="email" data-i18n="wizard.form.emailLabel">E-mail *</label>
                         <input type="email" id="email" name="email" required>
+                        <span class="error-message" id="email-error"></span>
                     </div>
                     <div class="form-group">
                         <label for="phone" data-i18n="wizard.form.phoneLabel">Telefoon *</label>
                         <input type="tel" id="phone" name="phone" required>
+                        <span class="error-message" id="phone-error"></span>
                     </div>
                     <div class="form-group">
                         <label for="company" data-i18n="wizard.form.companyLabel">Bedrijf</label>
                         <input type="text" id="company" name="company">
+                        <span class="error-message" id="company-error"></span>
                     </div>
                     <div class="form-group full-width">
                         <label for="message" data-i18n="wizard.form.messageLabel">Aanvullende opmerkingen</label>
                         <textarea id="message" name="message" rows="4"></textarea>
+                        <span class="error-message" id="message-error"></span>
                     </div>
                     <button type="submit" class="submit-button" data-i18n="wizard.form.submitBtn">Verstuur aanvraag</button>
                 </form>
