@@ -1228,7 +1228,6 @@ body {
     :root {
         --spacing-xl: 2rem;
         --spacing-lg: 1.5rem;
-        --spacing-mobile-safe: 1rem;
     }
 
     /* Hero section mobile optimization */
