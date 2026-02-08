@@ -170,6 +170,8 @@ body {
     justify-content: center;
     background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%);
     overflow: hidden;
+    will-change: transform;
+    backface-visibility: hidden;
 }
 
 .hero::before {

@@ -305,7 +305,29 @@ class AnimationManager {
             console.warn('Motion One not loaded - animations disabled');
             return false;
         }
+        // Initialize parallax effect
+        this.initParallax();
         return true;
+    }
+
+    initParallax() {
+        const hero = document.querySelector('.hero');
+        if (!hero) return;
+
+        let ticking = false;
+        const updateParallax = () => {
+            const scrolled = window.scrollY;
+            const offset = scrolled * 0.5;
+            hero.style.transform = `translateY(${offset}px)`;
+            ticking = false;
+        };
+
+        window.addEventListener('scroll', () => {
+            if (!ticking) {
+                requestAnimationFrame(updateParallax);
+                ticking = true;
+            }
+        });
     }
 
     fadeIn(selector, options = {}) {
