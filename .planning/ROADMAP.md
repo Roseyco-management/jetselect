@@ -288,11 +288,11 @@ Complete aircraft database and route network coverage for primary European and i
 
 #### Phase 13: Long-tail & Supporting Content
 **Goal**: 50+ blog articles targeting long-tail keywords for comprehensive topic coverage
-**Status**: 🚧 In Progress (20/47 pages complete)
-**Completed**: 2026-02-09 (first 20 high-priority pages)
+**Status**: 🚧 In Progress (32/47 pages complete)
+**Completed**: 2026-02-09 (Batch 1: 20 pages, Batch 2: 12 pages)
 **Depends on**: Phase 12
 **Research**: Unlikely (bulk content production using established patterns)
-**Plans**: 20 completed
+**Plans**: 32 completed
 
 Plans:
 - [x] 13-01: Business Tax Guide (zakelijk/belasting) - 2,800 words
@@ -316,13 +316,20 @@ Plans:
 - [x] 13-19: Market Overview article (blog/marktoverzicht) - 1,800 words
 - [x] 13-20: International Buyers Guide (blog/international-kopers) - 1,600 words
 
-**Content Completed (20 pages, ~33,800 words):**
+**Content Completed (32 pages, ~52,300 words):**
+
+**Batch 1 (20 pages):**
 - ✅ **Business Aviation (6 pages):** Tax strategies, corporate structures, operating costs, tax planning, business case templates, corporate financing
 - ✅ **Financing & Ownership (3 pages):** Leasing, financing, fractional ownership options
 - ✅ **Cost Analysis (5 pages):** Maintenance costs, purchase costs, investment analysis, depreciation, resale value, insurance
 - ✅ **Charter & Market (5 pages):** Charter pricing, empty legs (EN/NL), market overview, international buyers
 
-**Remaining Content (27 pages):**
+**Batch 2 (12 pages):**
+- ✅ **Legal & Regulatory (5 pages):** Netherlands registration, EASA requirements, aircraft appraisal, fleet composition, popular aircraft
+- ✅ **Charter Services (5 pages):** Amsterdam charter (EN/NL), aircraft sharing, jet card programs, crew costs
+- ✅ **Business Operations (2 pages):** Corporate governance, becoming an owner
+
+**Remaining Content (15 pages):**
 - **Blog Articles:** Long-tail keywords like "beste privéjet voor Europa", "tweedehands privéjet"
 - **FAQ Pages:** Dedicated FAQ pages for each main topic
 - **Glossary:** Aviation terms in Dutch + English
@@ -385,6 +392,6 @@ Plans:
 | 10. Pillar Pages & Core Content | v2.0 | 5/5 | ✅ Complete | 2026-02-09 |
 | 11. City & Regional Landing Pages | v2.0 | 20/20 | ✅ Complete | 2026-02-09 |
 | 12. Aircraft & Route Content | v2.0 | 20/20 | ✅ Complete | 2026-02-09 |
-| 13. Long-tail & Supporting Content | v2.0 | 20/47 | 🚧 In Progress | 2026-02-09 |
+| 13. Long-tail & Supporting Content | v2.0 | 32/47 | 🚧 In Progress | 2026-02-09 |
 | 14. Link Acquisition Campaign | v2.0 | 0/TBD | Not started | - |
 | 15. Analytics, Tracking & Iteration | v2.0 | 0/TBD | Not started | - |
