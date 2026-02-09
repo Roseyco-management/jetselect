@@ -11,12 +11,12 @@ See: .planning/PROJECT.md (updated 2026-01-27)
 
 **Milestones:** v1.0 UI/UX Polish (Phases 1-6) + v2.0 SEO Domination (Phases 7-15)
 
-Phase: 10 of 15 (Pillar Pages & Core Content)
-Plan: 4 of 5 in current phase
-Status: In progress
-Last activity: 2026-02-09 — Completed 10-04-PLAN.md (Cost Guide pillar, 5,773 words)
+Phase: 11 of 15 (City & Regional Landing Pages)
+Plan: 5 of 5 in current phase (high-impact subset)
+Status: High-impact pages complete
+Last activity: 2026-02-09 — Completed 11-05-PLAN.md (Amsterdam-London route, 1,900 words)
 
-Progress: █████████░ 97% (23 plans complete across all phases)
+Progress: █████████░ 99% (29 plans complete across all phases)
 
 ## Performance Metrics
 
@@ -38,7 +38,7 @@ Progress: █████████░ 97% (23 plans complete across all phase
 | Phase 7 | 3 | 1.69h | 0.56h |
 | Phase 8 | 1 | 0.72h | 0.72h |
 | Phase 9 | 4 | 0.47h | 0.47h |
-| Phase 10 | 2 | 1.74h | 0.87h |
+| Phase 10 | 5 | 2.19h | 0.44h |
 
 **Recent Trend:**
 - Last 5 plans: 2min, 4min, 23min, 52min (pillar content creation)
