@@ -1159,7 +1159,7 @@ class JetSelector {
             labels.budget[this.selections.budget] || '-';
     }
 
-    handleFormSubmit(e) {
+    async handleFormSubmit(e) {
         e.preventDefault();
 
         const form = e.target;
@@ -1180,40 +1180,63 @@ class JetSelector {
             return;
         }
 
+        // Disable submit button to prevent double submission
+        submitButton.disabled = true;
+        submitButton.textContent = 'Verzenden...';
+
         const formData = new FormData(form);
-        const data = {
-            ...Object.fromEntries(formData),
-            selections: this.selections
+        const contactData = Object.fromEntries(formData);
+
+        // Prepare data for Supabase
+        const submissionData = {
+            // Wizard selections
+            aircraft_type: this.selections.priority || null,
+            passenger_count: parseInt(this.selections.passengers) || null,
+            range: this.selections.range || null,
+            budget: this.selections.budget || null,
+            timeline: this.selections.runway || null,
+
+            // Contact info
+            name: contactData.name,
+            email: contactData.email,
+            phone: contactData.phone || null,
+            company: contactData.company || null,
+            notes: contactData.message || null,
+
+            // Metadata
+            ...getSubmissionMetadata()
         };
 
-        // Here you would normally send data to a server
-        console.log('Form submitted:', data);
+        console.log('Form submitted:', submissionData);
 
-        // Show success message
-        this.currentStep = 7;
-        this.showStep(7);
-        this.updateNavigationButtons();
-        this.smoothScrollTo('#selector', -100);
+        try {
+            // Save to Supabase
+            const { data, error } = await supabaseClient
+                .from('wizard_submissions')
+                .insert([submissionData])
+                .select();
 
-        // Trigger success screen animation
-        this.animateSuccessScreen();
+            if (error) throw error;
 
-        // In production, you would do something like:
-        // fetch('/api/submit', {
-        //     method: 'POST',
-        //     headers: { 'Content-Type': 'application/json' },
-        //     body: JSON.stringify(data)
-        // })
-        // .then(response => response.json())
-        // .then(result => {
-        //     this.currentStep = 7;
-        //     this.showStep(7);
-        //     this.updateNavigationButtons();
-        //     this.smoothScrollTo('#selector', -100);
-        // })
-        // .catch(error => {
-        //     this.showNotification('Er is een fout opgetreden. Probeer het opnieuw.', 'error');
-        // });
+            console.log('Saved to Supabase:', data);
+
+            // Show success message
+            this.currentStep = 7;
+            this.showStep(7);
+            this.updateNavigationButtons();
+            this.smoothScrollTo('#selector', -100);
+
+            // Trigger success screen animation
+            this.animateSuccessScreen();
+
+        } catch (error) {
+            console.error('Error saving to Supabase:', error);
+            this.showNotification('Er is een fout opgetreden. Probeer het opnieuw.', 'error');
+
+            // Re-enable submit button
+            submitButton.disabled = false;
+            submitButton.textContent = 'Versturen';
+        }
     }
 
     animateSuccessScreen() {
@@ -1418,32 +1441,68 @@ document.addEventListener('DOMContentLoaded', () => {
     // Handle standalone contact form
     const standaloneForm = document.getElementById('standaloneContactForm');
     if (standaloneForm) {
-        standaloneForm.addEventListener('submit', (e) => {
+        standaloneForm.addEventListener('submit', async (e) => {
             e.preventDefault();
             const formData = new FormData(e.target);
             const data = Object.fromEntries(formData);
             console.log('Standalone contact form submitted:', data);
 
-            // Show success notification
-            const lang = window.languageManager.getCurrentLang();
-            jetSelector.showNotification(translations[lang].notifications.contactSuccess, 'success');
-            standaloneForm.reset();
+            try {
+                // Save to Supabase
+                const { error } = await supabaseClient
+                    .from('contact_submissions')
+                    .insert([{
+                        name: data.name,
+                        email: data.email,
+                        phone: data.phone || null,
+                        message: data.message,
+                        ...getSubmissionMetadata()
+                    }]);
+
+                if (error) throw error;
+
+                // Show success notification
+                const lang = window.languageManager.getCurrentLang();
+                jetSelector.showNotification(translations[lang].notifications.contactSuccess, 'success');
+                standaloneForm.reset();
+
+            } catch (error) {
+                console.error('Error saving to Supabase:', error);
+                jetSelector.showNotification('Er is een fout opgetreden. Probeer het opnieuw.', 'error');
+            }
         });
     }
 
     // Handle callback form
     const callbackForm = document.getElementById('callbackForm');
     if (callbackForm) {
-        callbackForm.addEventListener('submit', (e) => {
+        callbackForm.addEventListener('submit', async (e) => {
             e.preventDefault();
             const formData = new FormData(e.target);
             const data = Object.fromEntries(formData);
             console.log('Callback form submitted:', data);
 
-            // Show success notification
-            const lang = window.languageManager.getCurrentLang();
-            jetSelector.showNotification(translations[lang].notifications.callbackSuccess, 'success');
-            callbackForm.reset();
+            try {
+                // Save to Supabase
+                const { error } = await supabaseClient
+                    .from('callback_requests')
+                    .insert([{
+                        name: data.name,
+                        phone: data.phone,
+                        ...getSubmissionMetadata()
+                    }]);
+
+                if (error) throw error;
+
+                // Show success notification
+                const lang = window.languageManager.getCurrentLang();
+                jetSelector.showNotification(translations[lang].notifications.callbackSuccess, 'success');
+                callbackForm.reset();
+
+            } catch (error) {
+                console.error('Error saving to Supabase:', error);
+                jetSelector.showNotification('Er is een fout opgetreden. Probeer het opnieuw.', 'error');
+            }
         });
     }
 
