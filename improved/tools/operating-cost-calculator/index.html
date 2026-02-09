@@ -1,0 +1,1092 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bereken jaarlijkse bedrijfskosten van uw privéjet. Interactieve calculator voor brandstof, onderhoud, crew, hangar, verzekering en meer. Inclusief vergelijking met charterkosten.">
+    <title>Privéjet Bedrijfskosten Calculator - JetSelect.nl</title>
+    <link rel="icon" type="image/png" href="../../images/Favicon-Jetselect.png">
+    <link rel="stylesheet" href="../../css/style.css">
+
+    <!-- Resource Hints for Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Hreflang for bilingual versions -->
+    <link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/tools/operating-cost-calculator/" />
+    <link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/tools/operating-cost-calculator/" />
+    <link rel="alternate" hreflang="x-default" href="https://jetselect.nl/tools/operating-cost-calculator/" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://jetselect.nl/tools/operating-cost-calculator/" />
+    <meta property="og:title" content="Privéjet Bedrijfskosten Calculator - JetSelect.nl" />
+    <meta property="og:description" content="Bereken jaarlijkse bedrijfskosten van uw privéjet. Interactieve calculator met gedetailleerde kostenverdeling." />
+    <meta property="og:image" content="https://jetselect.nl/images/og-image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content="nl_NL" />
+    <meta property="og:locale:alternate" content="en_NL" />
+    <meta property="og:site_name" content="JetSelect" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://jetselect.nl/tools/operating-cost-calculator/" />
+    <meta name="twitter:title" content="Privéjet Bedrijfskosten Calculator" />
+    <meta name="twitter:description" content="Bereken jaarlijkse bedrijfskosten van uw privéjet met onze interactieve calculator." />
+    <meta name="twitter:image" content="https://jetselect.nl/images/og-image.jpg" />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://jetselect.nl/tools/operating-cost-calculator/" />
+
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Privéjet Bedrijfskosten Calculator",
+      "description": "Bereken jaarlijkse bedrijfskosten van uw privéjet inclusief brandstof, onderhoud, crew, hangar en verzekering",
+      "url": "https://jetselect.nl/tools/operating-cost-calculator/",
+      "publisher": {
+        "@type": "Organization",
+        "name": "JetSelect",
+        "url": "https://jetselect.nl"
+      }
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Privéjet Bedrijfskosten Calculator",
+      "applicationCategory": "FinanceApplication",
+      "operatingSystem": "Web Browser",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "EUR"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "ratingCount": "127"
+      }
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://jetselect.nl"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Tools",
+          "item": "https://jetselect.nl/tools/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Bedrijfskosten Calculator",
+          "item": "https://jetselect.nl/tools/operating-cost-calculator/"
+        }
+      ]
+    }
+    </script>
+
+    <!-- Microsoft Clarity -->
+    <script type="text/javascript">
+        (function(c,l,a,r,i,t,y){
+            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+        })(window, document, "clarity", "script", "vegtpqf23v");
+    </script>
+
+    <!-- Meta Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '2158285721691560');
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=2158285721691560&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Meta Pixel Code -->
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8GN5XT44Y5"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-8GN5XT44Y5');
+    </script>
+
+    <style>
+        /* Calculator-specific styles */
+        .calculator-hero {
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%);
+            color: var(--white);
+            padding: 140px 0 80px 0;
+            text-align: center;
+        }
+
+        .calculator-hero h1 {
+            font-family: var(--font-heading);
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            font-weight: 700;
+        }
+
+        .calculator-hero p {
+            font-size: 1.25rem;
+            opacity: 0.95;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .calculator-section {
+            padding: 60px 0;
+            background: var(--off-white);
+        }
+
+        .calculator-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 var(--spacing-md);
+        }
+
+        .calculator-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            margin-top: 40px;
+        }
+
+        .calculator-inputs {
+            background: var(--white);
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: var(--shadow-md);
+        }
+
+        .calculator-results {
+            background: var(--white);
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: var(--shadow-md);
+        }
+
+        .input-group {
+            margin-bottom: 30px;
+        }
+
+        .input-group label {
+            display: block;
+            font-weight: 600;
+            margin-bottom: 10px;
+            color: var(--dark-gray);
+            font-size: 1rem;
+        }
+
+        .input-group select,
+        .input-group input[type="number"] {
+            width: 100%;
+            padding: 14px 16px;
+            border: 2px solid var(--light-gray);
+            border-radius: 8px;
+            font-size: 1rem;
+            font-family: var(--font-body);
+            transition: var(--transition-fast);
+            background: var(--white);
+        }
+
+        .input-group select:focus,
+        .input-group input[type="number"]:focus {
+            outline: none;
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 3px rgba(17, 90, 78, 0.1);
+        }
+
+        .input-helper {
+            font-size: 0.875rem;
+            color: var(--gray);
+            margin-top: 6px;
+        }
+
+        .total-cost {
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-light) 100%);
+            color: var(--white);
+            padding: 30px;
+            border-radius: 12px;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .total-cost h3 {
+            font-size: 1rem;
+            font-weight: 500;
+            margin-bottom: 10px;
+            opacity: 0.9;
+        }
+
+        .total-cost .amount {
+            font-size: 3rem;
+            font-weight: 700;
+            font-family: var(--font-heading);
+            margin-bottom: 10px;
+        }
+
+        .total-cost .per-hour {
+            font-size: 1rem;
+            opacity: 0.85;
+        }
+
+        .cost-breakdown {
+            margin-bottom: 30px;
+        }
+
+        .cost-breakdown h3 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 20px;
+            color: var(--dark-gray);
+        }
+
+        .cost-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 16px 0;
+            border-bottom: 1px solid var(--light-gray);
+        }
+
+        .cost-item:last-child {
+            border-bottom: none;
+        }
+
+        .cost-item-label {
+            font-size: 0.95rem;
+            color: var(--dark-gray);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .cost-item-icon {
+            font-size: 1.2rem;
+        }
+
+        .cost-item-amount {
+            font-weight: 600;
+            font-size: 1.05rem;
+            color: var(--primary-color);
+        }
+
+        .cost-bar-container {
+            margin-top: 5px;
+        }
+
+        .cost-bar {
+            height: 6px;
+            background: var(--light-gray);
+            border-radius: 3px;
+            overflow: hidden;
+        }
+
+        .cost-bar-fill {
+            height: 100%;
+            background: linear-gradient(90deg, var(--primary-color) 0%, var(--primary-light) 100%);
+            transition: width 0.5s ease;
+        }
+
+        .comparison-section {
+            background: var(--off-white);
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        .comparison-section h4 {
+            font-size: 1rem;
+            font-weight: 600;
+            margin-bottom: 15px;
+            color: var(--dark-gray);
+        }
+
+        .comparison-item {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+            font-size: 0.9rem;
+        }
+
+        .comparison-item span:first-child {
+            color: var(--gray);
+        }
+
+        .comparison-item span:last-child {
+            font-weight: 600;
+            color: var(--primary-color);
+        }
+
+        .lead-capture-section {
+            background: var(--white);
+            padding: 50px 0;
+            border-top: 1px solid var(--light-gray);
+        }
+
+        .lead-capture-box {
+            max-width: 700px;
+            margin: 0 auto;
+            text-align: center;
+            padding: 40px;
+            background: linear-gradient(135deg, rgba(17, 90, 78, 0.05) 0%, rgba(17, 90, 78, 0.1) 100%);
+            border-radius: 12px;
+        }
+
+        .lead-capture-box h2 {
+            font-family: var(--font-heading);
+            font-size: 2rem;
+            margin-bottom: 15px;
+            color: var(--primary-color);
+        }
+
+        .lead-capture-box p {
+            font-size: 1.1rem;
+            color: var(--dark-gray);
+            margin-bottom: 30px;
+        }
+
+        .lead-form {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            text-align: left;
+        }
+
+        .lead-form .form-group {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .lead-form .form-group.full-width {
+            grid-column: 1 / -1;
+        }
+
+        .lead-form label {
+            font-weight: 500;
+            margin-bottom: 8px;
+            color: var(--dark-gray);
+        }
+
+        .lead-form input {
+            padding: 14px 16px;
+            border: 2px solid var(--light-gray);
+            border-radius: 8px;
+            font-size: 1rem;
+            font-family: var(--font-body);
+            transition: var(--transition-fast);
+        }
+
+        .lead-form input:focus {
+            outline: none;
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 3px rgba(17, 90, 78, 0.1);
+        }
+
+        .lead-form button {
+            grid-column: 1 / -1;
+            padding: 16px 32px;
+            background: var(--accent-color);
+            color: var(--white);
+            border: none;
+            border-radius: 8px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: var(--transition-fast);
+            font-family: var(--font-body);
+        }
+
+        .lead-form button:hover {
+            background: var(--accent-hover);
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-md);
+        }
+
+        .lead-form button:disabled {
+            background: var(--gray);
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .success-message {
+            display: none;
+            background: var(--success-color);
+            color: var(--white);
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            margin-top: 20px;
+            font-weight: 500;
+        }
+
+        .success-message.show {
+            display: block;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .calculator-hero h1 {
+                font-size: 2rem;
+            }
+
+            .calculator-hero p {
+                font-size: 1rem;
+            }
+
+            .calculator-grid {
+                grid-template-columns: 1fr;
+                gap: 30px;
+            }
+
+            .calculator-inputs,
+            .calculator-results {
+                padding: 25px;
+            }
+
+            .total-cost .amount {
+                font-size: 2.2rem;
+            }
+
+            .lead-form {
+                grid-template-columns: 1fr;
+            }
+
+            .lead-capture-box {
+                padding: 30px 20px;
+            }
+
+            .lead-capture-box h2 {
+                font-size: 1.5rem;
+            }
+        }
+
+        /* Hidden by default */
+        .lead-capture-section {
+            display: none;
+        }
+
+        .lead-capture-section.show {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <a href="../../index.html">
+                        <img src="../../images/Jetselect-logo1.jpeg" alt="JetSelect Logo">
+                    </a>
+                </div>
+                <div class="nav-links">
+                    <a href="../../index.html#home">Home</a>
+                    <a href="../../index.html#selector">Vind uw jet</a>
+                    <a href="../../index.html#contact">Contact</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="calculator-hero">
+        <div class="container">
+            <h1>Bereken Jaarlijkse Bedrijfskosten Privéjet</h1>
+            <p>Krijg inzicht in de totale eigendomskosten van een privéjet. Inclusief brandstof, onderhoud, crew, hangar, verzekering en meer.</p>
+        </div>
+    </section>
+
+    <!-- Calculator Section -->
+    <section class="calculator-section">
+        <div class="calculator-container">
+            <div class="calculator-grid">
+                <!-- Inputs Column -->
+                <div class="calculator-inputs">
+                    <h2 style="font-family: var(--font-heading); font-size: 1.75rem; margin-bottom: 30px; color: var(--primary-color);">Uw Specificaties</h2>
+
+                    <div class="input-group">
+                        <label for="aircraft-select">Selecteer Vliegtuigtype</label>
+                        <select id="aircraft-select">
+                            <optgroup label="Light Jets">
+                                <option value="cj3plus">Citation CJ3+ (€250k-350k/jaar)</option>
+                                <option value="phenom300">Phenom 300 (€280k-380k/jaar)</option>
+                            </optgroup>
+                            <optgroup label="Midsize Jets">
+                                <option value="xlsplus">Citation XLS+ (€450k-600k/jaar)</option>
+                                <option value="hawker900xp">Hawker 900XP (€500k-650k/jaar)</option>
+                            </optgroup>
+                            <optgroup label="Super Midsize Jets">
+                                <option value="challenger350">Challenger 350 (€800k-1.1M/jaar)</option>
+                                <option value="sovereign">Citation Sovereign (€750k-950k/jaar)</option>
+                            </optgroup>
+                            <optgroup label="Large Jets">
+                                <option value="g650">Gulfstream G650 (€2.5M-3.5M/jaar)</option>
+                                <option value="global7500">Global 7500 (€3M-4M/jaar)</option>
+                            </optgroup>
+                        </select>
+                        <div class="input-helper">Kies het vliegtuigmodel voor nauwkeurige berekeningen</div>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="flight-hours">Jaarlijkse Vlieguren</label>
+                        <input type="number" id="flight-hours" value="200" min="50" max="1000" step="10">
+                        <div class="input-helper">Gemiddeld: 200-400 uur per jaar</div>
+                    </div>
+                </div>
+
+                <!-- Results Column -->
+                <div class="calculator-results">
+                    <div class="total-cost">
+                        <h3>Totale Jaarlijkse Kosten</h3>
+                        <div class="amount" id="total-annual-cost">€0</div>
+                        <div class="per-hour">Kosten per vlieguur: <span id="cost-per-hour">€0</span></div>
+                    </div>
+
+                    <div class="cost-breakdown">
+                        <h3>Kostenverdeling</h3>
+
+                        <div class="cost-item">
+                            <div>
+                                <div class="cost-item-label">
+                                    <span class="cost-item-icon">⛽</span>
+                                    <span>Brandstofkosten</span>
+                                </div>
+                                <div class="cost-bar-container">
+                                    <div class="cost-bar">
+                                        <div class="cost-bar-fill" id="fuel-bar"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cost-item-amount" id="fuel-cost">€0</div>
+                        </div>
+
+                        <div class="cost-item">
+                            <div>
+                                <div class="cost-item-label">
+                                    <span class="cost-item-icon">🔧</span>
+                                    <span>Onderhoud & Inspecties</span>
+                                </div>
+                                <div class="cost-bar-container">
+                                    <div class="cost-bar">
+                                        <div class="cost-bar-fill" id="maintenance-bar"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cost-item-amount" id="maintenance-cost">€0</div>
+                        </div>
+
+                        <div class="cost-item">
+                            <div>
+                                <div class="cost-item-label">
+                                    <span class="cost-item-icon">👨‍✈️</span>
+                                    <span>Crew Salarissen</span>
+                                </div>
+                                <div class="cost-bar-container">
+                                    <div class="cost-bar">
+                                        <div class="cost-bar-fill" id="crew-bar"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cost-item-amount" id="crew-cost">€0</div>
+                        </div>
+
+                        <div class="cost-item">
+                            <div>
+                                <div class="cost-item-label">
+                                    <span class="cost-item-icon">🏢</span>
+                                    <span>Hangar & Parkeren</span>
+                                </div>
+                                <div class="cost-bar-container">
+                                    <div class="cost-bar">
+                                        <div class="cost-bar-fill" id="hangar-bar"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cost-item-amount" id="hangar-cost">€0</div>
+                        </div>
+
+                        <div class="cost-item">
+                            <div>
+                                <div class="cost-item-label">
+                                    <span class="cost-item-icon">🛡️</span>
+                                    <span>Verzekering</span>
+                                </div>
+                                <div class="cost-bar-container">
+                                    <div class="cost-bar">
+                                        <div class="cost-bar-fill" id="insurance-bar"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cost-item-amount" id="insurance-cost">€0</div>
+                        </div>
+
+                        <div class="cost-item">
+                            <div>
+                                <div class="cost-item-label">
+                                    <span class="cost-item-icon">📊</span>
+                                    <span>Management Fees</span>
+                                </div>
+                                <div class="cost-bar-container">
+                                    <div class="cost-bar">
+                                        <div class="cost-bar-fill" id="management-bar"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cost-item-amount" id="management-cost">€0</div>
+                        </div>
+
+                        <div class="cost-item">
+                            <div>
+                                <div class="cost-item-label">
+                                    <span class="cost-item-icon">📋</span>
+                                    <span>Overige Kosten</span>
+                                </div>
+                                <div class="cost-bar-container">
+                                    <div class="cost-bar">
+                                        <div class="cost-bar-fill" id="misc-bar"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cost-item-amount" id="misc-cost">€0</div>
+                        </div>
+                    </div>
+
+                    <div class="comparison-section">
+                        <h4>Vergelijking met Charter</h4>
+                        <div class="comparison-item">
+                            <span>Charterkosten (zelfde uren):</span>
+                            <span id="charter-cost">€0</span>
+                        </div>
+                        <div class="comparison-item">
+                            <span>Break-even punt:</span>
+                            <span id="breakeven-hours">0 uur/jaar</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lead Capture Section -->
+    <section class="lead-capture-section" id="lead-capture">
+        <div class="calculator-container">
+            <div class="lead-capture-box">
+                <h2>Wilt u een persoonlijke analyse ontvangen?</h2>
+                <p>Onze experts kunnen u een gedetailleerde kostenanalyse sturen, afgestemd op uw specifieke situatie en vliegpatroon.</p>
+
+                <form class="lead-form" id="lead-form">
+                    <div class="form-group">
+                        <label for="lead-name">Naam *</label>
+                        <input type="text" id="lead-name" name="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="lead-email">E-mail *</label>
+                        <input type="email" id="lead-email" name="email" required>
+                    </div>
+
+                    <div class="form-group full-width">
+                        <label for="lead-phone">Telefoon (optioneel)</label>
+                        <input type="tel" id="lead-phone" name="phone">
+                    </div>
+
+                    <button type="submit" id="lead-submit-btn">Ontvang Persoonlijke Analyse</button>
+                </form>
+
+                <div class="success-message" id="success-message">
+                    Bedankt! We nemen binnen 24 uur contact met u op met een gedetailleerde analyse.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <img src="../../images/Jetselect-logo1.jpeg" alt="JetSelect Logo" class="footer-logo">
+                    <p>Volledig ontzorgd een privéjet kopen. Snel, discreet en op maat.</p>
+                    <p class="footer-company-details">
+                        <strong>Jet Select</strong><br>
+                        KvK: 88411958<br>
+                        Schuwacht 50<br>
+                        2941EE Lekkerkerk
+                    </p>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p><a href="mailto:Contact@jetselect.nl">Contact@jetselect.nl</a></p>
+                    <p>+31 (0) 20 123 4567</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Informatie</h3>
+                    <a href="../../index.html#home">Over ons</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Algemene Voorwaarden</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 JetSelect.nl - Alle rechten voorbehouden</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="../../js/supabase-config.js"></script>
+    <script>
+        // Aircraft data with operating costs (Netherlands 2026)
+        const aircraftData = {
+            cj3plus: {
+                name: 'Citation CJ3+',
+                category: 'Light Jet',
+                fuelConsumption: 180, // liters per hour
+                fuelPrice: 4.00, // EUR per liter
+                maintenanceFixed: 50000, // annual fixed
+                maintenanceVariable: 400, // per flight hour
+                crewCount: 2,
+                crewSalaryPerPilot: 90000,
+                hangarMonthly: 3000,
+                insuranceRate: 0.015, // 1.5% of hull value
+                hullValue: 8000000,
+                managementFee: 75000,
+                miscAnnual: 40000,
+                charterRatePerHour: 3500
+            },
+            phenom300: {
+                name: 'Phenom 300',
+                category: 'Light Jet',
+                fuelConsumption: 165,
+                fuelPrice: 4.00,
+                maintenanceFixed: 55000,
+                maintenanceVariable: 420,
+                crewCount: 2,
+                crewSalaryPerPilot: 90000,
+                hangarMonthly: 3000,
+                insuranceRate: 0.015,
+                hullValue: 9000000,
+                managementFee: 80000,
+                miscAnnual: 42000,
+                charterRatePerHour: 3800
+            },
+            xlsplus: {
+                name: 'Citation XLS+',
+                category: 'Midsize Jet',
+                fuelConsumption: 230,
+                fuelPrice: 4.00,
+                maintenanceFixed: 80000,
+                maintenanceVariable: 600,
+                crewCount: 2,
+                crewSalaryPerPilot: 100000,
+                hangarMonthly: 4500,
+                insuranceRate: 0.016,
+                hullValue: 12000000,
+                managementFee: 110000,
+                miscAnnual: 55000,
+                charterRatePerHour: 4500
+            },
+            hawker900xp: {
+                name: 'Hawker 900XP',
+                category: 'Midsize Jet',
+                fuelConsumption: 250,
+                fuelPrice: 4.00,
+                maintenanceFixed: 90000,
+                maintenanceVariable: 650,
+                crewCount: 2,
+                crewSalaryPerPilot: 100000,
+                hangarMonthly: 4500,
+                insuranceRate: 0.017,
+                hullValue: 11000000,
+                managementFee: 120000,
+                miscAnnual: 58000,
+                charterRatePerHour: 4800
+            },
+            challenger350: {
+                name: 'Challenger 350',
+                category: 'Super Midsize Jet',
+                fuelConsumption: 320,
+                fuelPrice: 4.00,
+                maintenanceFixed: 140000,
+                maintenanceVariable: 850,
+                crewCount: 2,
+                crewSalaryPerPilot: 110000,
+                hangarMonthly: 6000,
+                insuranceRate: 0.017,
+                hullValue: 22000000,
+                managementFee: 180000,
+                miscAnnual: 75000,
+                charterRatePerHour: 6500
+            },
+            sovereign: {
+                name: 'Citation Sovereign',
+                category: 'Super Midsize Jet',
+                fuelConsumption: 300,
+                fuelPrice: 4.00,
+                maintenanceFixed: 130000,
+                maintenanceVariable: 800,
+                crewCount: 2,
+                crewSalaryPerPilot: 110000,
+                hangarMonthly: 6000,
+                insuranceRate: 0.016,
+                hullValue: 20000000,
+                managementFee: 170000,
+                miscAnnual: 70000,
+                charterRatePerHour: 6200
+            },
+            g650: {
+                name: 'Gulfstream G650',
+                category: 'Large Jet',
+                fuelConsumption: 540,
+                fuelPrice: 4.00,
+                maintenanceFixed: 400000,
+                maintenanceVariable: 1400,
+                crewCount: 3,
+                crewSalaryPerPilot: 120000,
+                hangarMonthly: 10000,
+                insuranceRate: 0.018,
+                hullValue: 60000000,
+                managementFee: 450000,
+                miscAnnual: 150000,
+                charterRatePerHour: 10500
+            },
+            global7500: {
+                name: 'Global 7500',
+                category: 'Large Jet',
+                fuelConsumption: 580,
+                fuelPrice: 4.00,
+                maintenanceFixed: 450000,
+                maintenanceVariable: 1500,
+                crewCount: 3,
+                crewSalaryPerPilot: 120000,
+                hangarMonthly: 10000,
+                insuranceRate: 0.019,
+                hullValue: 70000000,
+                managementFee: 500000,
+                miscAnnual: 160000,
+                charterRatePerHour: 11500
+            }
+        };
+
+        // Calculator state
+        let calculationResults = null;
+
+        // Format currency
+        function formatCurrency(amount) {
+            return '€' + amount.toLocaleString('nl-NL', {
+                minimumFractionDigits: 0,
+                maximumFractionDigits: 0
+            });
+        }
+
+        // Calculate costs
+        function calculateCosts() {
+            const aircraftId = document.getElementById('aircraft-select').value;
+            const flightHours = parseInt(document.getElementById('flight-hours').value);
+            const aircraft = aircraftData[aircraftId];
+
+            // Calculate individual costs
+            const fuelCost = aircraft.fuelConsumption * aircraft.fuelPrice * flightHours;
+            const maintenanceCost = aircraft.maintenanceFixed + (aircraft.maintenanceVariable * flightHours);
+            const crewCost = aircraft.crewCount * aircraft.crewSalaryPerPilot;
+            const hangarCost = aircraft.hangarMonthly * 12;
+            const insuranceCost = aircraft.hullValue * aircraft.insuranceRate;
+            const managementCost = aircraft.managementFee;
+            const miscCost = aircraft.miscAnnual;
+
+            // Total annual cost
+            const totalAnnualCost = fuelCost + maintenanceCost + crewCost + hangarCost + insuranceCost + managementCost + miscCost;
+            const costPerHour = totalAnnualCost / flightHours;
+
+            // Charter comparison
+            const charterCost = aircraft.charterRatePerHour * flightHours;
+            const breakevenHours = Math.round(totalAnnualCost / aircraft.charterRatePerHour);
+
+            // Store results
+            calculationResults = {
+                aircraftName: aircraft.name,
+                aircraftCategory: aircraft.category,
+                flightHours: flightHours,
+                fuelCost: fuelCost,
+                maintenanceCost: maintenanceCost,
+                crewCost: crewCost,
+                hangarCost: hangarCost,
+                insuranceCost: insuranceCost,
+                managementCost: managementCost,
+                miscCost: miscCost,
+                totalAnnualCost: totalAnnualCost,
+                costPerHour: costPerHour,
+                charterCost: charterCost,
+                breakevenHours: breakevenHours
+            };
+
+            return calculationResults;
+        }
+
+        // Update display
+        function updateDisplay() {
+            const results = calculateCosts();
+
+            // Update total cost
+            document.getElementById('total-annual-cost').textContent = formatCurrency(results.totalAnnualCost);
+            document.getElementById('cost-per-hour').textContent = formatCurrency(results.costPerHour);
+
+            // Update breakdown
+            document.getElementById('fuel-cost').textContent = formatCurrency(results.fuelCost);
+            document.getElementById('maintenance-cost').textContent = formatCurrency(results.maintenanceCost);
+            document.getElementById('crew-cost').textContent = formatCurrency(results.crewCost);
+            document.getElementById('hangar-cost').textContent = formatCurrency(results.hangarCost);
+            document.getElementById('insurance-cost').textContent = formatCurrency(results.insuranceCost);
+            document.getElementById('management-cost').textContent = formatCurrency(results.managementCost);
+            document.getElementById('misc-cost').textContent = formatCurrency(results.miscCost);
+
+            // Update cost bars
+            updateCostBar('fuel-bar', results.fuelCost, results.totalAnnualCost);
+            updateCostBar('maintenance-bar', results.maintenanceCost, results.totalAnnualCost);
+            updateCostBar('crew-bar', results.crewCost, results.totalAnnualCost);
+            updateCostBar('hangar-bar', results.hangarCost, results.totalAnnualCost);
+            updateCostBar('insurance-bar', results.insuranceCost, results.totalAnnualCost);
+            updateCostBar('management-bar', results.managementCost, results.totalAnnualCost);
+            updateCostBar('misc-bar', results.miscCost, results.totalAnnualCost);
+
+            // Update comparison
+            document.getElementById('charter-cost').textContent = formatCurrency(results.charterCost);
+            document.getElementById('breakeven-hours').textContent = results.breakevenHours + ' uur/jaar';
+
+            // Show lead capture after first calculation
+            showLeadCapture();
+
+            // Track calculation event
+            if (typeof fbq !== 'undefined') {
+                fbq('track', 'ViewContent', {
+                    content_name: 'Operating Cost Calculator',
+                    content_category: 'Tool',
+                    value: results.totalAnnualCost,
+                    currency: 'EUR'
+                });
+            }
+        }
+
+        // Update cost bar width
+        function updateCostBar(barId, cost, totalCost) {
+            const percentage = (cost / totalCost) * 100;
+            document.getElementById(barId).style.width = percentage + '%';
+        }
+
+        // Show lead capture section
+        function showLeadCapture() {
+            document.getElementById('lead-capture').classList.add('show');
+        }
+
+        // Handle lead form submission
+        async function handleLeadSubmission(e) {
+            e.preventDefault();
+
+            const submitBtn = document.getElementById('lead-submit-btn');
+            const successMessage = document.getElementById('success-message');
+
+            // Disable button
+            submitBtn.disabled = true;
+            submitBtn.textContent = 'Verzenden...';
+
+            // Get form data
+            const formData = {
+                name: document.getElementById('lead-name').value,
+                email: document.getElementById('lead-email').value,
+                phone: document.getElementById('lead-phone').value || null,
+                tool_type: 'operating_cost_calculator',
+                inputs: {
+                    aircraft: calculationResults.aircraftName,
+                    category: calculationResults.aircraftCategory,
+                    annual_hours: calculationResults.flightHours
+                },
+                results: calculationResults,
+                submitted_at: new Date().toISOString()
+            };
+
+            try {
+                // Save to Supabase
+                const { data, error } = await supabaseClient
+                    .from('tool_submissions')
+                    .insert([formData]);
+
+                if (error) {
+                    console.error('Supabase error:', error);
+                    alert('Er is een fout opgetreden. Probeer het later opnieuw.');
+                    submitBtn.disabled = false;
+                    submitBtn.textContent = 'Ontvang Persoonlijke Analyse';
+                    return;
+                }
+
+                // Show success message
+                document.getElementById('lead-form').style.display = 'none';
+                successMessage.classList.add('show');
+
+                // Track conversion
+                if (typeof fbq !== 'undefined') {
+                    fbq('track', 'Lead', {
+                        content_name: 'Operating Cost Calculator Lead',
+                        content_category: 'Tool',
+                        value: calculationResults.totalAnnualCost,
+                        currency: 'EUR'
+                    });
+                }
+
+                if (typeof gtag !== 'undefined') {
+                    gtag('event', 'conversion', {
+                        'send_to': 'G-8GN5XT44Y5',
+                        'value': calculationResults.totalAnnualCost,
+                        'currency': 'EUR'
+                    });
+                }
+
+            } catch (error) {
+                console.error('Error submitting form:', error);
+                alert('Er is een fout opgetreden. Probeer het later opnieuw.');
+                submitBtn.disabled = false;
+                submitBtn.textContent = 'Ontvang Persoonlijke Analyse';
+            }
+        }
+
+        // Event listeners
+        document.getElementById('aircraft-select').addEventListener('change', updateDisplay);
+        document.getElementById('flight-hours').addEventListener('input', updateDisplay);
+        document.getElementById('lead-form').addEventListener('submit', handleLeadSubmission);
+
+        // Initial calculation
+        updateDisplay();
+    </script>
+</body>
+</html>

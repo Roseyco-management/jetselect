@@ -1,0 +1,1564 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Vind de perfecte privéjet voor uw behoeften. Interactieve quiz die u helpt de juiste privéjet te selecteren op basis van passagiers, bereik, budget en voorkeuren.">
+    <title>Aircraft Selector - Vind de Perfecte Privéjet | JetSelect.nl</title>
+    <link rel="icon" type="image/png" href="../../images/Favicon-Jetselect.png">
+    <link rel="stylesheet" href="../../css/style.css">
+
+    <!-- Resource Hints for Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://jetselect.nl/tools/aircraft-selector/" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://jetselect.nl/tools/aircraft-selector/" />
+    <meta property="og:title" content="Aircraft Selector - Vind de Perfecte Privéjet" />
+    <meta property="og:description" content="Interactieve quiz om de perfecte privéjet te vinden op basis van uw specifieke behoeften." />
+    <meta property="og:image" content="https://jetselect.nl/images/og-image.jpg" />
+
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "Aircraft Selector Tool",
+      "description": "Interactieve privéjet selectietool die gebruikers helpt de perfecte privéjet te vinden",
+      "url": "https://jetselect.nl/tools/aircraft-selector/",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Any",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "EUR"
+      }
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://jetselect.nl"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Tools",
+          "item": "https://jetselect.nl/tools/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Aircraft Selector",
+          "item": "https://jetselect.nl/tools/aircraft-selector/"
+        }
+      ]
+    }
+    </script>
+
+    <!-- Microsoft Clarity -->
+    <script type="text/javascript">
+        (function(c,l,a,r,i,t,y){
+            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+        })(window, document, "clarity", "script", "vegtpqf23v");
+    </script>
+
+    <!-- Meta Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '2158285721691560');
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=2158285721691560&ev=PageView&noscript=1"
+    /></noscript>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8GN5XT44Y5"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-8GN5XT44Y5');
+    </script>
+
+    <style>
+        /* Tool-specific styles */
+        .tool-hero {
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%);
+            color: var(--white);
+            padding: 8rem 0 4rem;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .tool-hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="1" fill="rgba(255,255,255,0.1)"/></svg>') repeat;
+            opacity: 0.3;
+        }
+
+        .tool-hero-content {
+            position: relative;
+            z-index: 1;
+        }
+
+        .tool-hero h1 {
+            font-family: var(--font-heading);
+            font-size: clamp(2.5rem, 5vw, 3.5rem);
+            margin-bottom: var(--spacing-md);
+            line-height: 1.2;
+        }
+
+        .tool-hero p {
+            font-size: 1.2rem;
+            max-width: 700px;
+            margin: 0 auto var(--spacing-md);
+            opacity: 0.95;
+        }
+
+        .quiz-container {
+            background: var(--white);
+            padding: var(--spacing-xl) 0;
+            min-height: 600px;
+        }
+
+        .quiz-step {
+            display: none;
+            animation: fadeIn 0.5s ease;
+        }
+
+        .quiz-step.active {
+            display: block;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .quiz-progress {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: var(--spacing-sm);
+            margin-bottom: var(--spacing-lg);
+            padding: 0 var(--spacing-md);
+        }
+
+        .progress-dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: var(--light-gray);
+            transition: var(--transition-normal);
+        }
+
+        .progress-dot.active {
+            background: var(--primary-color);
+            transform: scale(1.3);
+        }
+
+        .progress-dot.completed {
+            background: var(--accent-color);
+        }
+
+        .quiz-question {
+            text-align: center;
+            margin-bottom: var(--spacing-lg);
+        }
+
+        .quiz-question h2 {
+            font-family: var(--font-heading);
+            font-size: clamp(1.8rem, 3vw, 2.5rem);
+            color: var(--primary-color);
+            margin-bottom: var(--spacing-sm);
+        }
+
+        .quiz-question p {
+            color: var(--gray);
+            font-size: 1.1rem;
+        }
+
+        .quiz-options {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: var(--spacing-md);
+            margin-bottom: var(--spacing-lg);
+            max-width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .quiz-option {
+            background: var(--off-white);
+            border: 3px solid transparent;
+            border-radius: 20px;
+            padding: var(--spacing-lg);
+            cursor: pointer;
+            transition: var(--transition-normal);
+            text-align: center;
+        }
+
+        .quiz-option:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-md);
+            border-color: var(--primary-light);
+        }
+
+        .quiz-option.selected {
+            background: var(--white);
+            border-color: var(--primary-color);
+            box-shadow: var(--shadow-md);
+        }
+
+        .quiz-option .option-icon {
+            font-size: 3rem;
+            margin-bottom: var(--spacing-sm);
+        }
+
+        .quiz-option h3 {
+            font-family: var(--font-heading);
+            font-size: 1.3rem;
+            color: var(--primary-color);
+            margin-bottom: var(--spacing-xs);
+        }
+
+        .quiz-option p {
+            color: var(--gray);
+            margin-bottom: var(--spacing-xs);
+        }
+
+        .quiz-option .option-detail {
+            display: block;
+            color: var(--dark-gray);
+            font-size: 0.9rem;
+        }
+
+        .quiz-buttons {
+            display: flex;
+            justify-content: center;
+            gap: var(--spacing-md);
+            margin-top: var(--spacing-lg);
+        }
+
+        .quiz-btn {
+            padding: var(--spacing-sm) var(--spacing-lg);
+            font-size: 1rem;
+            font-weight: 600;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: var(--transition-normal);
+        }
+
+        .quiz-btn-primary {
+            background: var(--primary-color);
+            color: var(--white);
+        }
+
+        .quiz-btn-primary:hover:not(:disabled) {
+            background: var(--primary-dark);
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-md);
+        }
+
+        .quiz-btn-secondary {
+            background: var(--white);
+            color: var(--primary-color);
+            border: 2px solid var(--primary-color);
+        }
+
+        .quiz-btn-secondary:hover {
+            background: var(--off-white);
+        }
+
+        .quiz-btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        /* Results Section */
+        .results-container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .results-intro {
+            text-align: center;
+            margin-bottom: var(--spacing-xl);
+        }
+
+        .results-intro h2 {
+            font-family: var(--font-heading);
+            font-size: clamp(2rem, 4vw, 2.8rem);
+            color: var(--primary-color);
+            margin-bottom: var(--spacing-md);
+        }
+
+        .aircraft-grid {
+            display: grid;
+            gap: var(--spacing-lg);
+            margin-bottom: var(--spacing-xl);
+        }
+
+        .aircraft-card {
+            background: var(--white);
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: var(--shadow-md);
+            display: grid;
+            grid-template-columns: 350px 1fr;
+            gap: var(--spacing-lg);
+            transition: var(--transition-normal);
+        }
+
+        .aircraft-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .aircraft-image {
+            background: var(--light-gray);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: var(--spacing-md);
+        }
+
+        .aircraft-image img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+
+        .aircraft-details {
+            padding: var(--spacing-lg);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .aircraft-header {
+            margin-bottom: var(--spacing-md);
+        }
+
+        .aircraft-header h3 {
+            font-family: var(--font-heading);
+            font-size: 1.8rem;
+            color: var(--primary-color);
+            margin-bottom: var(--spacing-xs);
+        }
+
+        .match-badge {
+            display: inline-block;
+            background: var(--accent-color);
+            color: var(--white);
+            padding: 0.3rem 1rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-bottom: var(--spacing-sm);
+        }
+
+        .aircraft-specs {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: var(--spacing-md);
+            margin-bottom: var(--spacing-md);
+        }
+
+        .spec-item {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .spec-label {
+            color: var(--gray);
+            font-size: 0.85rem;
+            margin-bottom: 0.2rem;
+        }
+
+        .spec-value {
+            color: var(--primary-color);
+            font-weight: 600;
+            font-size: 1.1rem;
+        }
+
+        .match-reason {
+            background: var(--off-white);
+            padding: var(--spacing-md);
+            border-radius: 15px;
+            margin-bottom: var(--spacing-md);
+        }
+
+        .match-reason h4 {
+            color: var(--primary-color);
+            font-size: 1rem;
+            margin-bottom: var(--spacing-xs);
+        }
+
+        .match-reason p {
+            color: var(--dark-gray);
+            font-size: 0.95rem;
+            line-height: 1.6;
+            margin: 0;
+        }
+
+        .aircraft-cta {
+            margin-top: auto;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background: var(--primary-color);
+            color: var(--white);
+            padding: var(--spacing-sm) var(--spacing-lg);
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: var(--transition-normal);
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            text-align: center;
+        }
+
+        .cta-button:hover {
+            background: var(--primary-dark);
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-md);
+        }
+
+        /* Lead Form Section */
+        .lead-form-section {
+            background: linear-gradient(135deg, var(--primary-color), var(--primary-dark));
+            color: var(--white);
+            padding: var(--spacing-xl);
+            border-radius: 20px;
+            margin: var(--spacing-xl) auto;
+            max-width: 800px;
+        }
+
+        .lead-form-section h2 {
+            font-family: var(--font-heading);
+            font-size: clamp(1.8rem, 3vw, 2.5rem);
+            text-align: center;
+            margin-bottom: var(--spacing-sm);
+        }
+
+        .lead-form-section p {
+            text-align: center;
+            font-size: 1.1rem;
+            margin-bottom: var(--spacing-lg);
+            opacity: 0.95;
+        }
+
+        .lead-form {
+            display: grid;
+            gap: var(--spacing-md);
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .form-group label {
+            margin-bottom: var(--spacing-xs);
+            font-weight: 500;
+        }
+
+        .form-group input,
+        .form-group textarea {
+            padding: var(--spacing-sm);
+            border: none;
+            border-radius: 10px;
+            font-family: var(--font-body);
+            font-size: 1rem;
+        }
+
+        .form-group textarea {
+            resize: vertical;
+            min-height: 100px;
+        }
+
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: var(--spacing-md);
+        }
+
+        .submit-btn {
+            background: var(--accent-color);
+            color: var(--white);
+            padding: var(--spacing-md);
+            border: none;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: var(--transition-normal);
+            margin-top: var(--spacing-md);
+        }
+
+        .submit-btn:hover:not(:disabled) {
+            background: var(--accent-hover);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 20px rgba(250, 105, 47, 0.4);
+        }
+
+        .submit-btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+
+        /* Success Message */
+        .success-message {
+            text-align: center;
+            padding: var(--spacing-xl);
+        }
+
+        .success-icon {
+            width: 100px;
+            height: 100px;
+            background: var(--success-color);
+            color: var(--white);
+            font-size: 3rem;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto var(--spacing-lg);
+        }
+
+        .success-message h2 {
+            font-family: var(--font-heading);
+            font-size: clamp(2rem, 4vw, 2.8rem);
+            color: var(--primary-color);
+            margin-bottom: var(--spacing-md);
+        }
+
+        .success-message p {
+            font-size: 1.1rem;
+            color: var(--gray);
+            max-width: 600px;
+            margin: 0 auto var(--spacing-lg);
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .tool-hero {
+                padding: 6rem 0 3rem;
+            }
+
+            .quiz-options {
+                grid-template-columns: 1fr;
+            }
+
+            .aircraft-card {
+                grid-template-columns: 1fr;
+            }
+
+            .aircraft-image {
+                height: 250px;
+            }
+
+            .form-row {
+                grid-template-columns: 1fr;
+            }
+
+            .quiz-buttons {
+                flex-direction: column;
+            }
+
+            .quiz-btn {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <a href="../../index.html">
+                        <img src="../../images/Jetselect-logo1.jpeg" alt="JetSelect Logo">
+                    </a>
+                </div>
+                <div class="nav-links">
+                    <a href="../../index.html#home">Home</a>
+                    <a href="../../index.html#selector">Vind uw jet</a>
+                    <a href="../../index.html#contact">Contact</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="tool-hero">
+        <div class="tool-hero-content">
+            <div class="container">
+                <h1>Vind de Perfecte Privéjet voor Uw Behoeften</h1>
+                <p>Beantwoord 5 eenvoudige vragen en ontdek welke privéjets het beste bij uw reisbehoeften passen. Onze slimme selectietool helpt u de juiste keuze te maken.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quiz Container -->
+    <section class="quiz-container">
+        <div class="container">
+            <!-- Progress Indicator -->
+            <div class="quiz-progress">
+                <div class="progress-dot active" data-step="1"></div>
+                <div class="progress-dot" data-step="2"></div>
+                <div class="progress-dot" data-step="3"></div>
+                <div class="progress-dot" data-step="4"></div>
+                <div class="progress-dot" data-step="5"></div>
+            </div>
+
+            <!-- Step 1: Passenger Count -->
+            <div class="quiz-step active" data-step="1">
+                <div class="quiz-question">
+                    <h2>Hoeveel passagiers vervoert u meestal?</h2>
+                    <p>Het aantal passagiers bepaalt de grootte en capaciteit van de jet.</p>
+                </div>
+                <div class="quiz-options">
+                    <div class="quiz-option" data-value="1-4">
+                        <div class="option-icon">👤</div>
+                        <h3>1-4 passagiers</h3>
+                        <p>Light Jets</p>
+                        <span class="option-detail">Efficiënt en wendbaar voor kleine groepen</span>
+                    </div>
+                    <div class="quiz-option" data-value="5-8">
+                        <div class="option-icon">👥</div>
+                        <h3>5-8 passagiers</h3>
+                        <p>Midsize Jets</p>
+                        <span class="option-detail">Optimale balans tussen comfort en kosten</span>
+                    </div>
+                    <div class="quiz-option" data-value="9-12">
+                        <div class="option-icon">👨‍👩‍👧‍👦</div>
+                        <h3>9-12 passagiers</h3>
+                        <p>Super Midsize Jets</p>
+                        <span class="option-detail">Meer ruimte voor grotere groepen</span>
+                    </div>
+                    <div class="quiz-option" data-value="13-16">
+                        <div class="option-icon">👨‍👩‍👧‍👦👨‍👩‍👧‍👦</div>
+                        <h3>13-16 passagiers</h3>
+                        <p>Large Jets</p>
+                        <span class="option-detail">Maximale capaciteit en luxe</span>
+                    </div>
+                </div>
+                <div class="quiz-buttons">
+                    <button class="quiz-btn quiz-btn-primary" id="nextBtn1" disabled>Volgende</button>
+                </div>
+            </div>
+
+            <!-- Step 2: Range -->
+            <div class="quiz-step" data-step="2">
+                <div class="quiz-question">
+                    <h2>Wat is uw typische vliegafstand?</h2>
+                    <p>De vereiste vliegafstand bepaalt welk type jet geschikt is.</p>
+                </div>
+                <div class="quiz-options">
+                    <div class="quiz-option" data-value="<2000">
+                        <div class="option-icon">✈️</div>
+                        <h3>Minder dan 2.000 km</h3>
+                        <p>Europese regionale vluchten</p>
+                        <span class="option-detail">Bijv. Amsterdam - Londen - Parijs - Berlijn</span>
+                    </div>
+                    <div class="quiz-option" data-value="2000-4000">
+                        <div class="option-icon">🛩️</div>
+                        <h3>2.000 - 4.000 km</h3>
+                        <p>Europa + Noord-Afrika</p>
+                        <span class="option-detail">Bijv. Amsterdam - Athene - Dubai</span>
+                    </div>
+                    <div class="quiz-option" data-value="4000-6000">
+                        <div class="option-icon">✈️</div>
+                        <h3>4.000 - 6.000 km</h3>
+                        <p>Transatlantisch</p>
+                        <span class="option-detail">Bijv. Amsterdam - New York</span>
+                    </div>
+                    <div class="quiz-option" data-value=">6000">
+                        <div class="option-icon">🛫</div>
+                        <h3>Meer dan 6.000 km</h3>
+                        <p>Intercontinentaal</p>
+                        <span class="option-detail">Bijv. Amsterdam - Singapore - Los Angeles</span>
+                    </div>
+                </div>
+                <div class="quiz-buttons">
+                    <button class="quiz-btn quiz-btn-secondary" id="backBtn2">Vorige</button>
+                    <button class="quiz-btn quiz-btn-primary" id="nextBtn2" disabled>Volgende</button>
+                </div>
+            </div>
+
+            <!-- Step 3: Annual Flight Hours -->
+            <div class="quiz-step" data-step="3">
+                <div class="quiz-question">
+                    <h2>Hoeveel vlieguren verwacht u per jaar?</h2>
+                    <p>Uw jaarlijkse vlieguren helpen bepalen of kopen of charteren voordeliger is.</p>
+                </div>
+                <div class="quiz-options">
+                    <div class="quiz-option" data-value="<50">
+                        <div class="option-icon">🕐</div>
+                        <h3>Minder dan 50 uur</h3>
+                        <p>Incidenteel gebruik</p>
+                        <span class="option-detail">Overweeg charteren als alternatief</span>
+                    </div>
+                    <div class="quiz-option" data-value="50-100">
+                        <div class="option-icon">🕑</div>
+                        <h3>50 - 100 uur</h3>
+                        <p>Entry ownership</p>
+                        <span class="option-detail">Geschikt voor eerste aankoop</span>
+                    </div>
+                    <div class="quiz-option" data-value="100-200">
+                        <div class="option-icon">🕒</div>
+                        <h3>100 - 200 uur</h3>
+                        <p>Regelmatige gebruiker</p>
+                        <span class="option-detail">Optimaal voor ownership</span>
+                    </div>
+                    <div class="quiz-option" data-value=">200">
+                        <div class="option-icon">🕓</div>
+                        <h3>Meer dan 200 uur</h3>
+                        <p>Intensief gebruik</p>
+                        <span class="option-detail">Maximaal rendement op investering</span>
+                    </div>
+                </div>
+                <div class="quiz-buttons">
+                    <button class="quiz-btn quiz-btn-secondary" id="backBtn3">Vorige</button>
+                    <button class="quiz-btn quiz-btn-primary" id="nextBtn3" disabled>Volgende</button>
+                </div>
+            </div>
+
+            <!-- Step 4: Budget -->
+            <div class="quiz-step" data-step="4">
+                <div class="quiz-question">
+                    <h2>Wat is uw budgetklasse?</h2>
+                    <p>Uw budget helpt ons de meest geschikte opties te selecteren.</p>
+                </div>
+                <div class="quiz-options">
+                    <div class="quiz-option" data-value="2-5M">
+                        <div class="option-icon">💵</div>
+                        <h3>€2M - €5M</h3>
+                        <p>Used Light Jets</p>
+                        <span class="option-detail">Instapmodel, betrouwbaar en kostenefficiënt</span>
+                    </div>
+                    <div class="quiz-option" data-value="5-10M">
+                        <div class="option-icon">💶</div>
+                        <h3>€5M - €10M</h3>
+                        <p>New Light / Used Midsize</p>
+                        <span class="option-detail">Beste waarde voor geld</span>
+                    </div>
+                    <div class="quiz-option" data-value="10-20M">
+                        <div class="option-icon">💷</div>
+                        <h3>€10M - €20M</h3>
+                        <p>New Midsize / Used Large</p>
+                        <span class="option-detail">Premium comfort en bereik</span>
+                    </div>
+                    <div class="quiz-option" data-value="20-40M">
+                        <div class="option-icon">💸</div>
+                        <h3>€20M - €40M</h3>
+                        <p>New Large Jets</p>
+                        <span class="option-detail">Top-tier luxe en prestaties</span>
+                    </div>
+                    <div class="quiz-option" data-value="40M+">
+                        <div class="option-icon">💎</div>
+                        <h3>€40M+</h3>
+                        <p>Ultra-Long Range</p>
+                        <span class="option-detail">Ultieme luxe zonder compromissen</span>
+                    </div>
+                </div>
+                <div class="quiz-buttons">
+                    <button class="quiz-btn quiz-btn-secondary" id="backBtn4">Vorige</button>
+                    <button class="quiz-btn quiz-btn-primary" id="nextBtn4" disabled>Volgende</button>
+                </div>
+            </div>
+
+            <!-- Step 5: Priority -->
+            <div class="quiz-step" data-step="5">
+                <div class="quiz-question">
+                    <h2>Wat is uw belangrijkste prioriteit?</h2>
+                    <p>Dit helpt ons de aanbevelingen verder te personaliseren.</p>
+                </div>
+                <div class="quiz-options">
+                    <div class="quiz-option" data-value="efficiency">
+                        <div class="option-icon">💰</div>
+                        <h3>Operationele efficiëntie</h3>
+                        <p>Laagste operationele kosten</p>
+                        <span class="option-detail">Focus op brandstofverbruik en onderhoudskosten</span>
+                    </div>
+                    <div class="quiz-option" data-value="speed">
+                        <div class="option-icon">⚡</div>
+                        <h3>Snelheid</h3>
+                        <p>Snelste reistijd</p>
+                        <span class="option-detail">Hoogste kruissnelheid en climb rate</span>
+                    </div>
+                    <div class="quiz-option" data-value="comfort">
+                        <div class="option-icon">🛋️</div>
+                        <h3>Cabine comfort</h3>
+                        <p>Meeste ruimte en luxe</p>
+                        <span class="option-detail">Grootste cabine en beste voorzieningen</span>
+                    </div>
+                    <div class="quiz-option" data-value="range">
+                        <div class="option-icon">🌍</div>
+                        <h3>Vliegbereik</h3>
+                        <p>Langste non-stop vluchten</p>
+                        <span class="option-detail">Maximaal bereik zonder refueling</span>
+                    </div>
+                </div>
+                <div class="quiz-buttons">
+                    <button class="quiz-btn quiz-btn-secondary" id="backBtn5">Vorige</button>
+                    <button class="quiz-btn quiz-btn-primary" id="showResults" disabled>Zie Resultaten</button>
+                </div>
+            </div>
+
+            <!-- Results -->
+            <div class="quiz-step" data-step="6">
+                <div class="results-container">
+                    <div class="results-intro">
+                        <h2>Uw Perfecte Match</h2>
+                        <p>Op basis van uw antwoorden hebben wij de volgende privéjets geselecteerd die het beste bij uw behoeften passen.</p>
+                    </div>
+                    <div class="aircraft-grid" id="aircraftResults"></div>
+                </div>
+            </div>
+
+            <!-- Lead Capture Form -->
+            <div class="quiz-step" data-step="7">
+                <div class="lead-form-section">
+                    <h2>Ontvang Persoonlijke Aanbevelingen</h2>
+                    <p>Vul uw gegevens in en onze experts nemen binnen 24 uur contact met u op met gedetailleerde informatie over de geselecteerde aircraft.</p>
+                    <form class="lead-form" id="leadForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Naam *</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">E-mail *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phone">Telefoon *</label>
+                                <input type="tel" id="phone" name="phone" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="company">Bedrijf</label>
+                                <input type="text" id="company" name="company">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Vertel ons meer over uw specifieke wensen</label>
+                            <textarea id="message" name="message" placeholder="Bijvoorbeeld: timing, specifieke routes, speciale eisen..."></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn" id="submitBtn">Verstuur Aanvraag</button>
+                    </form>
+                </div>
+                <div class="quiz-buttons" style="margin-top: 2rem;">
+                    <button class="quiz-btn quiz-btn-secondary" id="backToResults">Terug naar Resultaten</button>
+                </div>
+            </div>
+
+            <!-- Success -->
+            <div class="quiz-step" data-step="8">
+                <div class="success-message">
+                    <div class="success-icon">✓</div>
+                    <h2>Bedankt voor uw aanvraag!</h2>
+                    <p>We hebben uw gegevens ontvangen en nemen binnen 24 uur contact met u op met gedetailleerde informatie over de geselecteerde privéjets en beschikbare opties.</p>
+                    <button class="cta-button" onclick="location.reload()" style="max-width: 300px; margin: 0 auto;">Nieuwe Selectie Maken</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <img src="../../images/Jetselect-logo1.jpeg" alt="JetSelect Logo" class="footer-logo">
+                    <p>Volledig ontzorgd een privéjet kopen. Snel, discreet en op maat.</p>
+                    <p class="footer-company-details">
+                        <strong>Jet Select</strong><br>
+                        KvK: 88411958<br>
+                        Schuwacht 50<br>
+                        2941EE Lekkerkerk
+                    </p>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p><a href="mailto:Contact@jetselect.nl">Contact@jetselect.nl</a></p>
+                    <p>+31 (0) 20 123 4567</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Informatie</h3>
+                    <a href="../../index.html#home">Over ons</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Algemene Voorwaarden</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 JetSelect.nl - Alle rechten voorbehouden</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="../../js/supabase-config.js"></script>
+    <script>
+        // Aircraft Database
+        const aircraftDatabase = [
+            {
+                id: 1,
+                name: "Cessna Citation CJ3+",
+                category: "Light Jet",
+                passengers: "1-4",
+                range: "<2000",
+                budget: "2-5M",
+                speed: 749,
+                rangeKm: 3682,
+                price: "€3.5M",
+                priority: "efficiency",
+                image: "placeholder",
+                specs: {
+                    passengers: "6-7",
+                    range: "3,682 km",
+                    speed: "749 km/h",
+                    price: "€3.5M"
+                },
+                matchReason: "Uitstekende keuze voor korte tot middellange Europese vluchten. Lage operationele kosten en hoge betrouwbaarheid maken deze jet ideaal voor frequente reizigers."
+            },
+            {
+                id: 2,
+                name: "Embraer Phenom 300",
+                category: "Light Jet",
+                passengers: "1-4",
+                range: "<2000",
+                budget: "2-5M",
+                speed: 839,
+                rangeKm: 3724,
+                price: "€4.2M",
+                priority: "speed",
+                image: "placeholder",
+                specs: {
+                    passengers: "7-8",
+                    range: "3,724 km",
+                    speed: "839 km/h",
+                    price: "€4.2M"
+                },
+                matchReason: "Een van de snelste light jets met uitstekende cabine comfort. Perfect voor executives die waarde hechten aan tijd en efficiëntie."
+            },
+            {
+                id: 3,
+                name: "Bombardier Learjet 75",
+                category: "Light Jet",
+                passengers: "5-8",
+                range: "<2000",
+                budget: "5-10M",
+                speed: 861,
+                rangeKm: 3815,
+                price: "€6.5M",
+                priority: "speed",
+                image: "placeholder",
+                specs: {
+                    passengers: "8-9",
+                    range: "3,815 km",
+                    speed: "861 km/h",
+                    price: "€6.5M"
+                },
+                matchReason: "De iconische Learjet met legendarische snelheid en prestaties. Ideaal voor zakelijke reizigers die geen tijd te verliezen hebben."
+            },
+            {
+                id: 4,
+                name: "Cessna Citation XLS+",
+                category: "Midsize Jet",
+                passengers: "5-8",
+                range: "2000-4000",
+                budget: "5-10M",
+                speed: 815,
+                rangeKm: 3889,
+                price: "€7.8M",
+                priority: "efficiency",
+                image: "placeholder",
+                specs: {
+                    passengers: "8-9",
+                    range: "3,889 km",
+                    speed: "815 km/h",
+                    price: "€7.8M"
+                },
+                matchReason: "Betrouwbare midsize jet met lage operationele kosten. Uitstekende keuze voor frequente vluchten binnen Europa en naar Noord-Afrika."
+            },
+            {
+                id: 5,
+                name: "Hawker 900XP",
+                category: "Midsize Jet",
+                passengers: "5-8",
+                range: "2000-4000",
+                budget: "5-10M",
+                speed: 828,
+                rangeKm: 5003,
+                price: "€8.2M",
+                priority: "comfort",
+                image: "placeholder",
+                specs: {
+                    passengers: "8-9",
+                    range: "5,003 km",
+                    speed: "828 km/h",
+                    price: "€8.2M"
+                },
+                matchReason: "Ruime cabine met staanruimte en uitstekende bagageruimte. Perfect voor comfort tijdens middellange vluchten."
+            },
+            {
+                id: 6,
+                name: "Bombardier Learjet 60",
+                category: "Midsize Jet",
+                passengers: "5-8",
+                range: "2000-4000",
+                budget: "5-10M",
+                speed: 850,
+                rangeKm: 4445,
+                price: "€6.9M",
+                priority: "speed",
+                image: "placeholder",
+                specs: {
+                    passengers: "7-8",
+                    range: "4,445 km",
+                    speed: "850 km/h",
+                    price: "€6.9M"
+                },
+                matchReason: "Snelle en efficiënte midsize jet met Learjet DNA. Uitstekende prestaties voor transcontinentale vluchten."
+            },
+            {
+                id: 7,
+                name: "Bombardier Challenger 350",
+                category: "Super Midsize",
+                passengers: "9-12",
+                range: "2000-4000",
+                budget: "10-20M",
+                speed: 870,
+                rangeKm: 5926,
+                price: "€15.5M",
+                priority: "comfort",
+                image: "placeholder",
+                specs: {
+                    passengers: "9-10",
+                    range: "5,926 km",
+                    speed: "870 km/h",
+                    price: "€15.5M"
+                },
+                matchReason: "Topkeuze in de super midsize categorie met uitstekende cabine comfort en bereik. Perfecte balans tussen kosten en prestaties."
+            },
+            {
+                id: 8,
+                name: "Cessna Citation Latitude",
+                category: "Super Midsize",
+                passengers: "9-12",
+                range: "2000-4000",
+                budget: "10-20M",
+                speed: 815,
+                rangeKm: 5000,
+                price: "€14.2M",
+                priority: "comfort",
+                image: "placeholder",
+                specs: {
+                    passengers: "9",
+                    range: "5,000 km",
+                    speed: "815 km/h",
+                    price: "€14.2M"
+                },
+                matchReason: "Moderne cabine met beste-in-class comfort en geruisarme ervaring. Ideaal voor productieve vluchten."
+            },
+            {
+                id: 9,
+                name: "Embraer Legacy 500",
+                category: "Super Midsize",
+                passengers: "9-12",
+                range: "2000-4000",
+                budget: "10-20M",
+                speed: 863,
+                rangeKm: 5556,
+                price: "€12.8M",
+                priority: "efficiency",
+                image: "placeholder",
+                specs: {
+                    passengers: "12",
+                    range: "5,556 km",
+                    speed: "863 km/h",
+                    price: "€12.8M"
+                },
+                matchReason: "Moderne technologie en efficiënt ontwerp. Uitstekende operationele kosten voor een super midsize jet."
+            },
+            {
+                id: 10,
+                name: "Gulfstream G280",
+                category: "Super Midsize",
+                passengers: "9-12",
+                range: "4000-6000",
+                budget: "10-20M",
+                speed: 850,
+                rangeKm: 6667,
+                price: "€18.5M",
+                priority: "range",
+                image: "placeholder",
+                specs: {
+                    passengers: "10",
+                    range: "6,667 km",
+                    speed: "850 km/h",
+                    price: "€18.5M"
+                },
+                matchReason: "Langste bereik in de super midsize categorie. Ideaal voor transatlantische vluchten zonder refueling stop."
+            },
+            {
+                id: 11,
+                name: "Embraer Praetor 600",
+                category: "Super Midsize",
+                passengers: "9-12",
+                range: "4000-6000",
+                budget: "10-20M",
+                speed: 863,
+                rangeKm: 7408,
+                price: "€16.9M",
+                priority: "range",
+                image: "placeholder",
+                specs: {
+                    passengers: "12",
+                    range: "7,408 km",
+                    speed: "863 km/h",
+                    price: "€16.9M"
+                },
+                matchReason: "Gloednieuwe technologie met indrukwekkend bereik. Perfect voor non-stop transatlantische vluchten met maximaal comfort."
+            },
+            {
+                id: 12,
+                name: "Gulfstream G650ER",
+                category: "Large Jet",
+                passengers: "13-16",
+                range: ">6000",
+                budget: "40M+",
+                speed: 956,
+                rangeKm: 13890,
+                price: "€52M",
+                priority: "range",
+                image: "placeholder",
+                specs: {
+                    passengers: "19",
+                    range: "13,890 km",
+                    speed: "956 km/h",
+                    price: "€52M"
+                },
+                matchReason: "De ultieme large cabin jet met wereldwijd bereik. Vlieg non-stop van Amsterdam naar Singapore of Los Angeles. Ongeëvenaarde luxe en prestaties."
+            },
+            {
+                id: 13,
+                name: "Bombardier Global 7500",
+                category: "Large Jet",
+                passengers: "13-16",
+                range: ">6000",
+                budget: "40M+",
+                speed: 925,
+                rangeKm: 14260,
+                price: "€58M",
+                priority: "comfort",
+                image: "placeholder",
+                specs: {
+                    passengers: "19",
+                    range: "14,260 km",
+                    speed: "925 km/h",
+                    price: "€58M"
+                },
+                matchReason: "Langste bereik van alle business jets met vier aparte living spaces. De ultieme keuze voor intercontinentale luxereizen."
+            },
+            {
+                id: 14,
+                name: "Dassault Falcon 8X",
+                category: "Large Jet",
+                passengers: "13-16",
+                range: ">6000",
+                budget: "40M+",
+                speed: 900,
+                rangeKm: 11945,
+                price: "€48M",
+                priority: "comfort",
+                image: "placeholder",
+                specs: {
+                    passengers: "16",
+                    range: "11,945 km",
+                    speed: "900 km/h",
+                    price: "€48M"
+                },
+                matchReason: "Franse elegantie en engineering excellence. Tri-jet configuratie voor superieure veiligheid en toegang tot korte runways."
+            },
+            {
+                id: 15,
+                name: "Gulfstream G550",
+                category: "Large Jet",
+                passengers: "13-16",
+                range: ">6000",
+                budget: "20-40M",
+                speed: 912,
+                rangeKm: 12501,
+                price: "€32M",
+                priority: "range",
+                image: "placeholder",
+                specs: {
+                    passengers: "19",
+                    range: "12,501 km",
+                    speed: "912 km/h",
+                    price: "€32M"
+                },
+                matchReason: "Betrouwbare large cabin jet met uitstekend bereik. Perfecte keuze voor frequente intercontinentale vluchten met lagere aanschafprijs."
+            },
+            {
+                id: 16,
+                name: "Cessna Citation Sovereign+",
+                category: "Midsize Jet",
+                passengers: "5-8",
+                range: "2000-4000",
+                budget: "10-20M",
+                speed: 848,
+                rangeKm: 5278,
+                price: "€12.5M",
+                priority: "efficiency",
+                image: "placeholder",
+                specs: {
+                    passengers: "9-12",
+                    range: "5,278 km",
+                    speed: "848 km/h",
+                    price: "€12.5M"
+                },
+                matchReason: "Robuuste midsize jet met lage directe operationele kosten. Betrouwbaar en kostenefficiënt voor frequent gebruik."
+            },
+            {
+                id: 17,
+                name: "Dassault Falcon 2000LXS",
+                category: "Large Jet",
+                passengers: "9-12",
+                range: "4000-6000",
+                budget: "20-40M",
+                speed: 900,
+                rangeKm: 7408,
+                price: "€28M",
+                priority: "comfort",
+                image: "placeholder",
+                specs: {
+                    passengers: "10",
+                    range: "7,408 km",
+                    speed: "900 km/h",
+                    price: "€28M"
+                },
+                matchReason: "Elegante large cabin jet met uitstekend bereik voor transatlantische vluchten. Franse luxe en betrouwbaarheid."
+            },
+            {
+                id: 18,
+                name: "Bombardier Challenger 650",
+                category: "Large Jet",
+                passengers: "13-16",
+                range: "4000-6000",
+                budget: "20-40M",
+                speed: 870,
+                rangeKm: 7408,
+                price: "€25M",
+                priority: "comfort",
+                image: "placeholder",
+                specs: {
+                    passengers: "12",
+                    range: "7,408 km",
+                    speed: "870 km/h",
+                    price: "€25M"
+                },
+                matchReason: "Ruime cabine met stand-up headroom en breed bereik. Ideaal voor transatlantische vluchten met maximaal comfort."
+            }
+        ];
+
+        // Quiz State
+        let currentStep = 1;
+        let answers = {
+            passengers: null,
+            range: null,
+            hours: null,
+            budget: null,
+            priority: null
+        };
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', function() {
+            setupQuiz();
+        });
+
+        function setupQuiz() {
+            // Setup option selection for each step
+            for (let step = 1; step <= 5; step++) {
+                const options = document.querySelectorAll(`[data-step="${step}"] .quiz-option`);
+                options.forEach(option => {
+                    option.addEventListener('click', function() {
+                        // Remove selected class from siblings
+                        options.forEach(opt => opt.classList.remove('selected'));
+                        // Add selected class
+                        this.classList.add('selected');
+
+                        // Store answer
+                        const value = this.getAttribute('data-value');
+                        switch(step) {
+                            case 1:
+                                answers.passengers = value;
+                                document.getElementById('nextBtn1').disabled = false;
+                                break;
+                            case 2:
+                                answers.range = value;
+                                document.getElementById('nextBtn2').disabled = false;
+                                break;
+                            case 3:
+                                answers.hours = value;
+                                document.getElementById('nextBtn3').disabled = false;
+                                break;
+                            case 4:
+                                answers.budget = value;
+                                document.getElementById('nextBtn4').disabled = false;
+                                break;
+                            case 5:
+                                answers.priority = value;
+                                document.getElementById('showResults').disabled = false;
+                                break;
+                        }
+                    });
+                });
+            }
+
+            // Navigation buttons
+            document.getElementById('nextBtn1').addEventListener('click', () => goToStep(2));
+            document.getElementById('nextBtn2').addEventListener('click', () => goToStep(3));
+            document.getElementById('nextBtn3').addEventListener('click', () => goToStep(4));
+            document.getElementById('nextBtn4').addEventListener('click', () => goToStep(5));
+            document.getElementById('showResults').addEventListener('click', showResults);
+
+            document.getElementById('backBtn2').addEventListener('click', () => goToStep(1));
+            document.getElementById('backBtn3').addEventListener('click', () => goToStep(2));
+            document.getElementById('backBtn4').addEventListener('click', () => goToStep(3));
+            document.getElementById('backBtn5').addEventListener('click', () => goToStep(4));
+
+            document.getElementById('backToResults').addEventListener('click', () => goToStep(6));
+
+            // Lead form
+            document.getElementById('leadForm').addEventListener('submit', handleFormSubmit);
+        }
+
+        function goToStep(step) {
+            // Hide current step
+            document.querySelector('.quiz-step.active').classList.remove('active');
+
+            // Show new step
+            document.querySelector(`[data-step="${step}"]`).classList.add('active');
+
+            // Update progress dots
+            document.querySelectorAll('.progress-dot').forEach((dot, index) => {
+                const dotStep = index + 1;
+                dot.classList.remove('active', 'completed');
+                if (dotStep < step) {
+                    dot.classList.add('completed');
+                } else if (dotStep === step) {
+                    dot.classList.add('active');
+                }
+            });
+
+            currentStep = step;
+
+            // Scroll to top
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        function showResults() {
+            // Calculate recommendations
+            const recommendations = getRecommendations();
+
+            // Render results
+            const resultsContainer = document.getElementById('aircraftResults');
+            resultsContainer.innerHTML = recommendations.map(aircraft => `
+                <div class="aircraft-card">
+                    <div class="aircraft-image">
+                        <svg width="300" height="200" style="background: #f0f0f0;">
+                            <text x="50%" y="50%" font-family="Arial" font-size="16" fill="#999" text-anchor="middle" dominant-baseline="middle">
+                                ${aircraft.name}
+                            </text>
+                        </svg>
+                    </div>
+                    <div class="aircraft-details">
+                        <div class="aircraft-header">
+                            <span class="match-badge">${aircraft.matchScore}% Match</span>
+                            <h3>${aircraft.name}</h3>
+                        </div>
+                        <div class="aircraft-specs">
+                            <div class="spec-item">
+                                <span class="spec-label">Passagiers</span>
+                                <span class="spec-value">${aircraft.specs.passengers}</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Bereik</span>
+                                <span class="spec-value">${aircraft.specs.range}</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Snelheid</span>
+                                <span class="spec-value">${aircraft.specs.speed}</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Prijs</span>
+                                <span class="spec-value">${aircraft.specs.price}</span>
+                            </div>
+                        </div>
+                        <div class="match-reason">
+                            <h4>Waarom deze jet?</h4>
+                            <p>${aircraft.matchReason}</p>
+                        </div>
+                        <div class="aircraft-cta">
+                            <button class="cta-button" onclick="goToStep(7)">Ontvang Offerte</button>
+                        </div>
+                    </div>
+                </div>
+            `).join('');
+
+            // Track event
+            if (typeof fbq !== 'undefined') {
+                fbq('track', 'ViewContent', {
+                    content_name: 'Aircraft Selector Results',
+                    content_category: 'Tool Results'
+                });
+            }
+
+            goToStep(6);
+        }
+
+        function getRecommendations() {
+            let matches = aircraftDatabase.filter(aircraft => {
+                // Match passengers
+                const passengerMatch = aircraft.passengers === answers.passengers;
+
+                // Match range
+                const rangeMatch = aircraft.range === answers.range;
+
+                // Match budget
+                const budgetMatch = aircraft.budget === answers.budget;
+
+                // Priority boost
+                const priorityMatch = aircraft.priority === answers.priority;
+
+                // Return aircraft that match at least passengers OR range AND budget
+                return (passengerMatch || rangeMatch) && budgetMatch;
+            });
+
+            // If no matches, broaden criteria (match budget only)
+            if (matches.length === 0) {
+                matches = aircraftDatabase.filter(aircraft =>
+                    aircraft.budget === answers.budget
+                );
+            }
+
+            // Calculate match scores
+            matches = matches.map(aircraft => {
+                let score = 0;
+
+                if (aircraft.passengers === answers.passengers) score += 30;
+                if (aircraft.range === answers.range) score += 30;
+                if (aircraft.budget === answers.budget) score += 25;
+                if (aircraft.priority === answers.priority) score += 15;
+
+                return {
+                    ...aircraft,
+                    matchScore: Math.min(score, 100)
+                };
+            });
+
+            // Sort by match score
+            matches.sort((a, b) => b.matchScore - a.matchScore);
+
+            // Return top 3-5 matches
+            return matches.slice(0, Math.min(5, matches.length));
+        }
+
+        async function handleFormSubmit(e) {
+            e.preventDefault();
+
+            const submitBtn = document.getElementById('submitBtn');
+            submitBtn.disabled = true;
+            submitBtn.textContent = 'Verzenden...';
+
+            const formData = {
+                name: document.getElementById('name').value,
+                email: document.getElementById('email').value,
+                phone: document.getElementById('phone').value,
+                company: document.getElementById('company').value || null,
+                message: document.getElementById('message').value || null,
+                tool_name: 'aircraft-selector',
+                quiz_answers: answers,
+                recommendations: getRecommendations().map(a => a.name),
+                ...getSubmissionMetadata()
+            };
+
+            try {
+                const { data, error } = await supabaseClient
+                    .from('tool_submissions')
+                    .insert([formData]);
+
+                if (error) throw error;
+
+                // Track conversion
+                if (typeof fbq !== 'undefined') {
+                    fbq('track', 'Lead', {
+                        content_name: 'Aircraft Selector Tool',
+                        content_category: 'Lead Generation'
+                    });
+                }
+
+                if (typeof gtag !== 'undefined') {
+                    gtag('event', 'generate_lead', {
+                        event_category: 'Lead',
+                        event_label: 'Aircraft Selector Tool'
+                    });
+                }
+
+                goToStep(8);
+            } catch (error) {
+                console.error('Error submitting form:', error);
+                alert('Er is een fout opgetreden. Probeer het opnieuw of neem contact met ons op.');
+                submitBtn.disabled = false;
+                submitBtn.textContent = 'Verstuur Aanvraag';
+            }
+        }
+    </script>
+</body>
+</html>

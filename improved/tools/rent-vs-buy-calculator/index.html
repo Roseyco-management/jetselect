@@ -1,0 +1,1224 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Huren of kopen van een privéjet? Bereken uw break-even punt. Vergelijk charter kosten vs eigendom kosten en ontdek wanneer kopen voordeliger wordt.">
+    <title>Huren of Kopen? Break-Even Calculator - JetSelect.nl</title>
+    <link rel="icon" type="image/png" href="../../images/Favicon-Jetselect.png">
+    <link rel="stylesheet" href="../../css/style.css">
+
+    <!-- Resource Hints for Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Hreflang for bilingual versions -->
+    <link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/tools/rent-vs-buy-calculator/" />
+    <link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/tools/rent-vs-buy-calculator/" />
+    <link rel="alternate" hreflang="x-default" href="https://jetselect.nl/tools/rent-vs-buy-calculator/" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://jetselect.nl/tools/rent-vs-buy-calculator/" />
+    <meta property="og:title" content="Huren of Kopen? Break-Even Calculator - JetSelect.nl" />
+    <meta property="og:description" content="Bereken wanneer het voordeliger is om een privéjet te kopen versus huren. Complete break-even analyse voor uw specifieke situatie." />
+    <meta property="og:image" content="https://jetselect.nl/images/jets/luxury-jet-interior-cabin.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content="nl_NL" />
+    <meta property="og:locale:alternate" content="en_NL" />
+    <meta property="og:site_name" content="JetSelect" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://jetselect.nl/tools/rent-vs-buy-calculator/" />
+    <meta name="twitter:title" content="Huren of Kopen? Break-Even Calculator" />
+    <meta name="twitter:description" content="Bereken uw break-even punt voor privéjet eigendom versus charter." />
+    <meta name="twitter:image" content="https://jetselect.nl/images/jets/luxury-jet-interior-cabin.jpg" />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://jetselect.nl/tools/rent-vs-buy-calculator/" />
+
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "Privéjet Huren vs Kopen Calculator",
+      "description": "Bereken het break-even punt tussen charter en eigendom van een privéjet",
+      "url": "https://jetselect.nl/tools/rent-vs-buy-calculator/",
+      "applicationCategory": "FinanceApplication",
+      "operatingSystem": "Any",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "EUR"
+      }
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://jetselect.nl/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Tools",
+          "item": "https://jetselect.nl/tools/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Huren vs Kopen Calculator",
+          "item": "https://jetselect.nl/tools/rent-vs-buy-calculator/"
+        }
+      ]
+    }
+    </script>
+
+    <!-- Microsoft Clarity -->
+    <script type="text/javascript">
+        (function(c,l,a,r,i,t,y){
+            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+        })(window, document, "clarity", "script", "vegtpqf23v");
+    </script>
+
+    <!-- Meta Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '2158285721691560');
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=2158285721691560&ev=PageView&noscript=1"
+    /></noscript>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8GN5XT44Y5"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-8GN5XT44Y5');
+    </script>
+
+    <style>
+        /* Calculator Specific Styles */
+        .calculator-hero {
+            background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary-color) 100%);
+            color: var(--white);
+            padding: 8rem 0 4rem;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .calculator-hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('../../images/jets/luxury-jet-interior-cabin.jpg') center/cover;
+            opacity: 0.1;
+            z-index: 0;
+        }
+
+        .calculator-hero .container {
+            position: relative;
+            z-index: 1;
+        }
+
+        .calculator-hero h1 {
+            font-family: var(--font-heading);
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            font-weight: 700;
+        }
+
+        .calculator-hero p {
+            font-size: 1.25rem;
+            opacity: 0.95;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .calculator-section {
+            padding: 4rem 0;
+            background: var(--off-white);
+        }
+
+        .calculator-container {
+            background: var(--white);
+            border-radius: 16px;
+            box-shadow: var(--shadow-lg);
+            padding: 3rem;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .calculator-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            margin-bottom: 3rem;
+        }
+
+        .input-section {
+            background: var(--off-white);
+            padding: 2rem;
+            border-radius: 12px;
+        }
+
+        .input-section h3 {
+            font-family: var(--font-heading);
+            color: var(--primary-color);
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .form-group {
+            margin-bottom: 2rem;
+        }
+
+        .form-group label {
+            display: block;
+            font-weight: 600;
+            color: var(--dark-gray);
+            margin-bottom: 0.5rem;
+            font-size: 0.95rem;
+        }
+
+        .slider-container {
+            position: relative;
+            padding-top: 1.5rem;
+        }
+
+        .slider-value {
+            position: absolute;
+            top: 0;
+            left: 0;
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--primary-color);
+        }
+
+        input[type="range"] {
+            width: 100%;
+            height: 8px;
+            border-radius: 4px;
+            background: var(--light-gray);
+            outline: none;
+            -webkit-appearance: none;
+        }
+
+        input[type="range"]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            background: var(--primary-color);
+            cursor: pointer;
+            transition: var(--transition-fast);
+        }
+
+        input[type="range"]::-webkit-slider-thumb:hover {
+            background: var(--primary-dark);
+            transform: scale(1.1);
+        }
+
+        input[type="range"]::-moz-range-thumb {
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            background: var(--primary-color);
+            cursor: pointer;
+            border: none;
+            transition: var(--transition-fast);
+        }
+
+        select {
+            width: 100%;
+            padding: 0.75rem;
+            border: 2px solid var(--light-gray);
+            border-radius: 8px;
+            font-size: 1rem;
+            font-family: var(--font-body);
+            background: var(--white);
+            cursor: pointer;
+            transition: var(--transition-fast);
+        }
+
+        select:focus {
+            border-color: var(--primary-color);
+            outline: none;
+        }
+
+        .results-section {
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%);
+            padding: 2rem;
+            border-radius: 12px;
+            color: var(--white);
+        }
+
+        .results-section h3 {
+            font-family: var(--font-heading);
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .cost-comparison {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .cost-card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            padding: 1.5rem;
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .cost-card h4 {
+            font-size: 0.875rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            opacity: 0.9;
+            margin-bottom: 0.5rem;
+        }
+
+        .cost-amount {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+
+        .cost-detail {
+            font-size: 0.875rem;
+            opacity: 0.8;
+        }
+
+        .break-even-highlight {
+            background: rgba(250, 105, 47, 0.2);
+            border: 2px solid var(--accent-color);
+            padding: 1.5rem;
+            border-radius: 12px;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+
+        .break-even-highlight h4 {
+            font-size: 1.25rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .break-even-highlight p {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--accent-color);
+        }
+
+        .cost-bars {
+            margin-bottom: 2rem;
+        }
+
+        .cost-bar-item {
+            margin-bottom: 1.5rem;
+        }
+
+        .cost-bar-label {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 0.5rem;
+            font-size: 0.875rem;
+        }
+
+        .cost-bar-track {
+            width: 100%;
+            height: 32px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .cost-bar-fill {
+            height: 100%;
+            background: linear-gradient(90deg, var(--accent-color), var(--accent-hover));
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            padding-right: 1rem;
+            font-weight: 600;
+            font-size: 0.875rem;
+            transition: width 0.5s ease;
+        }
+
+        .savings-indicator {
+            background: rgba(40, 167, 69, 0.2);
+            border: 2px solid var(--success-color);
+            padding: 1rem;
+            border-radius: 8px;
+            margin-top: 1rem;
+            text-align: center;
+        }
+
+        .savings-indicator.negative {
+            background: rgba(255, 68, 68, 0.2);
+            border-color: var(--error-color);
+        }
+
+        .insights-section {
+            background: var(--white);
+            padding: 2rem;
+            border-radius: 12px;
+            margin-top: 3rem;
+        }
+
+        .insights-section h3 {
+            font-family: var(--font-heading);
+            color: var(--primary-color);
+            font-size: 1.75rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .insights-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1.5rem;
+        }
+
+        .insight-item {
+            padding: 1.5rem;
+            background: var(--off-white);
+            border-radius: 8px;
+            border-left: 4px solid var(--primary-color);
+        }
+
+        .insight-item h4 {
+            color: var(--primary-color);
+            margin-bottom: 0.5rem;
+            font-size: 1.1rem;
+        }
+
+        .insight-item p {
+            font-size: 0.95rem;
+            line-height: 1.6;
+            color: var(--dark-gray);
+        }
+
+        .considerations-section {
+            background: var(--off-white);
+            padding: 3rem 0;
+        }
+
+        .considerations-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .consideration-card {
+            background: var(--white);
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: var(--shadow-sm);
+            transition: var(--transition-normal);
+        }
+
+        .consideration-card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-md);
+        }
+
+        .consideration-icon {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .consideration-card h4 {
+            font-family: var(--font-heading);
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+            font-size: 1.25rem;
+        }
+
+        .consideration-card p {
+            font-size: 0.95rem;
+            line-height: 1.6;
+            color: var(--dark-gray);
+        }
+
+        .lead-capture-section {
+            background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary-color) 100%);
+            padding: 4rem 0;
+            color: var(--white);
+        }
+
+        .lead-capture-container {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .lead-capture-container h2 {
+            font-family: var(--font-heading);
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .lead-capture-container p {
+            font-size: 1.15rem;
+            margin-bottom: 2rem;
+            opacity: 0.95;
+        }
+
+        .lead-form {
+            background: var(--white);
+            padding: 2.5rem;
+            border-radius: 12px;
+            color: var(--dark-gray);
+        }
+
+        .lead-form .form-group {
+            margin-bottom: 1.5rem;
+            text-align: left;
+        }
+
+        .lead-form input,
+        .lead-form textarea {
+            width: 100%;
+            padding: 0.875rem;
+            border: 2px solid var(--light-gray);
+            border-radius: 8px;
+            font-size: 1rem;
+            font-family: var(--font-body);
+            transition: var(--transition-fast);
+        }
+
+        .lead-form input:focus,
+        .lead-form textarea:focus {
+            border-color: var(--primary-color);
+            outline: none;
+        }
+
+        .lead-form button {
+            width: 100%;
+            padding: 1rem 2rem;
+            background: var(--accent-color);
+            color: var(--white);
+            border: none;
+            border-radius: 8px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: var(--transition-fast);
+            font-family: var(--font-body);
+        }
+
+        .lead-form button:hover {
+            background: var(--accent-hover);
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-md);
+        }
+
+        .year-projection {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 1.5rem;
+            border-radius: 12px;
+            margin-top: 2rem;
+        }
+
+        .year-projection h4 {
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+        }
+
+        .projection-bars {
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+        }
+
+        .projection-year {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .year-label {
+            min-width: 60px;
+            font-size: 0.875rem;
+            opacity: 0.9;
+        }
+
+        .projection-bar-container {
+            flex: 1;
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .projection-bar {
+            height: 24px;
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+            padding: 0 0.5rem;
+            font-size: 0.75rem;
+            font-weight: 600;
+            transition: width 0.5s ease;
+        }
+
+        .projection-charter {
+            background: rgba(250, 105, 47, 0.8);
+        }
+
+        .projection-ownership {
+            background: rgba(40, 167, 69, 0.8);
+        }
+
+        @media (max-width: 768px) {
+            .calculator-hero h1 {
+                font-size: 2rem;
+            }
+
+            .calculator-grid {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+
+            .calculator-container {
+                padding: 1.5rem;
+            }
+
+            .cost-comparison {
+                grid-template-columns: 1fr;
+            }
+
+            .insights-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .considerations-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .cost-amount {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <a href="../../">
+                        <img src="../../images/Jetselect-logo1.jpeg" alt="JetSelect Logo">
+                    </a>
+                </div>
+                <div class="nav-links">
+                    <a href="../../#home">Home</a>
+                    <a href="../../#selector">Vind uw jet</a>
+                    <a href="../../#contact">Contact</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="calculator-hero">
+        <div class="container">
+            <h1>Huren of Kopen? Bereken Uw Break-Even Punt</h1>
+            <p>Ontdek wanneer het voordeliger is om een privéjet te bezitten versus huren. Complete kostenanalyse voor uw specifieke situatie.</p>
+        </div>
+    </section>
+
+    <!-- Calculator Section -->
+    <section class="calculator-section">
+        <div class="container">
+            <div class="calculator-container">
+                <div class="calculator-grid">
+                    <!-- Input Section -->
+                    <div class="input-section">
+                        <h3>Uw Vliegprofiel</h3>
+
+                        <!-- Annual Flight Hours -->
+                        <div class="form-group">
+                            <label for="flightHours">Jaarlijks Aantal Vlieguren</label>
+                            <div class="slider-container">
+                                <div class="slider-value" id="hoursValue">100 uur</div>
+                                <input type="range" id="flightHours" min="0" max="400" value="100" step="10">
+                            </div>
+                        </div>
+
+                        <!-- Trip Distance -->
+                        <div class="form-group">
+                            <label for="tripDistance">Gemiddelde Reisafstand</label>
+                            <select id="tripDistance">
+                                <option value="short">&lt; 500 km (€4.000 - €6.000 per vlucht)</option>
+                                <option value="medium" selected>500 - 1.500 km (€6.000 - €12.000 per vlucht)</option>
+                                <option value="long">1.500 - 3.000 km (€12.000 - €25.000 per vlucht)</option>
+                                <option value="ultra">3.000+ km (€25.000 - €50.000+ per vlucht)</option>
+                            </select>
+                        </div>
+
+                        <!-- Aircraft Category -->
+                        <div class="form-group">
+                            <label for="aircraftCategory">Vliegtuigcategorie</label>
+                            <select id="aircraftCategory">
+                                <option value="light">Light Jet (4-6 passagiers)</option>
+                                <option value="midsize" selected>Midsize Jet (7-9 passagiers)</option>
+                                <option value="super-midsize">Super Midsize Jet (8-10 passagiers)</option>
+                                <option value="large">Large Jet (10-16 passagiers)</option>
+                            </select>
+                        </div>
+
+                        <!-- Time Horizon -->
+                        <div class="form-group">
+                            <label for="timeHorizon">Tijdshorizon</label>
+                            <select id="timeHorizon">
+                                <option value="3">3 jaar</option>
+                                <option value="5" selected>5 jaar</option>
+                                <option value="7">7 jaar</option>
+                                <option value="10">10 jaar</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- Results Section -->
+                    <div class="results-section">
+                        <h3>Kostenanalyse</h3>
+
+                        <!-- Break-Even Highlight -->
+                        <div class="break-even-highlight">
+                            <h4>Break-Even Punt</h4>
+                            <p id="breakEvenPoint">~120 uur per jaar</p>
+                        </div>
+
+                        <!-- Cost Comparison -->
+                        <div class="cost-comparison">
+                            <div class="cost-card">
+                                <h4>Charter Kosten</h4>
+                                <div class="cost-amount" id="charterCost">€450.000</div>
+                                <div class="cost-detail" id="charterDetail">per jaar</div>
+                            </div>
+                            <div class="cost-card">
+                                <h4>Eigendom Kosten</h4>
+                                <div class="cost-amount" id="ownershipCost">€550.000</div>
+                                <div class="cost-detail" id="ownershipDetail">per jaar</div>
+                            </div>
+                        </div>
+
+                        <!-- Cost Bars -->
+                        <div class="cost-bars">
+                            <div class="cost-bar-item">
+                                <div class="cost-bar-label">
+                                    <span>Charter</span>
+                                    <span id="charterBarLabel">€450K</span>
+                                </div>
+                                <div class="cost-bar-track">
+                                    <div class="cost-bar-fill" id="charterBar" style="width: 82%;"></div>
+                                </div>
+                            </div>
+                            <div class="cost-bar-item">
+                                <div class="cost-bar-label">
+                                    <span>Eigendom</span>
+                                    <span id="ownershipBarLabel">€550K</span>
+                                </div>
+                                <div class="cost-bar-track">
+                                    <div class="cost-bar-fill" id="ownershipBar" style="width: 100%;"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Savings Indicator -->
+                        <div class="savings-indicator" id="savingsIndicator">
+                            <strong id="savingsText">Charter is €100.000 goedkoper</strong>
+                        </div>
+
+                        <!-- Year Projection -->
+                        <div class="year-projection" id="yearProjection">
+                            <h4>Totale Kosten over <span id="projectionYears">5</span> Jaar</h4>
+                            <div class="projection-bars" id="projectionBars">
+                                <!-- Will be populated by JavaScript -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Key Insights -->
+                <div class="insights-section">
+                    <h3>Belangrijke Inzichten</h3>
+                    <div class="insights-grid" id="insightsGrid">
+                        <!-- Will be populated by JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Additional Considerations Section -->
+    <section class="considerations-section">
+        <div class="container">
+            <h2 class="section-title">Aanvullende Overwegingen</h2>
+            <div class="considerations-grid">
+                <div class="consideration-card">
+                    <div class="consideration-icon">✈️</div>
+                    <h4>Fractional Ownership</h4>
+                    <p>Een middenweg tussen huren en kopen. U koopt een aandeel (bijv. 1/16) en krijgt gegarandeerde toegang tot een vloot. Ideaal voor 50-100 uur per jaar.</p>
+                </div>
+                <div class="consideration-card">
+                    <div class="consideration-icon">💳</div>
+                    <h4>Jet Card Programma's</h4>
+                    <p>Vooraf betalen voor vlieguren met vaste tarieven en gegarandeerde beschikbaarheid. Flexibeler dan charter, zonder eigendomsverplichtingen.</p>
+                </div>
+                <div class="consideration-card">
+                    <div class="consideration-icon">🤝</div>
+                    <h4>Charter Membership</h4>
+                    <p>Lidmaatschapsprogramma's bieden priority booking en kortingen. Geschikt voor frequente charters zonder break-even van eigendom.</p>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: 3rem;">
+                <a href="../../gids/huren-vs-kopen/" class="cta-button">Lees de Volledige Huren vs Kopen Analyse</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lead Capture Section -->
+    <section class="lead-capture-section">
+        <div class="container">
+            <div class="lead-capture-container">
+                <h2>Wilt u een gedetailleerde analyse voor uw specifieke situatie?</h2>
+                <p>Ontvang een persoonlijke kostenanalyse en advies van onze experts. Volledig vrijblijvend en discreet.</p>
+
+                <form class="lead-form" id="leadCaptureForm">
+                    <div class="form-group">
+                        <label for="leadName">Naam *</label>
+                        <input type="text" id="leadName" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="leadEmail">E-mail *</label>
+                        <input type="email" id="leadEmail" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="leadPhone">Telefoon *</label>
+                        <input type="tel" id="leadPhone" name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="currentUsage">Huidig Jaarlijks Gebruik (uur)</label>
+                        <input type="number" id="currentUsage" name="current_usage" placeholder="Bijv. 80">
+                    </div>
+                    <div class="form-group">
+                        <label for="leadMessage">Aanvullende Opmerkingen</label>
+                        <textarea id="leadMessage" name="message" rows="4" placeholder="Vertel ons meer over uw vliegbehoeften..."></textarea>
+                    </div>
+                    <button type="submit">Ontvang Gratis Analyse</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <img src="../../images/Jetselect-logo1.jpeg" alt="JetSelect Logo" class="footer-logo">
+                    <p>Volledig ontzorgd een privéjet kopen. Snel, discreet en op maat.</p>
+                    <p class="footer-company-details">
+                        <strong>Jet Select</strong><br>
+                        KvK: 88411958<br>
+                        Schuwacht 50<br>
+                        2941EE Lekkerkerk
+                    </p>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p><a href="mailto:Contact@jetselect.nl">Contact@jetselect.nl</a></p>
+                    <p>+31 (0) 20 123 4567</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Informatie</h3>
+                    <a href="../../#">Over ons</a>
+                    <a href="../../#">Privacy Policy</a>
+                    <a href="../../#">Algemene Voorwaarden</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 JetSelect.nl - Alle rechten voorbehouden</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="../../js/supabase-config.js"></script>
+    <script>
+        // Cost Database for Netherlands 2026
+        const COST_DATA = {
+            charter: {
+                short: { min: 4000, max: 6000, hourly: 5000 },
+                medium: { min: 6000, max: 12000, hourly: 9000 },
+                long: { min: 12000, max: 25000, hourly: 18500 },
+                ultra: { min: 25000, max: 50000, hourly: 37500 }
+            },
+            ownership: {
+                light: {
+                    acquisition: 3500000,
+                    depreciation: 0.10,
+                    fixedAnnual: 250000,
+                    variablePerHour: 2500
+                },
+                midsize: {
+                    acquisition: 10000000,
+                    depreciation: 0.10,
+                    fixedAnnual: 450000,
+                    variablePerHour: 3500
+                },
+                'super-midsize': {
+                    acquisition: 20000000,
+                    depreciation: 0.09,
+                    fixedAnnual: 650000,
+                    variablePerHour: 4500
+                },
+                large: {
+                    acquisition: 40000000,
+                    depreciation: 0.08,
+                    fixedAnnual: 1000000,
+                    variablePerHour: 6000
+                }
+            }
+        };
+
+        // Calculator state
+        let calculatorState = {
+            flightHours: 100,
+            tripDistance: 'medium',
+            aircraftCategory: 'midsize',
+            timeHorizon: 5
+        };
+
+        // Initialize calculator
+        function initCalculator() {
+            // Event listeners
+            document.getElementById('flightHours').addEventListener('input', updateFlightHours);
+            document.getElementById('tripDistance').addEventListener('change', updateCalculation);
+            document.getElementById('aircraftCategory').addEventListener('change', updateCalculation);
+            document.getElementById('timeHorizon').addEventListener('change', updateCalculation);
+
+            // Form submission
+            document.getElementById('leadCaptureForm').addEventListener('submit', handleFormSubmit);
+
+            // Initial calculation
+            updateCalculation();
+        }
+
+        function updateFlightHours(e) {
+            calculatorState.flightHours = parseInt(e.target.value);
+            document.getElementById('hoursValue').textContent = calculatorState.flightHours + ' uur';
+            updateCalculation();
+        }
+
+        function updateCalculation() {
+            // Get current values
+            calculatorState.tripDistance = document.getElementById('tripDistance').value;
+            calculatorState.aircraftCategory = document.getElementById('aircraftCategory').value;
+            calculatorState.timeHorizon = parseInt(document.getElementById('timeHorizon').value);
+
+            // Calculate costs
+            const charterCost = calculateCharterCost();
+            const ownershipCost = calculateOwnershipCost();
+            const breakEven = calculateBreakEven();
+
+            // Update display
+            updateCostDisplay(charterCost, ownershipCost, breakEven);
+            updateInsights(charterCost, ownershipCost, breakEven);
+            updateProjection(charterCost, ownershipCost);
+        }
+
+        function calculateCharterCost() {
+            const { flightHours, tripDistance } = calculatorState;
+            const charterData = COST_DATA.charter[tripDistance];
+
+            // Base charter cost per hour
+            const baseHourlyCost = charterData.hourly;
+
+            // Add positioning fees (10%)
+            const positioningFee = baseHourlyCost * 0.10;
+
+            // Add peak season surcharge (estimate 5% average)
+            const peakSurcharge = baseHourlyCost * 0.05;
+
+            // Total hourly cost
+            const totalHourlyCost = baseHourlyCost + positioningFee + peakSurcharge;
+
+            // Annual cost
+            const annualCost = totalHourlyCost * flightHours;
+
+            return {
+                annual: annualCost,
+                hourly: totalHourlyCost,
+                breakdown: {
+                    base: baseHourlyCost * flightHours,
+                    positioning: positioningFee * flightHours,
+                    peak: peakSurcharge * flightHours
+                }
+            };
+        }
+
+        function calculateOwnershipCost() {
+            const { flightHours, aircraftCategory } = calculatorState;
+            const ownershipData = COST_DATA.ownership[aircraftCategory];
+
+            // Fixed annual costs
+            const fixedCosts = ownershipData.fixedAnnual;
+
+            // Depreciation
+            const depreciation = ownershipData.acquisition * ownershipData.depreciation;
+
+            // Variable costs
+            const variableCosts = ownershipData.variablePerHour * flightHours;
+
+            // Total annual cost
+            const annualCost = fixedCosts + depreciation + variableCosts;
+
+            return {
+                annual: annualCost,
+                hourly: annualCost / (flightHours || 1),
+                breakdown: {
+                    fixed: fixedCosts,
+                    depreciation: depreciation,
+                    variable: variableCosts
+                }
+            };
+        }
+
+        function calculateBreakEven() {
+            const { aircraftCategory, tripDistance } = calculatorState;
+
+            const ownershipData = COST_DATA.ownership[aircraftCategory];
+            const charterData = COST_DATA.charter[tripDistance];
+
+            // Fixed costs of ownership
+            const fixedCosts = ownershipData.fixedAnnual + (ownershipData.acquisition * ownershipData.depreciation);
+
+            // Cost difference per hour
+            const charterHourly = charterData.hourly * 1.15; // Include fees
+            const ownershipVariable = ownershipData.variablePerHour;
+            const costDiffPerHour = charterHourly - ownershipVariable;
+
+            // Break-even hours
+            const breakEvenHours = Math.round(fixedCosts / costDiffPerHour);
+
+            return breakEvenHours;
+        }
+
+        function updateCostDisplay(charterCost, ownershipCost, breakEven) {
+            // Update cost amounts
+            document.getElementById('charterCost').textContent = formatCurrency(charterCost.annual);
+            document.getElementById('ownershipCost').textContent = formatCurrency(ownershipCost.annual);
+
+            // Update break-even
+            document.getElementById('breakEvenPoint').textContent = `~${breakEven} uur per jaar`;
+
+            // Update cost bars
+            const maxCost = Math.max(charterCost.annual, ownershipCost.annual);
+            const charterPercent = (charterCost.annual / maxCost) * 100;
+            const ownershipPercent = (ownershipCost.annual / maxCost) * 100;
+
+            document.getElementById('charterBar').style.width = charterPercent + '%';
+            document.getElementById('ownershipBar').style.width = ownershipPercent + '%';
+
+            document.getElementById('charterBarLabel').textContent = formatCurrencyShort(charterCost.annual);
+            document.getElementById('ownershipBarLabel').textContent = formatCurrencyShort(ownershipCost.annual);
+
+            // Update savings indicator
+            const difference = charterCost.annual - ownershipCost.annual;
+            const savingsIndicator = document.getElementById('savingsIndicator');
+            const savingsText = document.getElementById('savingsText');
+
+            if (difference > 0) {
+                savingsIndicator.classList.remove('negative');
+                savingsText.textContent = `Eigendom bespaart u ${formatCurrency(Math.abs(difference))} per jaar`;
+            } else {
+                savingsIndicator.classList.add('negative');
+                savingsText.textContent = `Charter is ${formatCurrency(Math.abs(difference))} goedkoper per jaar`;
+            }
+        }
+
+        function updateInsights(charterCost, ownershipCost, breakEven) {
+            const { flightHours } = calculatorState;
+            const insights = [];
+
+            // Insight 1: Cost per hour comparison
+            insights.push({
+                title: 'Kosten per Vlieguur',
+                text: `Charter: ${formatCurrency(charterCost.hourly)}/uur vs Eigendom: ${formatCurrency(ownershipCost.hourly)}/uur`
+            });
+
+            // Insight 2: Break-even analysis
+            if (flightHours < breakEven) {
+                insights.push({
+                    title: 'Break-Even Analyse',
+                    text: `U vliegt momenteel ${breakEven - flightHours} uur per jaar te weinig om eigendom kosteneffectief te maken.`
+                });
+            } else {
+                insights.push({
+                    title: 'Break-Even Analyse',
+                    text: `U vliegt ${flightHours - breakEven} uur per jaar meer dan het break-even punt. Eigendom is kosteneffectief.`
+                });
+            }
+
+            // Insight 3: Hidden charter costs
+            insights.push({
+                title: 'Verborgen Charter Kosten',
+                text: `Positioning fees (${formatCurrency(charterCost.breakdown.positioning)}), peak season surcharges en potentiële annuleringskosten niet inbegrepen in standaard tarieven.`
+            });
+
+            // Insight 4: Ownership benefits
+            insights.push({
+                title: 'Eigendom Voordelen',
+                text: `Naast kosten: 100% beschikbaarheid, volledige aanpassing interieur, maximale privacy, en potentiële inkomsten door verhuur.`
+            });
+
+            // Render insights
+            const insightsGrid = document.getElementById('insightsGrid');
+            insightsGrid.innerHTML = insights.map(insight => `
+                <div class="insight-item">
+                    <h4>${insight.title}</h4>
+                    <p>${insight.text}</p>
+                </div>
+            `).join('');
+        }
+
+        function updateProjection(charterCost, ownershipCost) {
+            const { timeHorizon } = calculatorState;
+            document.getElementById('projectionYears').textContent = timeHorizon;
+
+            const totalCharter = charterCost.annual * timeHorizon;
+            const totalOwnership = ownershipCost.annual * timeHorizon;
+            const maxTotal = Math.max(totalCharter, totalOwnership);
+
+            const projectionBars = document.getElementById('projectionBars');
+            projectionBars.innerHTML = `
+                <div class="projection-year">
+                    <div class="year-label">Charter</div>
+                    <div class="projection-bar-container">
+                        <div class="projection-bar projection-charter" style="width: ${(totalCharter / maxTotal) * 100}%">
+                            ${formatCurrencyShort(totalCharter)}
+                        </div>
+                    </div>
+                </div>
+                <div class="projection-year">
+                    <div class="year-label">Eigendom</div>
+                    <div class="projection-bar-container">
+                        <div class="projection-bar projection-ownership" style="width: ${(totalOwnership / maxTotal) * 100}%">
+                            ${formatCurrencyShort(totalOwnership)}
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        function formatCurrency(amount) {
+            return new Intl.NumberFormat('nl-NL', {
+                style: 'currency',
+                currency: 'EUR',
+                minimumFractionDigits: 0,
+                maximumFractionDigits: 0
+            }).format(amount);
+        }
+
+        function formatCurrencyShort(amount) {
+            if (amount >= 1000000) {
+                return '€' + (amount / 1000000).toFixed(1) + 'M';
+            }
+            return '€' + (amount / 1000).toFixed(0) + 'K';
+        }
+
+        async function handleFormSubmit(e) {
+            e.preventDefault();
+
+            const formData = {
+                name: document.getElementById('leadName').value,
+                email: document.getElementById('leadEmail').value,
+                phone: document.getElementById('leadPhone').value,
+                current_usage: document.getElementById('currentUsage').value,
+                message: document.getElementById('leadMessage').value,
+                tool_name: 'rent-vs-buy-calculator',
+                calculator_data: {
+                    flight_hours: calculatorState.flightHours,
+                    trip_distance: calculatorState.tripDistance,
+                    aircraft_category: calculatorState.aircraftCategory,
+                    time_horizon: calculatorState.timeHorizon
+                },
+                ...getSubmissionMetadata()
+            };
+
+            try {
+                const { data, error } = await supabaseClient
+                    .from('tool_submissions')
+                    .insert([formData]);
+
+                if (error) throw error;
+
+                // Success
+                alert('Bedankt! We nemen binnen 24 uur contact met u op met een gedetailleerde analyse.');
+                document.getElementById('leadCaptureForm').reset();
+
+                // Track conversion
+                if (typeof fbq !== 'undefined') {
+                    fbq('track', 'Lead', {
+                        content_name: 'Rent vs Buy Calculator',
+                        value: 0,
+                        currency: 'EUR'
+                    });
+                }
+
+                if (typeof gtag !== 'undefined') {
+                    gtag('event', 'generate_lead', {
+                        event_category: 'engagement',
+                        event_label: 'rent_vs_buy_calculator'
+                    });
+                }
+
+            } catch (error) {
+                console.error('Error submitting form:', error);
+                alert('Er is een fout opgetreden. Probeer het later opnieuw of neem direct contact met ons op.');
+            }
+        }
+
+        // Initialize on page load
+        document.addEventListener('DOMContentLoaded', initCalculator);
+    </script>
+</body>
+</html>
