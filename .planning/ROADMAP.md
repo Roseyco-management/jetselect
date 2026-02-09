@@ -288,20 +288,46 @@ Complete aircraft database and route network coverage for primary European and i
 
 #### Phase 13: Long-tail & Supporting Content
 **Goal**: 50+ blog articles targeting long-tail keywords for comprehensive topic coverage
+**Status**: 🚧 In Progress (20/47 pages complete)
+**Completed**: 2026-02-09 (first 20 high-priority pages)
 **Depends on**: Phase 12
 **Research**: Unlikely (bulk content production using established patterns)
-**Plans**: TBD
+**Plans**: 20 completed
 
 Plans:
-- [ ] 13-01: TBD
+- [x] 13-01: Business Tax Guide (zakelijk/belasting) - 2,800 words
+- [x] 13-02: Private Jet Leasing Guide (kopen/privet-jet/leasing) - 2,500 words
+- [x] 13-03: Financing Guide (kopen/privet-jet/financiering) - 2,200 words
+- [x] 13-04: Fractional Ownership Guide (kopen/privet-jet/fractional) - 2,000 words
+- [x] 13-05: Business Financing Guide (zakelijk/financiering) - 2,200 words
+- [x] 13-06: Corporate Structure Guide (zakelijk/structuur) - 2,000 words
+- [x] 13-07: Business Operating Costs Guide (zakelijk/operationele-kosten) - 1,800 words
+- [x] 13-08: Tax Planning Guide (zakelijk/belastingplanning) - 1,900 words
+- [x] 13-09: Business Case Template (zakelijk/business-case) - 1,600 words
+- [x] 13-10: Insurance Guide (gids/kosten/verzekering) - 1,600 words
+- [x] 13-11: Maintenance Costs Guide (gids/kosten/onderhoud) - 1,800 words
+- [x] 13-12: "What Does a Private Jet Cost" article (blog/wat-kost-privet-jet) - 1,600 words
+- [x] 13-13: Investment Analysis article (blog/investering) - 1,400 words
+- [x] 13-14: Depreciation Guide (blog/waardevermindering) - 1,600 words
+- [x] 13-15: Resale Value article (blog/wederverkoopwaarde) - 1,500 words
+- [x] 13-16: Charter Pricing Guide (huren/charter-gids) - 1,800 words
+- [x] 13-17: Empty Legs Guide (huren/empty-legs) - 1,600 words
+- [x] 13-18: Lege Vluchten Guide (huren/lege-vluchten) - 1,500 words
+- [x] 13-19: Market Overview article (blog/marktoverzicht) - 1,800 words
+- [x] 13-20: International Buyers Guide (blog/international-kopers) - 1,600 words
 
-**Content to Create (50+ pages):**
-- **Blog Articles:** Targeting long-tail keywords like "beste privéjet voor Europa", "tweedehands privéjet", "privéjet onderhoud kosten"
-- **FAQ Pages:** One for each main topic (buying, financing, maintenance, regulations)
+**Content Completed (20 pages, ~33,800 words):**
+- ✅ **Business Aviation (6 pages):** Tax strategies, corporate structures, operating costs, tax planning, business case templates, corporate financing
+- ✅ **Financing & Ownership (3 pages):** Leasing, financing, fractional ownership options
+- ✅ **Cost Analysis (5 pages):** Maintenance costs, purchase costs, investment analysis, depreciation, resale value, insurance
+- ✅ **Charter & Market (5 pages):** Charter pricing, empty legs (EN/NL), market overview, international buyers
+
+**Remaining Content (27 pages):**
+- **Blog Articles:** Long-tail keywords like "beste privéjet voor Europa", "tweedehands privéjet"
+- **FAQ Pages:** Dedicated FAQ pages for each main topic
 - **Glossary:** Aviation terms in Dutch + English
 - **Case Studies:** Success stories and buyer testimonials
-- **Market Reports:** Netherlands private jet market insights
-- **Guides:** Maintenance schedules, insurance options, crew requirements
+- **Additional Guides:** Light jet guides, midsize guides, heavy jet guides, used aircraft market
 
 #### Phase 14: Link Acquisition Campaign
 **Goal**: Build high-authority backlink profile through Dutch business directories, aviation authorities, and digital PR
@@ -359,6 +385,6 @@ Plans:
 | 10. Pillar Pages & Core Content | v2.0 | 5/5 | ✅ Complete | 2026-02-09 |
 | 11. City & Regional Landing Pages | v2.0 | 20/20 | ✅ Complete | 2026-02-09 |
 | 12. Aircraft & Route Content | v2.0 | 20/20 | ✅ Complete | 2026-02-09 |
-| 13. Long-tail & Supporting Content | v2.0 | 0/TBD | Not started | - |
+| 13. Long-tail & Supporting Content | v2.0 | 20/47 | 🚧 In Progress | 2026-02-09 |
 | 14. Link Acquisition Campaign | v2.0 | 0/TBD | Not started | - |
 | 15. Analytics, Tracking & Iteration | v2.0 | 0/TBD | Not started | - |
