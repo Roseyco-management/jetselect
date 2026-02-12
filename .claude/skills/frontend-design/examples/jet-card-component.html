@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jet Card Component - Production Ready</title>
+  <style>
+    /* Reset & Base */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      line-height: 1.6;
+      color: #1f2937;
+      background: #f3f4f6;
+      padding: 2rem;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    /* Card Grid */
+    .card-grid {
+      display: grid;
+      gap: 2rem;
+      grid-template-columns: repeat(auto-fill, minmax(min(350px, 100%), 1fr));
+    }
+
+    /* Jet Card Component */
+    .jet-card {
+      display: flex;
+      flex-direction: column;
+      background: white;
+      border-radius: 16px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.07);
+      overflow: hidden;
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      height: 100%;
+    }
+
+    .jet-card:hover {
+      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+      transform: translateY(-4px);
+    }
+
+    /* Card Media */
+    .jet-card__media {
+      position: relative;
+      aspect-ratio: 4 / 3;
+      overflow: hidden;
+      background: #e5e7eb;
+    }
+
+    .jet-card__image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .jet-card:hover .jet-card__image {
+      transform: scale(1.05);
+    }
+
+    /* Badges */
+    .jet-card__badges {
+      position: absolute;
+      top: 1rem;
+      left: 1rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      z-index: 10;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 0.25rem 0.75rem;
+      border-radius: 9999px;
+      font-size: 12px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .badge--new {
+      background: #10b981;
+      color: white;
+    }
+
+    .badge--featured {
+      background: #4f46e5;
+      color: white;
+    }
+
+    .badge--available {
+      background: #f59e0b;
+      color: white;
+    }
+
+    /* Favorite Button */
+    .jet-card__favorite {
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+      width: 44px;
+      height: 44px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: rgba(255, 255, 255, 0.95);
+      backdrop-filter: blur(8px);
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+      z-index: 10;
+    }
+
+    .jet-card__favorite:hover {
+      background: white;
+      transform: scale(1.1);
+    }
+
+    .jet-card__favorite:focus-visible {
+      outline: 3px solid #4f46e5;
+      outline-offset: 2px;
+    }
+
+    .jet-card__favorite svg {
+      width: 20px;
+      height: 20px;
+      fill: none;
+      stroke: #ef4444;
+      stroke-width: 2;
+      transition: all 0.2s;
+    }
+
+    .jet-card__favorite[aria-pressed="true"] svg {
+      fill: #ef4444;
+    }
+
+    /* Card Content */
+    .jet-card__content {
+      flex: 1;
+      padding: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .jet-card__header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 1rem;
+    }
+
+    .jet-card__title {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #111827;
+      line-height: 1.2;
+      margin: 0;
+    }
+
+    .jet-card__price {
+      flex-shrink: 0;
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: #4f46e5;
+      white-space: nowrap;
+    }
+
+    .jet-card__category {
+      font-size: 0.875rem;
+      color: #6b7280;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      font-weight: 500;
+    }
+
+    .jet-card__description {
+      color: #4b5563;
+      line-height: 1.6;
+      margin: 0;
+    }
+
+    /* Specifications */
+    .jet-card__specs {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+      padding: 1rem 0;
+      margin: 0;
+      border-top: 1px solid #e5e7eb;
+    }
+
+    .jet-card__spec {
+      display: flex;
+      flex-direction: column;
+      gap: 0.25rem;
+    }
+
+    .jet-card__spec-label {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: #9ca3af;
+      font-weight: 600;
+    }
+
+    .jet-card__spec-value {
+      font-size: 1rem;
+      font-weight: 600;
+      color: #111827;
+      margin: 0;
+    }
+
+    /* Card Actions */
+    .jet-card__actions {
+      padding: 0 1.5rem 1.5rem;
+      display: flex;
+      gap: 0.75rem;
+      margin-top: auto;
+    }
+
+    .btn {
+      appearance: none;
+      border: none;
+      background: none;
+      font: inherit;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      padding: 0.75rem 1.5rem;
+      border-radius: 8px;
+      font-weight: 600;
+      text-decoration: none;
+      white-space: nowrap;
+      transition: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+      min-height: 44px;
+    }
+
+    .btn--primary {
+      background: #4f46e5;
+      color: white;
+      flex: 1;
+    }
+
+    .btn--primary:hover:not(:disabled) {
+      background: #4338ca;
+      transform: translateY(-1px);
+      box-shadow: 0 4px 12px rgba(79, 70, 229, 0.3);
+    }
+
+    .btn--primary:active {
+      transform: translateY(0);
+    }
+
+    .btn--primary:focus-visible {
+      outline: 3px solid #4f46e5;
+      outline-offset: 2px;
+    }
+
+    .btn--secondary {
+      background: white;
+      color: #4f46e5;
+      border: 2px solid #4f46e5;
+      flex: 1;
+    }
+
+    .btn--secondary:hover:not(:disabled) {
+      background: #eef2ff;
+      border-color: #4338ca;
+    }
+
+    .btn--secondary:focus-visible {
+      outline: 3px solid #4f46e5;
+      outline-offset: 2px;
+    }
+
+    /* Responsive */
+    @media (max-width: 640px) {
+      .jet-card__actions {
+        flex-direction: column;
+      }
+    }
+
+    /* Reduced Motion */
+    @media (prefers-reduced-motion: reduce) {
+      *,
+      *::before,
+      *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+      }
+
+      .jet-card:hover {
+        transform: none;
+      }
+
+      .jet-card:hover .jet-card__image {
+        transform: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 style="margin-bottom: 2rem; font-size: 2rem;">Jet Card Components</h1>
+
+    <div class="card-grid">
+      <!-- Card 1: Featured Jet -->
+      <article class="jet-card" itemscope itemtype="http://schema.org/Product">
+        <div class="jet-card__media">
+          <img
+            class="jet-card__image"
+            src="https://images.unsplash.com/photo-1540962351504-03099e0a754b?w=800&h=600&fit=crop"
+            alt="Gulfstream G650 exterior view"
+            width="800"
+            height="600"
+            loading="lazy"
+            itemprop="image"
+          />
+          <div class="jet-card__badges">
+            <span class="badge badge--new">New Arrival</span>
+            <span class="badge badge--featured">Featured</span>
+          </div>
+          <button
+            class="jet-card__favorite"
+            aria-label="Add to favorites"
+            aria-pressed="false"
+            onclick="toggleFavorite(this)"
+          >
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+            </svg>
+          </button>
+        </div>
+
+        <div class="jet-card__content">
+          <div class="jet-card__header">
+            <div>
+              <div class="jet-card__category">Ultra Long Range</div>
+              <h3 class="jet-card__title" itemprop="name">Gulfstream G650</h3>
+            </div>
+            <div class="jet-card__price" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+              <span itemprop="price" content="65000000">$65M</span>
+              <meta itemprop="priceCurrency" content="USD">
+            </div>
+          </div>
+
+          <p class="jet-card__description" itemprop="description">
+            Ultra-long-range business jet with unmatched performance, luxury, and global reach.
+          </p>
+
+          <dl class="jet-card__specs">
+            <div class="jet-card__spec">
+              <dt class="jet-card__spec-label">Range</dt>
+              <dd class="jet-card__spec-value">7,000 nm</dd>
+            </div>
+            <div class="jet-card__spec">
+              <dt class="jet-card__spec-label">Passengers</dt>
+              <dd class="jet-card__spec-value">19</dd>
+            </div>
+            <div class="jet-card__spec">
+              <dt class="jet-card__spec-label">Speed</dt>
+              <dd class="jet-card__spec-value">Mach 0.925</dd>
+            </div>
+            <div class="jet-card__spec">
+              <dt class="jet-card__spec-label">Year</dt>
+              <dd class="jet-card__spec-value">2023</dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="jet-card__actions">
+          <a href="#" class="btn btn--primary">View Details</a>
+          <button type="button" class="btn btn--secondary">Compare</button>
+        </div>
+      </article>
+
+      <!-- Card 2: Available Jet -->
+      <article class="jet-card" itemscope itemtype="http://schema.org/Product">
+        <div class="jet-card__media">
+          <img
+            class="jet-card__image"
+            src="https://images.unsplash.com/photo-1583939003579-730e3918a45a?w=800&h=600&fit=crop"
+            alt="Bombardier Global 7500 in flight"
+            width="800"
+            height="600"
+            loading="lazy"
+            itemprop="image"
+          />
+          <div class="jet-card__badges">
+            <span class="badge badge--available">Available Now</span>
+          </div>
+          <button
+            class="jet-card__favorite"
+            aria-label="Add to favorites"
+            aria-pressed="false"
+            onclick="toggleFavorite(this)"
+          >
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+            </svg>
+          </button>
+        </div>
+
+        <div class="jet-card__content">
+          <div class="jet-card__header">
+            <div>
+              <div class="jet-card__category">Ultra Long Range</div>
+              <h3 class="jet-card__title" itemprop="name">Bombardier Global 7500</h3>
+            </div>
+            <div class="jet-card__price" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+              <span itemprop="price" content="72000000">$72M</span>
+              <meta itemprop="priceCurrency" content="USD">
+            </div>
+          </div>
+
+          <p class="jet-card__description" itemprop="description">
+            The world's largest and longest-range purpose-built business jet with exceptional cabin comfort.
+          </p>
+
+          <dl class="jet-card__specs">
+            <div class="jet-card__spec">
+              <dt class="jet-card__spec-label">Range</dt>
+              <dd class="jet-card__spec-value">7,700 nm</dd>
+            </div>
+            <div class="jet-card__spec">
+              <dt class="jet-card__spec-label">Passengers</dt>
+              <dd class="jet-card__spec-value">19</dd>
+            </div>
+            <div class="jet-card__spec">
+              <dt class="jet-card__spec-label">Speed</dt>
+              <dd class="jet-card__spec-value">Mach 0.925</dd>
+            </div>
+            <div class="jet-card__spec">
+              <dt class="jet-card__spec-label">Year</dt>
+              <dd class="jet-card__spec-value">2024</dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="jet-card__actions">
+          <a href="#" class="btn btn--primary">View Details</a>
+          <button type="button" class="btn btn--secondary">Compare</button>
+        </div>
+      </article>
+
+      <!-- Card 3: Midsize Jet -->
+      <article class="jet-card" itemscope itemtype="http://schema.org/Product">
+        <div class="jet-card__media">
+          <img
+            class="jet-card__image"
+            src="https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=800&h=600&fit=crop"
+            alt="Cessna Citation XLS+ on tarmac"
+            width="800"
+            height="600"
+            loading="lazy"
+            itemprop="image"
+          />
+          <button
+            class="jet-card__favorite"
+            aria-label="Add to favorites"
+            aria-pressed="false"
+            onclick="toggleFavorite(this)"
+          >
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+            </svg>
+          </button>
+        </div>
+
+        <div class="jet-card__content">
+          <div class="jet-card__header">
+            <div>
+              <div class="jet-card__category">Midsize</div>
+              <h3 class="jet-card__title" itemprop="name">Cessna Citation XLS+</h3>
+            </div>
+            <div class="jet-card__price" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+              <span itemprop="price" content="13500000">$13.5M</span>
+              <meta itemprop="priceCurrency" content="USD">
+            </div>
+          </div>
+
+          <p class="jet-card__description" itemprop="description">
+            Versatile midsize jet offering exceptional value with proven reliability and operating economics.
+          </p>
+
+          <dl class="jet-card__specs">
+            <div class="jet-card__spec">
+              <dt class="jet-card__spec-label">Range</dt>
+              <dd class="jet-card__spec-value">2,100 nm</dd>
+            </div>
+            <div class="jet-card__spec">
+              <dt class="jet-card__spec-label">Passengers</dt>
+              <dd class="jet-card__spec-value">12</dd>
+            </div>
+            <div class="jet-card__spec">
+              <dt class="jet-card__spec-label">Speed</dt>
+              <dd class="jet-card__spec-value">441 ktas</dd>
+            </div>
+            <div class="jet-card__spec">
+              <dt class="jet-card__spec-label">Year</dt>
+              <dd class="jet-card__spec-value">2022</dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="jet-card__actions">
+          <a href="#" class="btn btn--primary">View Details</a>
+          <button type="button" class="btn btn--secondary">Compare</button>
+        </div>
+      </article>
+    </div>
+  </div>
+
+  <script>
+    function toggleFavorite(button) {
+      const isPressed = button.getAttribute('aria-pressed') === 'true';
+      button.setAttribute('aria-pressed', !isPressed);
+
+      // Announce to screen readers
+      const announcement = !isPressed ? 'Added to favorites' : 'Removed from favorites';
+      const liveRegion = document.createElement('div');
+      liveRegion.setAttribute('role', 'status');
+      liveRegion.setAttribute('aria-live', 'polite');
+      liveRegion.className = 'sr-only';
+      liveRegion.textContent = announcement;
+      document.body.appendChild(liveRegion);
+      setTimeout(() => liveRegion.remove(), 1000);
+    }
+  </script>
+</body>
+</html>

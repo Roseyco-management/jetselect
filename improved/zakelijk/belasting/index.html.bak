@@ -1,0 +1,1144 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Complete gids over zakelijk vliegtuig fiscale voordelen in Nederland. MIA/VAMIL regeling, BTW-terugvordering, afschrijving, en corporate ownership structuren voor optimale belastingvoordelen.">
+    <title>Zakelijk Vliegtuig Fiscale Voordelen - MIA/VAMIL & BTW Gids | JetSelect</title>
+    <link rel="icon" type="image/png" href="../../images/Favicon-Jetselect.png">
+    <link rel="stylesheet" href="../../css/style.css">
+
+    <!-- Resource Hints for Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Hreflang for bilingual versions -->
+    <link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/zakelijk/belasting/" />
+    <link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/business/taxation/" />
+    <link rel="alternate" hreflang="x-default" href="https://jetselect.nl/zakelijk/belasting/" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://jetselect.nl/zakelijk/belasting/" />
+    <meta property="og:title" content="Zakelijk Vliegtuig Fiscale Voordelen - Complete Tax Gids" />
+    <meta property="og:description" content="MIA/VAMIL regelingen, BTW-terugvordering, afschrijvingsmogelijkheden, en corporate structuren voor maximale belastingvoordelen op zakelijke jets." />
+    <meta property="og:image" content="https://jetselect.nl/images/Tot-5-edited-1.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content="nl_NL" />
+    <meta property="og:locale:alternate" content="en_NL" />
+    <meta property="og:site_name" content="JetSelect" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://jetselect.nl/zakelijk/belasting/" />
+    <meta name="twitter:title" content="Zakelijk Vliegtuig Fiscale Voordelen Nederland" />
+    <meta name="twitter:description" content="Complete gids voor MIA/VAMIL, BTW-terugvordering, en tax optimization voor zakelijke jets." />
+    <meta name="twitter:image" content="https://jetselect.nl/images/Tot-5-edited-1.jpg" />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://jetselect.nl/zakelijk/belasting/" />
+
+    <!-- Schema.org Structured Data - BreadcrumbList -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://jetselect.nl/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Zakelijk",
+          "item": "https://jetselect.nl/zakelijk/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Belasting",
+          "item": "https://jetselect.nl/zakelijk/belasting/"
+        }
+      ]
+    }
+    </script>
+
+    <!-- Schema.org Structured Data - FAQPage -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Wat zijn de fiscale voordelen van een zakelijk vliegtuig in Nederland?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nederlandse bedrijven kunnen profiteren van MIA (Milieu-investeringsaftrek) tot 36% over €2,5 miljoen investering (€900.000 aftrek), VAMIL (Willekeurige Afschrijving Milieu-investeringen) voor 75% versnelde afschrijving in jaar één, volledige BTW-terugvordering bij >70% zakelijk gebruik (21% over aankoopprijs = €8,4-€14,7 miljoen op €40-70M jet), corporate income tax deductibility op operating costs (€5-6M/jaar), en degressieve afschrijving spreiding over 10-20 jaar. Total tax benefit eerste jaar: €3-5 miljoen op €50M aircraft afhankelijk van corporate structure."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hoe werkt de MIA/VAMIL regeling voor zakelijke vliegtuigen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "MIA (Milieu-investeringsaftrek) geeft 36% fiscale aftrek over investeringsbedrag tot maximaal €2,5 miljoen (€900.000 max voordeel bij 25,8% VPB = €232.200 cash benefit). VAMIL (Willekeurige Afschrijving Milieu-investeringen) allows 75% van aanschafwaarde direct afschrijven in jaar 1 in plaats van normale 10-20 jaar spreiding - example: €50M jet met VAMIL = €37,5M afschrijving jaar 1 vs €2,5-5M normaal, generating €9,7M tax shield (€37,5M × 25,8%). Requirements: aircraft moet voldoen aan Stage 5 noise standards (moderne jets zoals G650, Global 7500 qualify), investment decision logging, en operational documentation. Both regelingen combineerbaar voor maximaal fiscal impact."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kan ik BTW terugvorderen op een zakelijk vliegtuig?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja, volledige BTW-terugvordering mogelijk bij >70% zakelijk gebruik. Bij €50M Gulfstream G650 = €10,5M BTW (21%), direct terugvorderbaar via aangifteperiode. Requirements: gedetailleerde logbook documentation per vlucht (zakelijk vs privé purpose, passengers, business justification), annual audit door belastingdienst mogelijk, private usage moet fringe benefit taxation triggeren (30% bijtelling over cataloguswaarde per privé trip). Mixed-use scenarios: 80% zakelijk = €8,4M BTW recoverable, 20% privé triggers €300K-€500K jaarlijkse bijtelling voor executives. Charteren van eigen aircraft aan derden (Part 135) telt als zakelijk gebruik en maximizes BTW recovery while offsetting costs €500K-€1M/jaar revenue."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Welke corporate ownership structuur is fiscaal voordeligst?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Three primary structures: (1) Direct Corporate Ownership - aircraft owned by operating company, simplest structure, all costs deductible, BTW recoverable, maar fringe benefit tax op private use (30% bijtelling). (2) Holding Company Structure - separate aviation BV within group, cleaner accounting, lease aircraft to operating companies, centralized management, dezelfde tax benefits. (3) Irish/Malta AOC Structure - aircraft registered in Isle of Man/Guernsey, operated under Irish/Malta AOC voor European operations, VAT optimization mogelijk (Malta VAT 18% vs NL 21%), internationale flexibiliteit. Best voor Netherlands: Holding Company Structure met Dutch BV enables full MIA/VAMIL/BTW benefits, clear separation private/corporate use, potential Part 135 charter revenue, en group consolidation advantages."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hoe werkt afschrijving van een zakelijk vliegtuig?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Normale afschrijving: 10-20 jaar linear of degressief, typically 15 jaar voor ultra-long-range jets (G650/Global 7500). €50M aircraft = €3,3M/jaar afschrijving linear over 15 jaar, of degressief met 20% eerste jaren declining naar 5-10% later (accelerated tax benefit). Met VAMIL: 75% (€37,5M) direct year 1, remaining 25% (€12,5M) spread over jaren 2-15 à €930K/jaar. Restwaarde estimation: G650 na 15 jaar circa €15-20M residual value (30-40% original), requiring adjustment als actual depreciation differs. Engine reserves: separaat afgeschreven als major components - BR725 overhaul €4-5M typically €500-600/flight hour reserve accrual. Belangrijk: afschrijving voor tax purposes kan verschillen van book depreciation voor financial reporting."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Zijn operating costs van een zakelijk vliegtuig aftrekbaar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja, volledige aftrekbaarheid zakelijke operating costs tegen 25,8% corporate tax rate. Deductible costs: crew salaries (€400-600K/jaar), hangar rental (€150-300K), insurance (€250-400K), maintenance reserves (€1,6M @ 400hrs), fuel (€2M), landing fees (€600K), management fees (€120-200K), training (€80-120K). Total €5-6M/jaar operating costs = €1,3-€1,5M annual tax shield. Proportional deduction bij mixed use: 80% zakelijk = 80% × €5,5M costs = €4,4M deductible = €1,14M tax benefit. Private usage: 20% private trips trigger fringe benefit taxation op users (executives/shareholders) - €300-500K/jaar bijtelling typical voor frequent users. Documentation critical: flight logs must show business purpose, passenger manifests, meeting agendas, clients visited."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wat zijn de BTW-implicaties bij internationale vluchten?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Intra-EU vluchten: 21% Dutch BTW applicable op departures from Netherlands naar andere EU landen, maar BTW-shift mogelijk onder reverse charge mechanism als operator heeft establishment in destination country. Extra-EU vluchten: 0% BTW op flights departing EU naar non-EU destinations (export rules) - example Amsterdam naar Dubai, New York, Singapore = geen BTW verschuldigd. Import BTW: bij non-EU aircraft importeren naar Netherlands, temporary import relief mogelijk voor 90-180 days, permanent import requires full 21% BTW payment (of BTW recovery scheme). Fuel BTW: fuel uplift in Netherlands 21% BTW, maar recoverable voor business operators, fuel stops in low-VAT jurisdictions (Switzerland 7,7%, Isle of Man 0%) can generate savings €50-100K/jaar bij high utilization. Positioning flights: lege returns naar Netherlands typically BTW exempt under aircraft operations rules."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hoe voorkom ik fringe benefit taxation op privégebruik?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fringe benefit (bijtelling) triggered when employees/shareholders gebruiken company aircraft voor private trips. Calculation: 30% van cataloguswaarde (list price) × private usage percentage × gebruiker's taxable income bracket (tot 49,5%). Example: €50M jet, director maakt 10 private trips (15% van 400 annual hours) = €7,5M bijtelling basis (€50M × 15%), resulting €2,25M taxable benefit (30% × €7,5M), director pays €1,11M income tax (49,5% top rate). Mitigation strategies: (1) Director betaalt marktconforme charter rate terug aan BV (€12-18K/uur eliminates bijtelling), (2) Limit private gebruik tot <10% reduces impact, (3) Formalize business justification voor borderline trips (family joining business meetings vaak acceptable met documentation), (4) Use separate charter provider voor private travel keeps company aircraft 100% zakelijk."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Welke documentatie heeft de Belastingdienst nodig?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Comprehensive documentation required voor MIA/VAMIL/BTW claims: (1) Purchase Documentation - sales agreement, delivery certificate, invoice met BTW breakdown, wire transfer confirmations, registration documents. (2) Flight Logs - digital logbook per vlucht met date/time, departure/destination, flight purpose (specific business meeting/client/deal), passenger manifests, PIC signature. (3) Operational Records - crew contracts en salaries, hangar lease, insurance policies, maintenance invoices (with BTW breakdown), fuel receipts, catering, handling fees. (4) MIA/VAMIL Application - environmental compliance certificates (Stage 5 noise), investment decision documentation, business case justification. (5) BTW Claims - quarterly filings met itemized input VAT, cross-reference naar flight logs voor business usage %, private trip reporting voor bijtelling. Retain 7 jaar voor audit protection."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wat zijn de internationale belastingaspecten?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cross-border considerations: (1) Transfer Pricing - als aircraft owned door Dutch BV maar used internationally door group entities, arm's-length charter rates must be charged between entities (€10-15K/hour typical inter-company) om transfer pricing challenges te voorkomen. (2) Permanent Establishment Risk - extensive operations in foreign jurisdictions (crew based abroad, frequent departures from foreign airports) kan PE triggeren en foreign tax exposure. (3) Withholding Taxes - sommige landen (USA, Brazil) heffen withholding tax op payments voor aircraft usage/charter; tax treaty relief vaak beschikbaar. (4) Customs & Import Duties - temporary import relief voor non-EU aircraft naar EU, maar permanent basing requires VAT/duty clearance. (5) Tax Treaty Benefits - Netherlands' extensive treaty network enables dividend repatriation van foreign aviation subsidiaries zonder additional taxation. Advies: structure met Dutch holding + Irish/Malta operational entity optimizes European flexibility en minimizes VAT/withholding exposures."
+          }
+        }
+      ]
+    }
+    </script>
+
+    <style>
+        /* Guide Page Specific Styles */
+        .guide-hero {
+            background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary-color) 100%);
+            color: var(--white);
+            padding: 120px 0 80px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .guide-hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('../../images/Tot-5-edited-1.jpg') center/cover no-repeat;
+            opacity: 0.15;
+            z-index: 0;
+        }
+
+        .guide-hero-content {
+            position: relative;
+            z-index: 1;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 var(--spacing-md);
+        }
+
+        .guide-hero h1 {
+            font-family: var(--font-heading);
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: var(--spacing-md);
+            line-height: 1.2;
+        }
+
+        .guide-hero .subtitle {
+            font-size: 1.5rem;
+            opacity: 0.95;
+            margin-bottom: var(--spacing-md);
+        }
+
+        .breadcrumb {
+            background: var(--off-white);
+            padding: var(--spacing-sm) 0;
+            font-size: 0.9rem;
+        }
+
+        .breadcrumb a {
+            color: var(--primary-color);
+            text-decoration: none;
+            transition: var(--transition-fast);
+        }
+
+        .breadcrumb a:hover {
+            color: var(--accent-color);
+        }
+
+        .breadcrumb span {
+            color: var(--gray);
+            margin: 0 0.5rem;
+        }
+
+        .guide-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: var(--spacing-xl) var(--spacing-md);
+        }
+
+        .content-section {
+            margin: var(--spacing-xl) 0;
+        }
+
+        .content-section h2 {
+            font-family: var(--font-heading);
+            font-size: 2.25rem;
+            color: var(--primary-color);
+            margin: var(--spacing-xl) 0 var(--spacing-md);
+            padding-top: var(--spacing-md);
+            border-top: 3px solid var(--accent-color);
+        }
+
+        .content-section h2:first-of-type {
+            margin-top: 0;
+            border-top: none;
+            padding-top: 0;
+        }
+
+        .content-section h3 {
+            font-family: var(--font-heading);
+            font-size: 1.5rem;
+            color: var(--dark-gray);
+            margin: var(--spacing-md) 0 var(--spacing-sm);
+        }
+
+        .content-section p {
+            margin-bottom: var(--spacing-md);
+            line-height: 1.8;
+            color: var(--dark-gray);
+        }
+
+        .content-section ul {
+            margin: var(--spacing-md) 0;
+            padding-left: var(--spacing-lg);
+        }
+
+        .content-section li {
+            margin-bottom: var(--spacing-sm);
+            line-height: 1.8;
+        }
+
+        .highlight-box {
+            background: var(--off-white);
+            padding: var(--spacing-lg);
+            border-radius: 8px;
+            border-left: 4px solid var(--accent-color);
+            margin: var(--spacing-lg) 0;
+        }
+
+        .highlight-box h3 {
+            color: var(--primary-color);
+            margin-top: 0;
+        }
+
+        .comparison-table {
+            width: 100%;
+            margin: var(--spacing-xl) 0;
+            border-collapse: collapse;
+            background: var(--white);
+            box-shadow: var(--shadow-sm);
+            overflow: hidden;
+            border-radius: 8px;
+        }
+
+        .comparison-table thead {
+            background: var(--primary-color);
+            color: var(--white);
+        }
+
+        .comparison-table th,
+        .comparison-table td {
+            padding: var(--spacing-sm) var(--spacing-md);
+            text-align: left;
+            border-bottom: 1px solid var(--light-gray);
+        }
+
+        .comparison-table tbody tr:hover {
+            background: var(--off-white);
+        }
+
+        .comparison-table .highlight {
+            background: #f0f8ff;
+            font-weight: 600;
+        }
+
+        .faq-section {
+            background: var(--off-white);
+            padding: var(--spacing-lg);
+            border-radius: 8px;
+            margin: var(--spacing-xl) 0;
+        }
+
+        .faq-item {
+            margin-bottom: var(--spacing-md);
+            padding-bottom: var(--spacing-md);
+            border-bottom: 1px solid var(--light-gray);
+        }
+
+        .faq-item:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+
+        .faq-question {
+            font-family: var(--font-heading);
+            font-size: 1.25rem;
+            color: var(--primary-color);
+            margin-bottom: var(--spacing-sm);
+            font-weight: 600;
+        }
+
+        .faq-answer {
+            color: var(--dark-gray);
+            line-height: 1.8;
+        }
+
+        .cta-section {
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%);
+            color: var(--white);
+            padding: var(--spacing-xl);
+            border-radius: 12px;
+            text-align: center;
+            margin: var(--spacing-xl) 0;
+        }
+
+        .cta-section h2 {
+            color: var(--white);
+            margin: 0 0 var(--spacing-md);
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: var(--spacing-md);
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: var(--spacing-md);
+        }
+
+        .cta-button {
+            display: inline-block;
+            background: var(--accent-color);
+            color: var(--white);
+            padding: var(--spacing-sm) var(--spacing-lg);
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: var(--transition-fast);
+        }
+
+        .cta-button:hover {
+            background: var(--accent-hover);
+            transform: translateY(-2px);
+        }
+
+        .cta-button.secondary {
+            background: var(--white);
+            color: var(--primary-color);
+        }
+
+        .cta-button.secondary:hover {
+            background: var(--off-white);
+        }
+
+        @media (max-width: 768px) {
+            .guide-hero h1 {
+                font-size: 2rem;
+            }
+
+            .guide-hero .subtitle {
+                font-size: 1.25rem;
+            }
+
+            .comparison-table {
+                font-size: 0.9rem;
+            }
+
+            .comparison-table th,
+            .comparison-table td {
+                padding: var(--spacing-xs) var(--spacing-sm);
+            }
+
+            .cta-buttons {
+                flex-direction: column;
+            }
+        }
+    </style>
+
+    <!-- Microsoft Clarity -->
+    <script type="text/javascript">
+        (function(c,l,a,r,i,t,y){
+            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+        })(window, document, "clarity", "script", "vegtpqf23v");
+    </script>
+
+    <!-- Meta Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '2158285721691560');
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=2158285721691560&ev=PageView&noscript=1"
+    /></noscript>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8GN5XT44Y5"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-8GN5XT44Y5');
+    </script>
+
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <a href="../../index.html">
+                        <img src="../../images/Logo-Jetselect-2023.svg" alt="JetSelect Logo">
+                    </a>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="../../kopen/">Kopen</a></li>
+                    <li><a href="../../gids/">Gids</a></li>
+                    <li><a href="../../locaties/">Locaties</a></li>
+                    <li><a href="../../vliegtuigen/">Vliegtuigen</a></li>
+                    <li><a href="../../index.html#wizard" class="cta-nav">Start Wizard</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Breadcrumb -->
+    <div class="breadcrumb">
+        <div class="container">
+            <a href="../../index.html">Home</a>
+            <span>/</span>
+            <a href="../">Zakelijk</a>
+            <span>/</span>
+            <span>Belasting</span>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="guide-hero">
+        <div class="guide-hero-content">
+            <h1>Zakelijk Vliegtuig Fiscale Voordelen</h1>
+            <p class="subtitle">Complete gids voor MIA/VAMIL, BTW-terugvordering, en tax optimization in Nederland</p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <article class="guide-content">
+
+        <section class="content-section">
+            <h2>Overzicht - Nederlandse Tax Landscape voor Zakelijke Jets</h2>
+            <p>Het aanschaffen van een zakelijk vliegtuig in Nederland biedt substantiële fiscale voordelen die de Total Cost of Ownership significant kunnen verlagen. Voor bedrijven die een private jet overwegen, zijn de Nederlandse belastingregels bijzonder aantrekkelijk vergeleken met veel andere Europese jurisdicties. De combinatie van MIA/VAMIL-regelingen, volledige BTW-terugvordering bij zakelijk gebruik, en generous afschrijvingsmogelijkheden kunnen het eerste jaar €3-5 miljoen aan tax benefits genereren op een €50 miljoen aircraft investment.</p>
+
+            <p>Deze fiscale voordelen zijn niet alleen bedoeld om de aanschaf betaalbaarder te maken, maar ook om Nederlandse bedrijven te stimuleren te investeren in moderne, milieuvriendelijke vliegtuigen die voldoen aan de strengste emissie- en geluidsnormen. Understanding deze complexe regelgeving en het optimaal structureren van uw aircraft ownership is cruciaal voor het maximaliseren van ROI en het voorkomen van onverwachte tax liabilities.</p>
+
+            <p>In deze comprehensive gids behandelen we alle aspecten van Nederlandse aircraft taxation: van MIA/VAMIL applications tot internationale BTW-implicaties, van corporate ownership structures tot fringe benefit taxation bij privégebruik. Of u nu overweegt een Gulfstream G650 aan te schaffen voor uw holding, of een <a href="../../vliegtuigen/cessna-citation/">Citation CJ4</a> voor regional business travel - deze gids geeft u de kennis om informed decisions te maken en uw fiscal position te optimaliseren.</p>
+        </section>
+
+        <section class="content-section">
+            <h2>MIA/VAMIL Regelingen - Tot €10 Miljoen Tax Benefit</h2>
+
+            <h3>Wat is de MIA (Milieu-Investeringsaftrek)?</h3>
+            <p>De Milieu-Investeringsaftrek (MIA) is een Nederlandse fiscale regeling die bedrijven stimuleert te investeren in milieuvriendelijke bedrijfsmiddelen, inclusief moderne zakelijke vliegtuigen die voldoen aan Stage 5 noise en emission standards. De MIA biedt een percentage van de investeringskosten als extra fiscale aftrek bovenop de normale afschrijving.</p>
+
+            <p><strong>MIA voordelen voor zakelijke jets:</strong></p>
+            <ul>
+                <li><strong>36% fiscale aftrek</strong> over investeringsbedrag tot €2,5 miljoen maximum</li>
+                <li><strong>Maximum voordeel:</strong> €900.000 aftrek × 25,8% VPB rate = <strong>€232.200 cash tax benefit</strong></li>
+                <li><strong>Bovenop normale afschrijving:</strong> MIA is additional benefit, niet in plaats van depreciation</li>
+                <li><strong>Eerste jaar claimable:</strong> volledige benefit direct in aanschaffjaar, improving cash flow</li>
+                <li><strong>Geen terugbetaling required:</strong> definitieve aftrek, niet conditional op toekomstig gebruik</li>
+            </ul>
+
+            <p><strong>Qualifying aircraft:</strong> Moderne jets zoals <a href="../../vliegtuigen/gulfstream-g650/">Gulfstream G650</a>, Bombardier Global 7500, Dassault Falcon 8X, en <a href="../../vliegtuigen/cessna-citation/">Cessna Citation Latitude</a> voldoen vrijwel altijd aan Stage 5 standards. Oudere pre-owned aircraft (pre-2016) vereisen verification van noise certificates - consult met aviation tax specialist voor specifieke model compliance.</p>
+
+            <h3>Wat is VAMIL (Willekeurige Afschrijving Milieu-investeringen)?</h3>
+            <p>VAMIL (Willekeurige Afschrijving Milieu-investeringen) is nog krachtiger dan MIA voor cash flow optimization. VAMIL allows u 75% van de aanschafwaarde van een qualifying milieu-investering willekeurig af te schrijven - meaning u kunt massive depreciation nemen in jaar 1 in plaats van het te spreiden over 10-20 jaar.</p>
+
+            <p><strong>VAMIL impact op €50M Gulfstream G650:</strong></p>
+            <ul>
+                <li><strong>Zonder VAMIL:</strong> €50M / 15 jaar = €3,3M jaarlijkse afschrijving × 25,8% VPB = €860K annual tax shield</li>
+                <li><strong>Met VAMIL:</strong> 75% × €50M = €37,5M afschrijving jaar 1 × 25,8% VPB = <strong>€9,7M tax shield jaar 1</strong></li>
+                <li><strong>NPV benefit:</strong> Door €9,7M tax benefit jaar 1 versus gespreid over 15 jaar, present value gain circa €2-3M (afhankelijk van discount rate)</li>
+                <li><strong>Resterende 25%:</strong> €12,5M wordt afgeschreven over jaren 2-15 à €930K/jaar (€240K annual tax shield)</li>
+            </ul>
+
+            <div class="highlight-box">
+                <h3>MIA + VAMIL Combinatie - Maximum Fiscal Impact</h3>
+                <p><strong>Beide regelingen zijn stapelbaar</strong> voor ultimate tax optimization op €50M aircraft investment:</p>
+                <ul>
+                    <li><strong>MIA benefit:</strong> €900.000 aftrek × 25,8% = €232.200 cash</li>
+                    <li><strong>VAMIL benefit (NPV):</strong> Accelerated depreciation worth €2-3M present value</li>
+                    <li><strong>BTW recovery:</strong> €10,5M input VAT terugvordering (zie BTW sectie)</li>
+                    <li><strong>Operating costs deduction:</strong> €5-6M/jaar × 25,8% = €1,3-1,5M annual tax shield</li>
+                    <li><strong>Total Year 1 fiscal impact:</strong> €13-15M tussen cash received (BTW) en tax savings (MIA/VAMIL/operating costs)</li>
+                </ul>
+                <p><strong>Effective first-year cost reduction:</strong> €50M aircraft - €13M fiscal benefits = <strong>€37M net cost</strong> in eerste operationele jaar - een 26% reduction door smart tax structuring.</p>
+            </div>
+
+            <h3>MIA/VAMIL Application Process</h3>
+            <p>Om MIA/VAMIL te claimen voor uw zakelijke jet, volg deze stappen:</p>
+            <ul>
+                <li><strong>1. Pre-Purchase Verification:</strong> Verify aircraft voldoet aan Stage 5 noise standards - check manufacturer certificates of EASA documentation. Voor pre-owned aircraft, request noise certificate from seller.</li>
+                <li><strong>2. Application Before Purchase:</strong> Submit MIA/VAMIL aanvraag bij RVO (Rijksdienst voor Ondernemend Nederland) vóór aanschaf. Applications typically approved within 4-8 weken. Cannot be retroactively claimed after purchase.</li>
+                <li><strong>3. Purchase Documentation:</strong> Upon aircraft delivery, collect comprehensive documentation: sales agreement, invoice met full pricing breakdown, wire transfer confirmations, registration documents, environmental compliance certificates.</li>
+                <li><strong>4. Tax Return Filing:</strong> Include MIA aftrek in corporate tax return (Vpb-aangifte) for purchase year. VAMIL depreciation flexibel te claimen - kies optimal timing based on corporate profitability (hogere profit jaren = hogere marginal benefit from depreciation).</li>
+                <li><strong>5. Documentation Retention:</strong> Retain all purchase, compliance, and operational documents for 7 jaar ter bescherming bij Belastingdienst audit.</li>
+            </ul>
+
+            <p><strong>Common pitfalls te vermijden:</strong> Aanvragen na aankoop (niet toegestaan), insufficient environmental documentation (delays approval), incorrect investment bedrag calculation (moet full acquisition price including buyer costs zijn), failing to demonstrate business purpose (pure investment niet qualifying), en missing deadlines voor application submission.</p>
+        </section>
+
+        <section class="content-section">
+            <h2>BTW-Terugvordering - Tot €14,7 Miljoen Input VAT Recovery</h2>
+
+            <h3>Volledige BTW Recovery bij Zakelijk Gebruik</h3>
+            <p>Een van de meest impactful fiscale voordelen voor Nederlandse bedrijven is de mogelijkheid tot volledige BTW-terugvordering (21%) bij aanschaf van een zakelijk vliegtuig. Bij aircraft prices van €40-70 miljoen, betekent dit €8,4-14,7 miljoen immediate cash recovery - een substantial liquidity benefit die de effective purchase price dramatisch verlaagt.</p>
+
+            <p><strong>BTW recovery voorbeelden:</strong></p>
+            <table class="comparison-table">
+                <thead>
+                    <tr>
+                        <th>Aircraft</th>
+                        <th>Purchase Price</th>
+                        <th>BTW (21%)</th>
+                        <th>Recoverable bij 100% Zakelijk</th>
+                        <th>Recoverable bij 80% Zakelijk</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Citation CJ4</td>
+                        <td>€10M</td>
+                        <td>€2,1M</td>
+                        <td>€2,1M</td>
+                        <td>€1,68M</td>
+                    </tr>
+                    <tr>
+                        <td>Challenger 350</td>
+                        <td>€25M</td>
+                        <td>€5,25M</td>
+                        <td>€5,25M</td>
+                        <td>€4,2M</td>
+                    </tr>
+                    <tr class="highlight">
+                        <td>Gulfstream G650</td>
+                        <td>€50M</td>
+                        <td>€10,5M</td>
+                        <td>€10,5M</td>
+                        <td>€8,4M</td>
+                    </tr>
+                    <tr>
+                        <td>Global 7500</td>
+                        <td>€70M</td>
+                        <td>€14,7M</td>
+                        <td>€14,7M</td>
+                        <td>€11,76M</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Requirements voor BTW-Terugvordering</h3>
+            <p>Volledige BTW recovery is mogelijk maar vereist strikte compliance met Nederlandse BTW-regelgeving:</p>
+            <ul>
+                <li><strong>70%+ Zakelijk Gebruik Threshold:</strong> Aircraft moet minimaal 70% gebruikt worden voor business purposes. Private usage boven 30% triggert proportional BTW denial en fringe benefit taxation.</li>
+                <li><strong>Comprehensive Flight Logging:</strong> Digital logbook required voor elke vlucht met: datum/tijd, departure/arrival airports, flight purpose (specific business meeting/client visit/deal discussion), passenger manifests met business justification, PIC signature. Vague descriptions ("business trip") insufficient - specificity crucial.</li>
+                <li><strong>Annual Audit Readiness:</strong> Belastingdienst kan random audit uitvoeren op BTW claims. Must demonstrate business purpose voor >70% van flight hours. Private trips (family vacations, personal travel) duidelijk geïdentificeerd en excluded from BTW recovery calculation.</li>
+                <li><strong>Fringe Benefit Taxation:</strong> Private usage moet fringe benefit bijtelling triggeren voor users (executives/shareholders). Failure to properly tax private usage kan entire BTW recovery challenge from Belastingdienst.</li>
+            </ul>
+
+            <h3>BTW op Operating Costs</h3>
+            <p>Beyond de purchase price, BTW ook recoverable op ongoing operating costs (bij zakelijk gebruik >70%):</p>
+            <ul>
+                <li><strong>Fuel:</strong> €2M/jaar fuel costs @ 400 hours × 21% BTW = €420K annual input VAT recoverable</li>
+                <li><strong>Maintenance:</strong> €1,6M maintenance reserves × 21% = €336K annual recovery</li>
+                <li><strong>Hangar:</strong> €200K hangar rental × 21% = €42K annual recovery</li>
+                <li><strong>Handling Fees:</strong> €600K landing/handling × 21% = €126K annual recovery</li>
+                <li><strong>Catering & Supplies:</strong> €200K × 21% = €42K annual recovery</li>
+                <li><strong>Total Annual Operating BTW:</strong> €966K input VAT recoverable per jaar bij volledige zakelijk gebruik</li>
+            </ul>
+
+            <p><strong>Cumulative 10-year BTW benefit:</strong> €10,5M purchase + (€966K × 10 jaar operating) = <strong>€20,2M total BTW recovery</strong> over 10-year ownership period voor een €50M Gulfstream G650 bij 100% business usage - representing a massive fiscal advantage of Dutch aircraft ownership.</p>
+
+            <h3>Internationale BTW Scenarios</h3>
+            <p>BTW treatment varies significantly voor international operations:</p>
+            <ul>
+                <li><strong>Intra-EU Flights:</strong> 21% Dutch BTW applies op departures from Netherlands. Reverse charge mechanism mogelijk als operator establishment heeft in destination country - allowing VAT shift naar lower-rate jurisdictions (Ireland 23%, maar aviation often 0%).</li>
+                <li><strong>Extra-EU Flights:</strong> 0% BTW op vluchten departing EU naar non-EU destinations (export regime). Amsterdam naar New York, Dubai, Singapore = geen BTW verschuldigd, maar ook geen input VAT recovery op those specific trips (proportional denial).</li>
+                <li><strong>Fuel Uplift Optimization:</strong> Strategic fuel stops in low-VAT jurisdictions can generate meaningful savings. Switzerland (7,7% VAT), Isle of Man (0% VAT), Jersey (0% VAT) - tanking up during tech stops saves €50-100K/jaar bij high utilization. Example: transatlantic flight Amsterdam-New York with fuel stop in Reykjavik (0% VAT) vs full fuel in Amsterdam (21% VAT - though recoverable) improves cash flow.</li>
+            </ul>
+        </section>
+
+        <section class="content-section">
+            <h2>Corporate Ownership Structures - Optimizing Tax Position</h2>
+
+            <h3>1. Direct Corporate Ownership</h3>
+            <p>Simplest structure: aircraft owned directly door operating company (de BV die uw core business runt).</p>
+
+            <p><strong>Voordelen:</strong></p>
+            <ul>
+                <li>Straightforward accounting - aircraft als bedrijfsmiddel op balance sheet</li>
+                <li>All operating costs direct deductible tegen 25,8% VPB rate</li>
+                <li>Volledige MIA/VAMIL/BTW benefits zoals hierboven beschreven</li>
+                <li>Geen inter-company lease agreements of transfer pricing complexities</li>
+                <li>Minimum administrative overhead</li>
+            </ul>
+
+            <p><strong>Nadelen:</strong></p>
+            <ul>
+                <li>Aircraft balance sheet exposure - large asset op operating company books kan debt ratios beïnvloeden voor banking covenants</li>
+                <li>Fringe benefit taxation complexity als multiple executives/shareholders private usage hebben - tracking per individual required</li>
+                <li>Moeilijker te extraheren uit operating company structure later als aircraft sold of restructuring desired</li>
+                <li>Bij meerdere group companies using aircraft, cost allocation discussions kunnen ontstaan</li>
+            </ul>
+
+            <p><strong>Best for:</strong> Single-entity businesses, owner-operators met minimal private usage, companies zonder complex group structure of banking covenant sensitivities.</p>
+
+            <h3>2. Holding Company Structure (Recommended voor Most Corporate Buyers)</h3>
+            <p>Aircraft owned door separate aviation BV within corporate group, gepositioneerd onder holding.</p>
+
+            <div class="highlight-box">
+                <h3>Preferred Dutch Structure - Aviation BV</h3>
+                <p><strong>Structure:</strong> Holding BV → Aviation BV (owns aircraft) → Operating Companies (lease aircraft)</p>
+
+                <p><strong>Key Benefits:</strong></p>
+                <ul>
+                    <li><strong>Clean Separation:</strong> Aircraft assets en liabilities isolated in dedicated entity - geen impact op operating company balance sheets of banking covenants</li>
+                    <li><strong>Centralized Management:</strong> Single entity handles alle aircraft operations (crew, maintenance, scheduling) - efficiency at scale</li>
+                    <li><strong>Inter-Company Leasing:</strong> Aviation BV leases aircraft aan operating companies tegen arm's-length rates (€10-15K/hour typical) - operating companies deduct lease costs, Aviation BV generates revenue offsetting expenses</li>
+                    <li><strong>Full Tax Benefits:</strong> Aviation BV claims MIA/VAMIL/BTW recovery zoals direct ownership - geen loss of fiscal benefits</li>
+                    <li><strong>Dividend Flow:</strong> Excess revenue (from leasing or Part 135 charter) dividends up naar Holding BV tax-free under participation exemption</li>
+                    <li><strong>Future Flexibility:</strong> Easier te verkopen (sell Aviation BV shares vs asset sale), restructure, of add external investors later</li>
+                </ul>
+
+                <p><strong>Operational Flow:</strong> Operating Company A needs Amsterdam-London trip → requests aircraft from Aviation BV → Aviation BV dispatches aircraft, invoices €12K/flight hour → Operating Company A deducts €12K × 1,5 hours = €18K expense (saves €4.644 VPB) → Aviation BV receives €18K revenue, covers actual costs €15K, generates €3K margin.</p>
+            </div>
+
+            <h3>3. Irish/Malta AOC Structure - International Optimization</h3>
+            <p>Voor bedrijven met significant international operations, een Irish of Malta Air Operator Certificate (AOC) structure kan additional benefits bieden.</p>
+
+            <p><strong>Structure Overview:</strong></p>
+            <ul>
+                <li><strong>Aircraft Registration:</strong> Aircraft registered in Isle of Man, Guernsey, of Aruba (popular offshore registries met EASA acceptance)</li>
+                <li><strong>Operating Entity:</strong> Irish of Maltese aircraft operating company holds AOC en employs crew</li>
+                <li><strong>Dutch Holding:</strong> Irish/Malta entity owned door Dutch Holding BV via participation exemption for tax-efficient dividend repatriation</li>
+                <li><strong>Usage:</strong> Aircraft operated throughout Europe onder Irish/Malta AOC, leased terug naar Dutch operating companies for business use</li>
+            </ul>
+
+            <p><strong>Fiscal Advantages:</strong></p>
+            <ul>
+                <li><strong>VAT Optimization:</strong> Malta VAT rate 18% vs Dutch 21% - saves €1,5M op €50M purchase. Ireland: aviation activities vaak VAT-exempt onder specific circumstances, enabling significant structuring benefits.</li>
+                <li><strong>Corporate Tax:</strong> Ireland 12,5% corporate tax rate vs Dutch 25,8% - annual operating profit taxed at nearly half. Malta offers Aircraft Leasing Tax Exemption for qualifying structures.</li>
+                <li><strong>Crew Taxation:</strong> Offshore-registered aircraft enables favorable crew taxation regimes - crew members potentially benefit from seafarer's tax exemptions in certain structures (Ireland Transborder Workers Relief, Malta highly paid individual schemes).</li>
+                <li><strong>No Dutch Fringe Benefit:</strong> Als aircraft niet Dutch-registered en not directly owned by Dutch entity, fringe benefit taxation complexity reduced (though Dutch individuals still subject to wereldwijd income taxation principles).</li>
+            </ul>
+
+            <p><strong>Considerations:</strong></p>
+            <ul>
+                <li><strong>Complexity & Cost:</strong> Setting up Irish/Malta AOC, offshore registration, international structure costs €200-500K initial + €100-200K annual ongoing vs €50-100K voor simple Dutch BV structure</li>
+                <li><strong>Substance Requirements:</strong> Irish/Malta entities require genuine economic substance - office, local directors, operational decision-making - cannot be pure mailbox structure. BEPS/ATAD anti-avoidance rules require demonstrable business rationale.</li>
+                <li><strong>Transfer Pricing:</strong> Extensive inter-company transactions require detailed transfer pricing documentation - arm's-length lease rates between entities, management fees, cost allocations must be defensible bij tax authorities.</li>
+                <li><strong>Regulatory Compliance:</strong> Multi-jurisdiction structure creates reporting obligations in multiple countries - Irish CRO filings, Malta MFSA compliance, Dutch UBO register, annual audits in each jurisdiction.</li>
+            </ul>
+
+            <p><strong>Bottom Line:</strong> Irish/Malta structures make sense voor large corporate groups met €50M+ aircraft, significant international operations (frequent European travel beyond Netherlands), high-frequency utilization (500+ hours/year waar marginal tax benefits compound), en sophistication to manage complex administrative requirements. Voor most mid-market Dutch businesses, the <strong>Holding → Aviation BV structure</strong> offers optimal balance van tax efficiency, operational simplicity, en compliance managability.</p>
+        </section>
+
+        <section class="content-section">
+            <h2>Afschrijving - Depreciation Strategies & Timing</h2>
+
+            <h3>Normale Afschrijvingsmethoden</h3>
+            <p>Without VAMIL, Dutch companies typically depreciate business aircraft over 10-20 jaar depending on aircraft type en usage intensity:</p>
+
+            <table class="comparison-table">
+                <thead>
+                    <tr>
+                        <th>Aircraft Category</th>
+                        <th>Typical Lifespan</th>
+                        <th>Standard Depreciation Period</th>
+                        <th>Annual Rate (Linear)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Light Jets (Citation CJ, Phenom)</td>
+                        <td>20-25 jaar</td>
+                        <td>12-15 jaar</td>
+                        <td>6,7-8,3% per jaar</td>
+                    </tr>
+                    <tr>
+                        <td>Midsize Jets (Challenger 350, G280)</td>
+                        <td>25-30 jaar</td>
+                        <td>15-18 jaar</td>
+                        <td>5,6-6,7% per jaar</td>
+                    </tr>
+                    <tr class="highlight">
+                        <td>Ultra-Long-Range (G650, Global 7500)</td>
+                        <td>30-35 jaar</td>
+                        <td>15-20 jaar</td>
+                        <td>5-6,7% per jaar</td>
+                    </tr>
+                    <tr>
+                        <td>Turboprops (King Air, Pilatus PC-12)</td>
+                        <td>20-30 jaar</td>
+                        <td>10-15 jaar</td>
+                        <td>6,7-10% per jaar</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Linear vs Degressieve Afschrijving</h3>
+            <p><strong>Linear (Straight-Line) Depreciation:</strong> Meest common en straightforward. €50M aircraft over 15 jaar = €3,33M per jaar constant depreciation. Tax shield: €3,33M × 25,8% VPB = €860K annual tax savings.</p>
+
+            <p><strong>Degressieve (Declining Balance) Depreciation:</strong> Accelerated depreciation in early years, declining percentage in later jaren. Typical degressief schedule:</p>
+            <ul>
+                <li><strong>Years 1-3:</strong> 15-20% jaarlijks (€7,5-10M per jaar op €50M aircraft)</li>
+                <li><strong>Years 4-7:</strong> 10-15% jaarlijks (declining base)</li>
+                <li><strong>Years 8-15:</strong> 5-10% jaarlijks tot residual value bereikt</li>
+            </ul>
+
+            <p><strong>Degressief Voordeel:</strong> Front-loading depreciation generates larger tax shields in early years wanneer time value of money highest. €10M depreciation jaar 1 × 25,8% = €2,58M tax saving jaar 1 vs €860K with linear - NPV difference circa €500K-1M over aircraft lifetime depending on discount rate.</p>
+
+            <p><strong>Linear vs Degressief Decision Factors:</strong></p>
+            <ul>
+                <li>Degressief preferred bij: high current profitability (maximize immediate tax shield), expectation van declining future tax rates, need voor early cash flow optimization, aircraft geplanned for 10-15+ year ownership</li>
+                <li>Linear preferred bij: stable profit projections, simpler accounting preferences, anticipation van hogere future tax rates (making future deductions more valuable), of potential early sale plans (avoiding depreciation recapture issues)</li>
+            </ul>
+
+            <h3>Residual Value & Depreciation Accuracy</h3>
+            <p>Critical consideration: estimated residual value at end of depreciation period. Voor ultra-long-range jets zoals G650, market data suggests:</p>
+            <ul>
+                <li><strong>G650 na 15 jaar:</strong> Approximately €15-20M residual value (30-40% of €50M original), assuming normal utilization 300-400 hours/jaar, proper maintenance, en no major damage history</li>
+                <li><strong>Depreciation adjustment:</strong> If aircraft depreciated to €0 but sold for €18M, generates €18M taxable gain (recapture) - requires VPB betaling €4,6M (25,8% × €18M)</li>
+                <li><strong>Conservative approach:</strong> Depreciate to estimated residual value (€50M - €15M = €35M depreciable) over 15 jaar = €2,33M annual depreciation - less aggressive but avoids large recapture on eventual sale</li>
+            </ul>
+
+            <h3>Component Depreciation - Engines & Major Systems</h3>
+            <p>Advanced strategy: separate depreciation van engines en major components from airframe.</p>
+
+            <p><strong>Rationale:</strong> Engines en APUs hebben shorter economic lives (time-between-overhauls 5.000-8.000 hours) en require periodic overhauls costing €4-6M per engine. Separating component depreciation aligns tax accounting met economic reality.</p>
+
+            <p><strong>Example - G650 Component Breakdown:</strong></p>
+            <ul>
+                <li><strong>Airframe:</strong> €35M (70% van €50M total) - depreciate over 20 jaar (€1,75M/jaar)</li>
+                <li><strong>Engines (2× BR725):</strong> €12M (24%) - depreciate over 10 jaar of 6.000 hours (€1,2M/jaar of engine reserve model)</li>
+                <li><strong>Avionics Suite:</strong> €3M (6%) - depreciate over 7 jaar considering tech obsolescence (€430K/jaar)</li>
+            </ul>
+
+            <p><strong>Benefit:</strong> Accelerated depreciation on shorter-life components front-loads tax benefits while maintaining accurate economic depreciation. Requires appraisal at purchase voor defensible component value allocation - aviation appraiser report strengthens Belastingdienst defense if challenged.</p>
+        </section>
+
+        <section class="content-section">
+            <h2>Operating Costs Deductibility - €1,3-1,5M Annual Tax Shield</h2>
+
+            <h3>Fully Deductible Operating Expenses</h3>
+            <p>All legitimate business aircraft operating costs are deductible tegen 25,8% Dutch corporate tax rate, generating substantial annual tax shields:</p>
+
+            <table class="comparison-table">
+                <thead>
+                    <tr>
+                        <th>Operating Cost Category</th>
+                        <th>Annual Cost (400hrs)</th>
+                        <th>Tax Deduction (25,8%)</th>
+                        <th>Documentation Required</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Crew Salaries & Benefits</strong></td>
+                        <td>€400-600K</td>
+                        <td>€103-155K</td>
+                        <td>Employment contracts, payroll records</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Insurance (Hull + Liability)</strong></td>
+                        <td>€250-400K</td>
+                        <td>€65-103K</td>
+                        <td>Insurance policies, premium invoices</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Hangar Rental</strong></td>
+                        <td>€150-300K</td>
+                        <td>€39-77K</td>
+                        <td>Lease agreement, monthly invoices</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Management Fees</strong></td>
+                        <td>€120-200K</td>
+                        <td>€31-52K</td>
+                        <td>Management agreement, fee schedules</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Training (Recurrent)</strong></td>
+                        <td>€80-120K</td>
+                        <td>€21-31K</td>
+                        <td>Training contracts, simulator invoices</td>
+                    </tr>
+                    <tr class="highlight">
+                        <td><strong>Total Fixed Costs</strong></td>
+                        <td><strong>€1,0-1,62M</strong></td>
+                        <td><strong>€259-418K</strong></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Fuel</strong></td>
+                        <td>€2,0M</td>
+                        <td>€516K</td>
+                        <td>Fuel receipts per flight, logbook</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Maintenance Reserves</strong></td>
+                        <td>€1,6M</td>
+                        <td>€413K</td>
+                        <td>Maintenance agreements, MRO invoices</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Landing & Handling Fees</strong></td>
+                        <td>€600K</td>
+                        <td>€155K</td>
+                        <td>FBO invoices, handling receipts</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Catering & Supplies</strong></td>
+                        <td>€200K</td>
+                        <td>€52K</td>
+                        <td>Catering invoices, supply receipts</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Crew Expenses</strong></td>
+                        <td>€200K</td>
+                        <td>€52K</td>
+                        <td>Hotel receipts, per diem records</td>
+                    </tr>
+                    <tr class="highlight">
+                        <td><strong>Total Variable Costs</strong></td>
+                        <td><strong>€4,6M</strong></td>
+                        <td><strong>€1,19M</strong></td>
+                        <td></td>
+                    </tr>
+                    <tr class="highlight">
+                        <td><strong>TOTAL OPERATING COSTS</strong></td>
+                        <td><strong>€5,6-6,22M</strong></td>
+                        <td><strong>€1,45-1,61M</strong></td>
+                        <td>Comprehensive documentation package</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Proportional Deduction bij Mixed Private/Business Use</h3>
+            <p>Als aircraft niet 100% zakelijk gebruikt wordt, operating costs proportionally deductible based on business usage percentage:</p>
+
+            <p><strong>Example: 80% Zakelijk / 20% Privé Split</strong></p>
+            <ul>
+                <li><strong>Total Operating Costs:</strong> €5,8M per jaar</li>
+                <li><strong>Deductible Amount:</strong> 80% × €5,8M = €4,64M</li>
+                <li><strong>Tax Shield:</strong> €4,64M × 25,8% = €1,197M tax savings</li>
+                <li><strong>Non-Deductible:</strong> 20% × €5,8M = €1,16M private usage (triggers fringe benefit voor users)</li>
+            </ul>
+
+            <p><strong>Documentation Imperative:</strong> Flight logbook must clearly categorize elke vlucht als business of private. Business justification required: "Meeting with Client X in Paris re: acquisition discussion" (business) vs "Family vacation to Ibiza" (private). Vague descriptions invite Belastingdienst scrutiny en potential disallowance.</p>
+
+            <h3>Crew Employment Structures</h3>
+            <p>Crew salaries represent significant deductible expense (€400-600K annually voor 4-pilot operation). Optimization strategies:</p>
+
+            <ul>
+                <li><strong>Direct Employment door Aviation BV:</strong> Cleanest structure - pilots employed by entity owning aircraft, salaries fully deductible, no transfer pricing issues. Pilots on Dutch payroll subject to Dutch income tax en social security contributions (beware: Dutch payroll tax rate kan impact crew attractiveness vs foreign-flagged operations).</li>
+                <li><strong>Contract Crew via Third-Party:</strong> For lower utilization operations (<300 hours/year), contract pilots door crew provider eliminates fixed salary costs. Pay only voor flights flown - typical €1.200-1.800 per day + per diem. Deductible as consulting/contractor expense. Reduces annual crew costs naar €300-400K maar loses 24/7 availability.</li>
+                <li><strong>International Crew Structure:</strong> Pilots employed door Irish/Malta operating entity kunnen benefit from favorable seafarer tax schemes - pilots physically based in Ireland/Malta met <183 days in Netherlands avoid Dutch income tax (treaty protection). Enables competitive crew compensation packages. Requires legitimate substance - cannot be paper structure.</li>
+            </ul>
+        </section>
+
+        <section class="content-section">
+            <h2>Fringe Benefit Taxation - Bijtelling op Privégebruik</h2>
+
+            <h3>Wanneer Triggert Fringe Benefit Tax?</h3>
+            <p>Nederlandse fringe benefit (bijtelling) rules zijn strict: wanneer employees of shareholders gebruiken company aircraft voor private trips, dit constitueert taxable benefit-in-kind subject to individual income taxation.</p>
+
+            <p><strong>Fringe Benefit Calculation Formula:</strong></p>
+            <p><em>Bijtelling = 30% × Cataloguswaarde (list price) × Private Usage % × User's Marginal Tax Rate (tot 49,5%)</em></p>
+
+            <p><strong>Example - Director Private Usage van €50M G650:</strong></p>
+            <ul>
+                <li><strong>Aircraft Cataloguswaarde:</strong> €50M (original list price, not depreciated value)</li>
+                <li><strong>Annual Operating Hours:</strong> 400 hours totaal</li>
+                <li><strong>Director Private Trips:</strong> 10 vluchten, 60 flight hours (15% van total)</li>
+                <li><strong>Bijtelling Basis:</strong> €50M × 15% × 30% = €2,25M taxable benefit</li>
+                <li><strong>Director Income Tax:</strong> €2,25M × 49,5% (top bracket) = <strong>€1,11M income tax</strong></li>
+                <li><strong>Employer Social Security:</strong> Potentially additional employer taxation (limited applicability boven certain thresholds)</li>
+            </ul>
+
+            <p><strong>Impact on User:</strong> Director's private aircraft usage costs €1,11M in personal income tax - staggeringly expensive. This creates strong incentive voor directors either (a) minimize private usage, (b) reimburse company voor market-rate charter equivalent, or (c) use separate charter providers voor private travel.</p>
+
+            <h3>Mitigation Strategies voor Fringe Benefit Tax</h3>
+
+            <div class="highlight-box">
+                <h3>Strategy 1: Market-Rate Reimbursement</h3>
+                <p>Director betaalt arm's-length charter rate terug aan company for private trips - eliminates bijtelling.</p>
+                <ul>
+                    <li><strong>Approach:</strong> Director privately trips Amsterdam-Ibiza roundtrip (4 flight hours). Market charter rate €15K/hour × 4 hours = €60K. Director wires €60K naar company as reimbursement.</li>
+                    <li><strong>Tax Effect:</strong> No bijtelling - transaction treated as if director chartered from third party. Company receives €60K revenue (offsets actual costs €50K = €10K margin, taxable). Director pays €60K out-of-pocket (not deductible personally).</li>
+                    <li><strong>Net Cost:</strong> Director pays €60K cash vs €1,11M tax exposure - massive savings. Practical for occasional private users.</li>
+                </ul>
+            </div>
+
+            <div class="highlight-box">
+                <h3>Strategy 2: Limit Private Usage to <10%</h3>
+                <p>Restricting private usage beneden 10% significantly reduces bijtelling exposure.</p>
+                <ul>
+                    <li><strong>Example:</strong> 400 annual hours, limit private to 40 hours (10%) vs 60 hours (15%) in previous example.</li>
+                    <li><strong>Bijtelling:</strong> €50M × 10% × 30% = €1,5M basis × 49,5% = €742K tax vs €1,11M - saving €368K</li>
+                    <li><strong>Implementation:</strong> Clear policy: family vacations via commercial/charter third party, company aircraft strictly business + rare exceptions (emergencies, etc.). Requires discipline but meaningful tax savings.</li>
+                </ul>
+            </div>
+
+            <div class="highlight-box">
+                <h3>Strategy 3: Business Justification Optimization</h3>
+                <p>Borderline trips kunnen often be legitimately classified as business met proper documentation.</p>
+                <ul>
+                    <li><strong>Example:</strong> Director flies naar Monaco voor F1 Grand Prix - potentially private recreation. However, if trip includes business meetings met prospective clients, investors, of strategic partners attending same event, legitimate business component.</li>
+                    <li><strong>Documentation:</strong> Meeting agendas, attendee lists, follow-up emails referencing business discussions. Private component (family attending race) separated - only incremental cost (extra passengers) allocated to private.</li>
+                    <li><strong>Reasonable Allocation:</strong> Trip 70% business (meetings spanning 3 days) / 30% private (family race attendance) → only 30% van flight hours trigger bijtelling on proportional basis.</li>
+                    <li><strong>Caution:</strong> Overly aggressive classification invites audit challenges. Genuine business substance required - cannot fabricate meetings to justify vacation trips.</li>
+                </ul>
+            </div>
+
+            <h3>Belastingdienst Audit Scenarios</h3>
+            <p>Common audit triggers and how to defend:</p>
+            <ul>
+                <li><strong>Audit Trigger:</strong> High BTW recovery claim (€10M+) without corresponding business flight volume. <strong>Defense:</strong> Comprehensive flight logs demonstrating 70%+ business usage, detailed trip purposes, passenger manifests showing business attendees.</li>
+                <li><strong>Audit Trigger:</strong> Directors/shareholders with minimal reported bijtelling despite frequent aircraft availability. <strong>Defense:</strong> Reimbursement agreements showing market-rate payments for private trips, evidence directors used third-party charter for vacations.</li>
+                <li><strong>Audit Trigger:</strong> Flights to leisure destinations (Ibiza, St. Tropez, ski resorts) without clear business justification. <strong>Defense:</strong> Meeting documentation, client entertainment records, business development activities - or proper bijtelling reporting if genuinely private.</li>
+                <li><strong>Audit Trigger:</strong> Operating costs disproportionate to claimed business usage (high catering, entertainment expenses suggesting private entertainment). <strong>Defense:</strong> Client entertainment as legitimate business development, documented guest lists, follow-up deal flow from entertainment activities.</li>
+            </ul>
+        </section>
+
+        <section class="content-section">
+            <h2>Internationale Belastingaspecten</h2>
+
+            <h3>Cross-Border Transfer Pricing</h3>
+            <p>Voor multinational groups met aircraft owned in Netherlands maar gebruikt internationally, transfer pricing compliance critical:</p>
+
+            <p><strong>Arm's-Length Principle:</strong> When Dutch Aviation BV leases aircraft naar foreign group entities (US subsidiary, Asian operations, etc.), inter-company lease rates must reflect arm's-length market pricing - what unrelated parties would charge.</p>
+
+            <p><strong>Defensible Inter-Company Rates:</strong></p>
+            <ul>
+                <li><strong>G650 Charter Market Rate:</strong> €12-18K per flight hour (varies by route, season)</li>
+                <li><strong>Inter-Company Rate:</strong> Typically mid-range €13-15K/hour defensible - reflects internal cost efficiencies (no broker margin) maar also premium over pure cost recovery (Aviation BV entitled to reasonable margin)</li>
+                <li><strong>Documentation:</strong> Annual benchmarking study comparing internal rates naar external charter market data, written inter-company agreements specifying rates/terms, invoicing each subsidiary for actual usage</li>
+            </ul>
+
+            <p><strong>Transfer Pricing Audit Risk:</strong> Underpricing (Aviation BV charges €8K/hour below market) shifts profit naar foreign subsidiaries, triggering Dutch tax authority adjustments. Overpricing (charging €20K/hour above market) creates opposite issue in foreign jurisdictions. Maintain defensible mid-market pricing with documented rationale.</p>
+
+            <h3>Permanent Establishment (PE) Risk</h3>
+            <p>Extensive aircraft operations in foreign jurisdictions kunnen PE triggeren, creating foreign tax exposure:</p>
+
+            <p><strong>PE Triggers:</strong></p>
+            <ul>
+                <li><strong>Crew Based Abroad:</strong> If Dutch-owned aircraft has permanent crew stationed in London, Paris, or New York, may create PE in those jurisdictions - requiring foreign corporate tax filings en potential taxation</li>
+                <li><strong>Fixed Base Operations:</strong> Dedicated hangar or office space in foreign country for aircraft management suggests permanent presence</li>
+                <li><strong>Frequent Operations:</strong> Regular flights from foreign airports (e.g., 30% van flights originate from London Luton) may indicate sufficient nexus for PE determination</li>
+            </ul>
+
+            <p><strong>PE Mitigation:</strong> Ensure crew officially based in Netherlands (Dutch employment contracts, spend >50% time in NL), avoid long-term hangar leases abroad (use transient FBO services), structure operations primarily from Dutch home base met international trips as temporary missions.</p>
+
+            <h3>Withholding Taxes op International Payments</h3>
+            <p>Some jurisdictions impose withholding taxes op payments related to aircraft usage:</p>
+            <ul>
+                <li><strong>US Withholding:</strong> 30% withholding tax op certain aircraft lease payments from US payors - Netherlands-US tax treaty often provides exemption maar requires W-8BEN-E filing</li>
+                <li><strong>Brazil Withholding:</strong> 15-25% withholding op aircraft-related payments - treaty relief available maar complex procedural requirements</li>
+                <li><strong>Middle East:</strong> UAE, Saudi Arabia generally no withholding on aircraft operations, favorable jurisdiction for Middle East travel</li>
+            </ul>
+
+            <h3>Customs & Temporary Import Relief</h3>
+            <p>Voor non-EU registered aircraft (Isle of Man, Guernsey, US-registered) operating into Netherlands/Europe:</p>
+            <ul>
+                <li><strong>Temporary Import Relief:</strong> Non-EU aircraft can operate in EU for 90-180 days per year without permanent VAT/customs duty importation</li>
+                <li><strong>Permanent Import:</strong> Aircraft remaining in EU beyond temporary limits triggers permanent import - requires 21% Dutch VAT payment (or recovery scheme bij qualifying business use) plus customs duties</li>
+                <li><strong>Carnet Procedures:</strong> ATA Carnet can facilitate temporary imports for specific trips - aviation broker/handler typically manages documentation</li>
+            </ul>
+        </section>
+
+        <!-- FAQ Section -->
+        <div class="faq-section">
+            <h2>Veelgestelde Vragen - Zakelijk Vliegtuig Belasting</h2>
+
+            <div class="faq-item">
+                <div class="faq-question">Wat zijn de fiscale voordelen van een zakelijk vliegtuig in Nederland?</div>
+                <div class="faq-answer">Nederlandse bedrijven kunnen profiteren van MIA (Milieu-investeringsaftrek) tot 36% over €2,5 miljoen investering (€900.000 aftrek), VAMIL (Willekeurige Afschrijving Milieu-investeringen) voor 75% versnelde afschrijving in jaar één, volledige BTW-terugvordering bij >70% zakelijk gebruik (21% over aankoopprijs = €8,4-€14,7 miljoen op €40-70M jet), corporate income tax deductibility op operating costs (€5-6M/jaar), en degressieve afschrijving spreiding over 10-20 jaar. Total tax benefit eerste jaar: €3-5 miljoen op €50M aircraft afhankelijk van corporate structure.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Hoe werkt de MIA/VAMIL regeling voor zakelijke vliegtuigen?</div>
+                <div class="faq-answer">MIA (Milieu-investeringsaftrek) geeft 36% fiscale aftrek over investeringsbedrag tot maximaal €2,5 miljoen (€900.000 max voordeel bij 25,8% VPB = €232.200 cash benefit). VAMIL (Willekeurige Afschrijving Milieu-investeringen) allows 75% van aanschafwaarde direct afschrijven in jaar 1 in plaats van normale 10-20 jaar spreiding - example: €50M jet met VAMIL = €37,5M afschrijving jaar 1 vs €2,5-5M normaal, generating €9,7M tax shield (€37,5M × 25,8%). Requirements: aircraft moet voldoen aan Stage 5 noise standards (moderne jets zoals G650, Global 7500 qualify), investment decision logging, en operational documentation. Both regelingen combineerbaar voor maximaal fiscal impact.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Kan ik BTW terugvorderen op een zakelijk vliegtuig?</div>
+                <div class="faq-answer">Ja, volledige BTW-terugvordering mogelijk bij >70% zakelijk gebruik. Bij €50M Gulfstream G650 = €10,5M BTW (21%), direct terugvorderbaar via aangifteperiode. Requirements: gedetailleerde logbook documentation per vlucht (zakelijk vs privé purpose, passengers, business justification), annual audit door belastingdienst mogelijk, private usage moet fringe benefit taxation triggeren (30% bijtelling over cataloguswaarde per privé trip). Mixed-use scenarios: 80% zakelijk = €8,4M BTW recoverable, 20% privé triggers €300K-€500K jaarlijkse bijtelling voor executives. Charteren van eigen aircraft aan derden (Part 135) telt als zakelijk gebruik en maximizes BTW recovery while offsetting costs €500K-€1M/jaar revenue.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Welke corporate ownership structuur is fiscaal voordeligst?</div>
+                <div class="faq-answer">Three primary structures: (1) Direct Corporate Ownership - aircraft owned by operating company, simplest structure, all costs deductible, BTW recoverable, maar fringe benefit tax op private use (30% bijtelling). (2) Holding Company Structure - separate aviation BV within group, cleaner accounting, lease aircraft to operating companies, centralized management, dezelfde tax benefits. (3) Irish/Malta AOC Structure - aircraft registered in Isle of Man/Guernsey, operated under Irish/Malta AOC voor European operations, VAT optimization mogelijk (Malta VAT 18% vs NL 21%), internationale flexibiliteit. Best voor Netherlands: Holding Company Structure met Dutch BV enables full MIA/VAMIL/BTW benefits, clear separation private/corporate use, potential Part 135 charter revenue, en group consolidation advantages.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Hoe werkt afschrijving van een zakelijk vliegtuig?</div>
+                <div class="faq-answer">Normale afschrijving: 10-20 jaar linear of degressief, typically 15 jaar voor ultra-long-range jets (G650/Global 7500). €50M aircraft = €3,3M/jaar afschrijving linear over 15 jaar, of degressief met 20% eerste jaren declining naar 5-10% later (accelerated tax benefit). Met VAMIL: 75% (€37,5M) direct year 1, remaining 25% (€12,5M) spread over jaren 2-15 à €930K/jaar. Restwaarde estimation: G650 na 15 jaar circa €15-20M residual value (30-40% original), requiring adjustment als actual depreciation differs. Engine reserves: separaat afgeschreven als major components - BR725 overhaul €4-5M typically €500-600/flight hour reserve accrual. Belangrijk: afschrijving voor tax purposes kan verschillen van book depreciation voor financial reporting.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Zijn operating costs van een zakelijk vliegtuig aftrekbaar?</div>
+                <div class="faq-answer">Ja, volledige aftrekbaarheid zakelijke operating costs tegen 25,8% corporate tax rate. Deductible costs: crew salaries (€400-600K/jaar), hangar rental (€150-300K), insurance (€250-400K), maintenance reserves (€1,6M @ 400hrs), fuel (€2M), landing fees (€600K), management fees (€120-200K), training (€80-120K). Total €5-6M/jaar operating costs = €1,3-€1,5M annual tax shield. Proportional deduction bij mixed use: 80% zakelijk = 80% × €5,5M costs = €4,4M deductible = €1,14M tax benefit. Private usage: 20% private trips trigger fringe benefit taxation op users (executives/shareholders) - €300-500K/jaar bijtelling typical voor frequent users. Documentation critical: flight logs must show business purpose, passenger manifests, meeting agendas, clients visited.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Wat zijn de BTW-implicaties bij internationale vluchten?</div>
+                <div class="faq-answer">Intra-EU vluchten: 21% Dutch BTW applicable op departures from Netherlands naar andere EU landen, maar BTW-shift mogelijk onder reverse charge mechanism als operator heeft establishment in destination country. Extra-EU vluchten: 0% BTW op flights departing EU naar non-EU destinations (export rules) - example Amsterdam naar Dubai, New York, Singapore = geen BTW verschuldigd. Import BTW: bij non-EU aircraft importeren naar Netherlands, temporary import relief mogelijk voor 90-180 days, permanent import requires full 21% BTW payment (of BTW recovery scheme). Fuel BTW: fuel uplift in Netherlands 21% BTW, maar recoverable voor business operators, fuel stops in low-VAT jurisdictions (Switzerland 7,7%, Isle of Man 0%) can generate savings €50-100K/jaar bij high utilization. Positioning flights: lege returns naar Netherlands typically BTW exempt under aircraft operations rules.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Hoe voorkom ik fringe benefit taxation op privégebruik?</div>
+                <div class="faq-answer">Fringe benefit (bijtelling) triggered when employees/shareholders gebruiken company aircraft voor private trips. Calculation: 30% van cataloguswaarde (list price) × private usage percentage × gebruiker's taxable income bracket (tot 49,5%). Example: €50M jet, director maakt 10 private trips (15% van 400 annual hours) = €7,5M bijtelling basis (€50M × 15%), resulting €2,25M taxable benefit (30% × €7,5M), director pays €1,11M income tax (49,5% top rate). Mitigation strategies: (1) Director betaalt marktconforme charter rate terug aan BV (€12-18K/uur eliminates bijtelling), (2) Limit private gebruik tot <10% reduces impact, (3) Formalize business justification voor borderline trips (family joining business meetings vaak acceptable met documentation), (4) Use separate charter provider voor private travel keeps company aircraft 100% zakelijk.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Welke documentatie heeft de Belastingdienst nodig?</div>
+                <div class="faq-answer">Comprehensive documentation required voor MIA/VAMIL/BTW claims: (1) Purchase Documentation - sales agreement, delivery certificate, invoice met BTW breakdown, wire transfer confirmations, registration documents. (2) Flight Logs - digital logbook per vlucht met date/time, departure/destination, flight purpose (specific business meeting/client/deal), passenger manifests, PIC signature. (3) Operational Records - crew contracts en salaries, hangar lease, insurance policies, maintenance invoices (with BTW breakdown), fuel receipts, catering, handling fees. (4) MIA/VAMIL Application - environmental compliance certificates (Stage 5 noise), investment decision documentation, business case justification. (5) BTW Claims - quarterly filings met itemized input VAT, cross-reference naar flight logs voor business usage %, private trip reporting voor bijtelling. Retain 7 jaar voor audit protection.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Wat zijn de internationale belastingaspecten?</div>
+                <div class="faq-answer">Cross-border considerations: (1) Transfer Pricing - als aircraft owned door Dutch BV maar used internationally door group entities, arm's-length charter rates must be charged between entities (€10-15K/hour typical inter-company) om transfer pricing challenges te voorkomen. (2) Permanent Establishment Risk - extensive operations in foreign jurisdictions (crew based abroad, frequent departures from foreign airports) kan PE triggeren en foreign tax exposure. (3) Withholding Taxes - sommige landen (USA, Brazil) heffen withholding tax op payments voor aircraft usage/charter; tax treaty relief vaak beschikbaar. (4) Customs & Import Duties - temporary import relief voor non-EU aircraft naar EU, maar permanent basing requires VAT/duty clearance. (5) Tax Treaty Benefits - Netherlands' extensive treaty network enables dividend repatriation van foreign aviation subsidiaries zonder additional taxation. Advies: structure met Dutch holding + Irish/Malta operational entity optimizes European flexibility en minimizes VAT/withholding exposures.</div>
+            </div>
+        </div>
+
+        <!-- CTA Section -->
+        <div class="cta-section">
+            <h2>Fiscaal Advies Nodig voor Uw Zakelijke Vliegtuig?</h2>
+            <p>Laat ons u helpen uw aircraft ownership fiscaal optimaal te structureren en maximale voordelen te realiseren.</p>
+            <div class="cta-buttons">
+                <a href="../../index.html#wizard" class="cta-button">Start Wizard</a>
+                <a href="../../kopen/" class="cta-button secondary">Kopen Gids</a>
+                <a href="../" class="cta-button secondary">Zakelijk Overzicht</a>
+            </div>
+        </div>
+
+    </article>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>JetSelect</h3>
+                    <p>De Nederlandse privéjet specialist. Transparant advies voor kopen, huren, en financieren.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Zakelijk</h4>
+                    <ul>
+                        <li><a href="./">Belasting</a></li>
+                        <li><a href="../financiering/">Financiering</a></li>
+                        <li><a href="../structuur/">Corporate Structuur</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Kopen</h4>
+                    <ul>
+                        <li><a href="../../kopen/">Complete Kopen Gids</a></li>
+                        <li><a href="../../kopen/privet-jet/leasing/">Leasing</a></li>
+                        <li><a href="../../kopen/privet-jet/financiering/">Financiering</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Vliegtuigen</h4>
+                    <ul>
+                        <li><a href="../../vliegtuigen/gulfstream-g650/">Gulfstream G650</a></li>
+                        <li><a href="../../vliegtuigen/">Alle Vliegtuigen</a></li>
+                        <li><a href="../../locaties/">Locaties</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 JetSelect. Alle rechten voorbehouden.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../../js/main.js"></script>
+</body>
+</html>

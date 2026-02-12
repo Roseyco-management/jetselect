@@ -343,6 +343,56 @@ Plans:
 - **Case Studies:** Success stories and buyer testimonials
 - **Additional Guides:** Light jet guides, midsize guides, heavy jet guides, used aircraft market
 
+#### Phase 13.5: Internal Linking Implementation
+**Goal**: Implement editorial-quality internal linking across all 113 pages following Phase 8 hub-spoke architecture
+**Status**: 🚧 Ready to Execute (Plan complete)
+**Depends on**: Phase 13 (all content pages exist)
+**Timeline**: 3-4 weeks (48-62 hours total)
+**Plans**: 4 tasks (Tier 1 Pillars, Tier 2 Clusters, Tier 3 Supporting, Verification)
+
+Plans:
+- [ ] 13.5-01: Tier 1 - Link 5 Pillar Pages (15-20 hours)
+- [ ] 13.5-02: Tier 2 - Link 35 Cluster Pages (15-18 hours)
+- [ ] 13.5-03: Tier 3 - Link 73 Supporting Pages (18-24 hours)
+- [ ] 13.5-04: Verify Link Topology & SEO Metrics (2-3 hours)
+
+**Strategy:**
+- **Hub-Spoke Model:** Supporting → Clusters → Pillars (PageRank concentration)
+- **Link Density:** 2-5% contextual links per page (optimal)
+- **Anchor Text:** Natural, varied, semantic (no keyword stuffing)
+- **Editorial Quality:** Links that help users (Google Helpful Content compliance)
+- **Target:** 500+ strategic internal links across 113 pages
+
+**Tier 1: Pillar Pages (5 pages, highest ROI)**
+- `/kopen/` - Ultimate Buying Guide
+- `/gids/nederland/` - Netherlands Guide
+- `/zakelijk/kopen/` - Business Aircraft Guide
+- `/gids/kosten/` - Costs & Economics
+- `/gids/huren-vs-kopen/` - Rent vs Buy
+- Target: 20+ outbound links per pillar, 35+ inbound links each
+
+**Tier 2: Cluster Pages (~35 pages, authority distribution)**
+- Buying Process: `/kopen/privet-jet/*` (12 pages)
+- Business Aviation: `/zakelijk/*` (13 pages)
+- Costs: `/gids/kosten/*`, `/tools/*` (10 pages)
+- Target: 10-15 contextual links per cluster page
+
+**Tier 3: Supporting Pages (~73 pages, complete network)**
+- City/Location: `/locaties/*` (26 pages)
+- Aircraft: `/vliegtuigen/*` (10 pages)
+- Blog articles: `/blog/*` (18 pages)
+- Charter: `/huren/*` (7 pages)
+- Routes: `/locaties/amsterdam-*` (10 pages)
+- Target: 5-8 contextual links per supporting page
+
+**Phase 13.5 Achievement:**
+- **500+ strategic internal links** added across 113 pages
+- **Hub-spoke topology** implemented (Phase 8 architecture)
+- **PageRank flows** from supporting → clusters → pillars
+- **Zero orphan pages** (all content interconnected)
+- **Editorial quality** (Google Helpful Content compliant)
+- **User navigation** enabled (content discovery paths)
+
 #### Phase 14: Link Acquisition Campaign
 **Goal**: Build high-authority backlink profile through Dutch business directories, aviation authorities, and digital PR
 **Status**: 🚧 In Progress (Plan complete, ready for execution)
@@ -408,5 +458,6 @@ Plans:
 | 11. City & Regional Landing Pages | v2.0 | 20/20 | ✅ Complete | 2026-02-09 |
 | 12. Aircraft & Route Content | v2.0 | 20/20 | ✅ Complete | 2026-02-09 |
 | 13. Long-tail & Supporting Content | v2.0 | 47/47 | ✅ Complete | 2026-02-10 |
+| 13.5. Internal Linking Implementation | v2.0 | 0/4 | 🚧 Ready | - |
 | 14. Link Acquisition Campaign | v2.0 | 0/TBD | Not started | - |
 | 15. Analytics, Tracking & Iteration | v2.0 | 0/TBD | Not started | - |

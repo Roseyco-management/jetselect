@@ -19,10 +19,9 @@
   <!-- ====================================================================== -->
 
   <!-- Tier 1: Pillar Pages (5 pages) - Priority 1.0 / changefreq monthly -->
-  <!--
   <url>
     <loc>https://jetselect.nl/kopen/privet-jet</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/kopen/privet-jet" />
@@ -32,7 +31,7 @@
 
   <url>
     <loc>https://jetselect.nl/kopen/nederland</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/kopen/nederland" />
@@ -42,7 +41,7 @@
 
   <url>
     <loc>https://jetselect.nl/zakelijk/vliegtuig-kopen</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/zakelijk/vliegtuig-kopen" />
@@ -52,7 +51,7 @@
 
   <url>
     <loc>https://jetselect.nl/gids/kosten</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/gids/kosten" />
@@ -62,20 +61,18 @@
 
   <url>
     <loc>https://jetselect.nl/kopen/huren-vs-kopen</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/kopen/huren-vs-kopen" />
     <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/buy/rent-vs-buy" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/kopen/huren-vs-kopen" />
   </url>
-  -->
 
   <!-- Buying Process Cluster (12 pages) - Priority 0.8 / changefreq monthly -->
-  <!--
   <url>
     <loc>https://jetselect.nl/kopen/privet-jet/advies</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/kopen/privet-jet/advies" />
@@ -85,7 +82,7 @@
 
   <url>
     <loc>https://jetselect.nl/kopen/privet-jet/eerste-keer</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/kopen/privet-jet/eerste-keer" />
@@ -95,7 +92,7 @@
 
   <url>
     <loc>https://jetselect.nl/kopen/privet-jet/begeleiding</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/kopen/privet-jet/begeleiding" />
@@ -105,7 +102,7 @@
 
   <url>
     <loc>https://jetselect.nl/kopen/privet-jet/broker</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/kopen/privet-jet/broker" />
@@ -115,7 +112,7 @@
 
   <url>
     <loc>https://jetselect.nl/kopen/privet-jet/makelaar</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/kopen/privet-jet/makelaar" />
@@ -125,7 +122,7 @@
 
   <url>
     <loc>https://jetselect.nl/kopen/privet-jet/particulier</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/kopen/privet-jet/particulier" />
@@ -135,20 +132,18 @@
 
   <url>
     <loc>https://jetselect.nl/kopen/privet-jet/aanschaffen</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/kopen/privet-jet/aanschaffen" />
     <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/buy/private-jet/acquisition" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/kopen/privet-jet/aanschaffen" />
   </url>
-  -->
 
   <!-- Cost & Economics Cluster (10 pages) - Priority 0.8 / changefreq monthly -->
-  <!--
   <url>
     <loc>https://jetselect.nl/tools/kosten-calculator</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/tools/kosten-calculator" />
@@ -158,7 +153,7 @@
 
   <url>
     <loc>https://jetselect.nl/gids/kosten/verborgen-kosten</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/gids/kosten/verborgen-kosten" />
@@ -168,7 +163,7 @@
 
   <url>
     <loc>https://jetselect.nl/gids/kosten/jaarlijks-budget</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/gids/kosten/jaarlijks-budget" />
@@ -178,7 +173,7 @@
 
   <url>
     <loc>https://jetselect.nl/gids/kosten/vaste-kosten</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/gids/kosten/vaste-kosten" />
@@ -188,7 +183,7 @@
 
   <url>
     <loc>https://jetselect.nl/gids/kosten/variabele-kosten</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/gids/kosten/variabele-kosten" />
@@ -198,20 +193,18 @@
 
   <url>
     <loc>https://jetselect.nl/gids/kosten/eigendom-vs-huren</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/gids/kosten/eigendom-vs-huren" />
     <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/guide/costs/ownership-vs-charter" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/gids/kosten/eigendom-vs-huren" />
   </url>
-  -->
 
   <!-- Business Aviation Cluster (13 pages) - Priority 0.8 / changefreq monthly -->
-  <!--
   <url>
     <loc>https://jetselect.nl/tools/roi-calculator</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/tools/roi-calculator" />
@@ -221,7 +214,7 @@
 
   <url>
     <loc>https://jetselect.nl/zakelijk/voordelen</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/zakelijk/voordelen" />
@@ -231,7 +224,7 @@
 
   <url>
     <loc>https://jetselect.nl/zakelijk/gebruik</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/zakelijk/gebruik" />
@@ -241,20 +234,18 @@
 
   <url>
     <loc>https://jetselect.nl/zakelijk/selectie</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/zakelijk/selectie" />
     <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/business/aircraft-selection" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/zakelijk/selectie" />
   </url>
-  -->
 
   <!-- Cost/Pricing Supporting Pages (8 pages) - Priority 0.6 / changefreq yearly -->
-  <!--
   <url>
     <loc>https://jetselect.nl/blog/wat-kost-privet-jet</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/blog/wat-kost-privet-jet" />
@@ -264,7 +255,7 @@
 
   <url>
     <loc>https://jetselect.nl/blog/privet-jet-prijs</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/blog/privet-jet-prijs" />
@@ -274,7 +265,7 @@
 
   <url>
     <loc>https://jetselect.nl/blog/kosten-privet-jet-kopen</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/blog/kosten-privet-jet-kopen" />
@@ -284,37 +275,33 @@
 
   <url>
     <loc>https://jetselect.nl/blog/prijs-nederland</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/blog/prijs-nederland" />
     <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/blog/price-netherlands" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/blog/prijs-nederland" />
   </url>
-  -->
 
   <!-- Ownership Alternatives Supporting Pages (8 pages) - Priority 0.6 / changefreq yearly -->
-  <!--
   <url>
     <loc>https://jetselect.nl/tools/huren-vs-kopen-calculator</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/tools/huren-vs-kopen-calculator" />
     <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/tools/rent-vs-buy-calculator" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/tools/huren-vs-kopen-calculator" />
   </url>
-  -->
 
   <!-- ====================================================================== -->
   <!-- PHASE 11 CONTENT (11 pages) - Uncomment when created                  -->
   <!-- ====================================================================== -->
 
   <!-- Location Pages - Priority 0.7-0.8 / changefreq monthly -->
-  <!--
   <url>
     <loc>https://jetselect.nl/locaties/amsterdam</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/locaties/amsterdam" />
@@ -324,7 +311,7 @@
 
   <url>
     <loc>https://jetselect.nl/locaties/amsterdam/kopen</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/locaties/amsterdam/kopen" />
@@ -334,7 +321,7 @@
 
   <url>
     <loc>https://jetselect.nl/locaties/rotterdam</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/locaties/rotterdam" />
@@ -344,7 +331,7 @@
 
   <url>
     <loc>https://jetselect.nl/locaties/den-haag</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/locaties/den-haag" />
@@ -354,7 +341,7 @@
 
   <url>
     <loc>https://jetselect.nl/locaties/utrecht</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/locaties/utrecht" />
@@ -364,7 +351,7 @@
 
   <url>
     <loc>https://jetselect.nl/locaties/eindhoven</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/locaties/eindhoven" />
@@ -374,7 +361,7 @@
 
   <url>
     <loc>https://jetselect.nl/locaties/maastricht</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/locaties/maastricht" />
@@ -384,7 +371,7 @@
 
   <url>
     <loc>https://jetselect.nl/locaties/schiphol</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/locaties/schiphol" />
@@ -394,7 +381,7 @@
 
   <url>
     <loc>https://jetselect.nl/locaties/rotterdam-airport</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/locaties/rotterdam-airport" />
@@ -404,24 +391,22 @@
 
   <url>
     <loc>https://jetselect.nl/locaties/luchthavens-vergelijking</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/locaties/luchthavens-vergelijking" />
     <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/locations/airport-comparison" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/locaties/luchthavens-vergelijking" />
   </url>
-  -->
 
   <!-- ====================================================================== -->
   <!-- PHASE 12 CONTENT (25 pages) - Uncomment when created                  -->
   <!-- ====================================================================== -->
 
   <!-- Aircraft Category Pages - Priority 0.7-0.8 / changefreq monthly -->
-  <!--
   <url>
     <loc>https://jetselect.nl/vliegtuigen/lichte-jets</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/vliegtuigen/lichte-jets" />
@@ -431,7 +416,7 @@
 
   <url>
     <loc>https://jetselect.nl/vliegtuigen/midsize-jets</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/vliegtuigen/midsize-jets" />
@@ -441,7 +426,7 @@
 
   <url>
     <loc>https://jetselect.nl/vliegtuigen/large-cabin</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/vliegtuigen/large-cabin" />
@@ -451,7 +436,7 @@
 
   <url>
     <loc>https://jetselect.nl/vliegtuigen/heavy-jets</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/vliegtuigen/heavy-jets" />
@@ -461,7 +446,7 @@
 
   <url>
     <loc>https://jetselect.nl/tools/vliegtuig-selector</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/tools/vliegtuig-selector" />
@@ -471,7 +456,7 @@
 
   <url>
     <loc>https://jetselect.nl/vliegtuigen/vergelijking</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/vliegtuigen/vergelijking" />
@@ -481,20 +466,18 @@
 
   <url>
     <loc>https://jetselect.nl/vliegtuigen/te-koop</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/vliegtuigen/te-koop" />
     <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/aircraft/for-sale" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/vliegtuigen/te-koop" />
   </url>
-  -->
 
   <!-- Used Aircraft Pages - Priority 0.8 / changefreq monthly -->
-  <!--
   <url>
     <loc>https://jetselect.nl/kopen/tweedehands</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/kopen/tweedehands" />
@@ -504,7 +487,7 @@
 
   <url>
     <loc>https://jetselect.nl/kopen/gebruikt</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/kopen/gebruikt" />
@@ -514,20 +497,18 @@
 
   <url>
     <loc>https://jetselect.nl/kopen/privet-jet/inspectie</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/kopen/privet-jet/inspectie" />
     <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/buy/private-jet/inspection" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/kopen/privet-jet/inspectie" />
   </url>
-  -->
 
   <!-- Aircraft Brand/Model Pages (12 pages) - Priority 0.5-0.7 / changefreq yearly -->
-  <!--
   <url>
     <loc>https://jetselect.nl/vliegtuigen/gulfstream</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/vliegtuigen/gulfstream" />
@@ -537,7 +518,7 @@
 
   <url>
     <loc>https://jetselect.nl/vliegtuigen/gulfstream-g650</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/vliegtuigen/gulfstream-g650" />
@@ -547,7 +528,7 @@
 
   <url>
     <loc>https://jetselect.nl/vliegtuigen/gulfstream-g280</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/vliegtuigen/gulfstream-g280" />
@@ -557,7 +538,7 @@
 
   <url>
     <loc>https://jetselect.nl/vliegtuigen/bombardier</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/vliegtuigen/bombardier" />
@@ -567,7 +548,7 @@
 
   <url>
     <loc>https://jetselect.nl/vliegtuigen/bombardier-global</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/vliegtuigen/bombardier-global" />
@@ -577,7 +558,7 @@
 
   <url>
     <loc>https://jetselect.nl/vliegtuigen/cessna</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/vliegtuigen/cessna" />
@@ -587,7 +568,7 @@
 
   <url>
     <loc>https://jetselect.nl/vliegtuigen/citation</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/vliegtuigen/citation" />
@@ -597,7 +578,7 @@
 
   <url>
     <loc>https://jetselect.nl/vliegtuigen/citation-jet</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/vliegtuigen/citation-jet" />
@@ -607,7 +588,7 @@
 
   <url>
     <loc>https://jetselect.nl/vliegtuigen/embraer</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/vliegtuigen/embraer" />
@@ -617,7 +598,7 @@
 
   <url>
     <loc>https://jetselect.nl/vliegtuigen/embraer-phenom</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/vliegtuigen/embraer-phenom" />
@@ -627,7 +608,7 @@
 
   <url>
     <loc>https://jetselect.nl/vliegtuigen/embraer-praetor</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/vliegtuigen/embraer-praetor" />
@@ -637,24 +618,22 @@
 
   <url>
     <loc>https://jetselect.nl/vliegtuigen/zakelijk-te-koop</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/vliegtuigen/zakelijk-te-koop" />
     <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/aircraft/business-for-sale" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/vliegtuigen/zakelijk-te-koop" />
   </url>
-  -->
 
   <!-- ====================================================================== -->
   <!-- PHASE 13 CONTENT (47 pages) - Uncomment when created                  -->
   <!-- ====================================================================== -->
 
   <!-- Financing & Leasing Cluster (4 pages) - Priority 0.7-0.8 / changefreq monthly -->
-  <!--
   <url>
     <loc>https://jetselect.nl/kopen/privet-jet/leasing</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/kopen/privet-jet/leasing" />
@@ -664,7 +643,7 @@
 
   <url>
     <loc>https://jetselect.nl/kopen/privet-jet/financiering</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/kopen/privet-jet/financiering" />
@@ -674,7 +653,7 @@
 
   <url>
     <loc>https://jetselect.nl/kopen/privet-jet/fractional</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/kopen/privet-jet/fractional" />
@@ -684,20 +663,18 @@
 
   <url>
     <loc>https://jetselect.nl/tools/financiering-calculator</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/tools/financiering-calculator" />
     <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/tools/financing-calculator" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/tools/financiering-calculator" />
   </url>
-  -->
 
   <!-- Remaining Business Aviation Cluster Pages - Priority 0.6-0.8 / changefreq monthly -->
-  <!--
   <url>
     <loc>https://jetselect.nl/zakelijk/belasting</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/zakelijk/belasting" />
@@ -707,7 +684,7 @@
 
   <url>
     <loc>https://jetselect.nl/zakelijk/financiering</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/zakelijk/financiering" />
@@ -717,7 +694,7 @@
 
   <url>
     <loc>https://jetselect.nl/zakelijk/structuur</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/zakelijk/structuur" />
@@ -727,7 +704,7 @@
 
   <url>
     <loc>https://jetselect.nl/zakelijk/operationele-kosten</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/zakelijk/operationele-kosten" />
@@ -737,7 +714,7 @@
 
   <url>
     <loc>https://jetselect.nl/zakelijk/belastingplanning</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/zakelijk/belastingplanning" />
@@ -747,7 +724,7 @@
 
   <url>
     <loc>https://jetselect.nl/zakelijk/business-case</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/zakelijk/business-case" />
@@ -757,7 +734,7 @@
 
   <url>
     <loc>https://jetselect.nl/zakelijk/governance</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/zakelijk/governance" />
@@ -767,7 +744,7 @@
 
   <url>
     <loc>https://jetselect.nl/zakelijk/persoonlijk-gebruik</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/zakelijk/persoonlijk-gebruik" />
@@ -777,20 +754,18 @@
 
   <url>
     <loc>https://jetselect.nl/zakelijk/wederverkoop</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/zakelijk/wederverkoop" />
     <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/business/resale" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/zakelijk/wederverkoop" />
   </url>
-  -->
 
   <!-- Business Segment Supporting Pages (8 pages) - Priority 0.5-0.7 / changefreq yearly -->
-  <!--
   <url>
     <loc>https://jetselect.nl/zakelijk/aanschaf</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/zakelijk/aanschaf" />
@@ -800,7 +775,7 @@
 
   <url>
     <loc>https://jetselect.nl/zakelijk/huren</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/zakelijk/huren" />
@@ -810,7 +785,7 @@
 
   <url>
     <loc>https://jetselect.nl/zakelijk/case-studies</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/zakelijk/case-studies" />
@@ -820,7 +795,7 @@
 
   <url>
     <loc>https://jetselect.nl/zakelijk/productiviteit</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/zakelijk/productiviteit" />
@@ -830,7 +805,7 @@
 
   <url>
     <loc>https://jetselect.nl/zakelijk/tijdsbesparing</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/zakelijk/tijdsbesparing" />
@@ -840,7 +815,7 @@
 
   <url>
     <loc>https://jetselect.nl/zakelijk/concurrentievoordeel</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/zakelijk/concurrentievoordeel" />
@@ -850,7 +825,7 @@
 
   <url>
     <loc>https://jetselect.nl/zakelijk/cfo-gids</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/zakelijk/cfo-gids" />
@@ -860,20 +835,18 @@
 
   <url>
     <loc>https://jetselect.nl/zakelijk/raad-van-bestuur</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/zakelijk/raad-van-bestuur" />
     <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/business/board-approval" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/zakelijk/raad-van-bestuur" />
   </url>
-  -->
 
   <!-- Remaining Buying Process Pages - Priority 0.6-0.7 / changefreq monthly -->
-  <!--
   <url>
     <loc>https://jetselect.nl/kopen/privet-jet/eigenaar-worden</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/kopen/privet-jet/eigenaar-worden" />
@@ -883,7 +856,7 @@
 
   <url>
     <loc>https://jetselect.nl/kopen/privet-jet/onderhandeling</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/kopen/privet-jet/onderhandeling" />
@@ -893,7 +866,7 @@
 
   <url>
     <loc>https://jetselect.nl/kopen/privet-jet/closing</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/kopen/privet-jet/closing" />
@@ -903,20 +876,18 @@
 
   <url>
     <loc>https://jetselect.nl/kopen/privet-jet/levering</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/kopen/privet-jet/levering" />
     <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/buy/private-jet/delivery" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/kopen/privet-jet/levering" />
   </url>
-  -->
 
   <!-- Remaining Cost Pages - Priority 0.5-0.6 / changefreq yearly -->
-  <!--
   <url>
     <loc>https://jetselect.nl/gids/kosten/verzekering</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/gids/kosten/verzekering" />
@@ -926,7 +897,7 @@
 
   <url>
     <loc>https://jetselect.nl/gids/kosten/hangar</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/gids/kosten/hangar" />
@@ -936,7 +907,7 @@
 
   <url>
     <loc>https://jetselect.nl/gids/kosten/bemanning</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/gids/kosten/bemanning" />
@@ -946,7 +917,7 @@
 
   <url>
     <loc>https://jetselect.nl/gids/kosten/onderhoud</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/gids/kosten/onderhoud" />
@@ -956,7 +927,7 @@
 
   <url>
     <loc>https://jetselect.nl/blog/investering</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/blog/investering" />
@@ -966,7 +937,7 @@
 
   <url>
     <loc>https://jetselect.nl/blog/waardevermindering</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/blog/waardevermindering" />
@@ -976,7 +947,7 @@
 
   <url>
     <loc>https://jetselect.nl/blog/wederverkoopwaarde</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/blog/wederverkoopwaarde" />
@@ -986,20 +957,18 @@
 
   <url>
     <loc>https://jetselect.nl/blog/kostenreductie</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/blog/kostenreductie" />
     <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/blog/cost-reduction" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/blog/kostenreductie" />
   </url>
-  -->
 
   <!-- Ownership Alternatives Supporting Pages (continued) - Priority 0.6-0.7 / changefreq yearly -->
-  <!--
   <url>
     <loc>https://jetselect.nl/huren/charter-gids</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/huren/charter-gids" />
@@ -1009,7 +978,7 @@
 
   <url>
     <loc>https://jetselect.nl/huren/empty-legs</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/huren/empty-legs" />
@@ -1019,7 +988,7 @@
 
   <url>
     <loc>https://jetselect.nl/huren/lege-vluchten</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/huren/lege-vluchten" />
@@ -1029,7 +998,7 @@
 
   <url>
     <loc>https://jetselect.nl/huren/amsterdam</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/huren/amsterdam" />
@@ -1039,7 +1008,7 @@
 
   <url>
     <loc>https://jetselect.nl/huren/amsterdam-charter</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/huren/amsterdam-charter" />
@@ -1049,7 +1018,7 @@
 
   <url>
     <loc>https://jetselect.nl/huren/vliegtuig-delen</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/huren/vliegtuig-delen" />
@@ -1059,33 +1028,29 @@
 
   <url>
     <loc>https://jetselect.nl/huren/jet-card</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/huren/jet-card" />
     <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/charter/jet-card" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/huren/jet-card" />
   </url>
-  -->
 
   <!-- Netherlands Regulations - Priority 0.6-0.7 / changefreq yearly -->
-  <!--
   <url>
     <loc>https://jetselect.nl/kopen/nederland/regelgeving</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/kopen/nederland/regelgeving" />
     <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/buy/netherlands/regulations" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/kopen/nederland/regelgeving" />
   </url>
-  -->
 
   <!-- Process & Legal Supporting Pages (6 pages) - Priority 0.5 / changefreq yearly -->
-  <!--
   <url>
     <loc>https://jetselect.nl/blog/registratie-proces</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/blog/registratie-proces" />
@@ -1095,7 +1060,7 @@
 
   <url>
     <loc>https://jetselect.nl/blog/easa-vereisten</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/blog/easa-vereisten" />
@@ -1105,7 +1070,7 @@
 
   <url>
     <loc>https://jetselect.nl/blog/vergunningen</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/blog/vergunningen" />
@@ -1115,7 +1080,7 @@
 
   <url>
     <loc>https://jetselect.nl/blog/taxatie</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/blog/taxatie" />
@@ -1125,7 +1090,7 @@
 
   <url>
     <loc>https://jetselect.nl/blog/escrow</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/blog/escrow" />
@@ -1135,20 +1100,18 @@
 
   <url>
     <loc>https://jetselect.nl/blog/eigendomsoverdracht</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/blog/eigendomsoverdracht" />
     <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/blog/title-transfer" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/blog/eigendomsoverdracht" />
   </url>
-  -->
 
   <!-- Market & Trends Supporting Pages (6 pages) - Priority 0.5-0.6 / changefreq yearly -->
-  <!--
   <url>
     <loc>https://jetselect.nl/blog/marktoverzicht</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/blog/marktoverzicht" />
@@ -1158,7 +1121,7 @@
 
   <url>
     <loc>https://jetselect.nl/blog/vloot-samenstelling</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/blog/vloot-samenstelling" />
@@ -1168,7 +1131,7 @@
 
   <url>
     <loc>https://jetselect.nl/blog/populaire-modellen</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/blog/populaire-modellen" />
@@ -1178,7 +1141,7 @@
 
   <url>
     <loc>https://jetselect.nl/blog/markttrends</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/blog/markttrends" />
@@ -1188,7 +1151,7 @@
 
   <url>
     <loc>https://jetselect.nl/blog/prijsontwikkeling</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/blog/prijsontwikkeling" />
@@ -1198,13 +1161,12 @@
 
   <url>
     <loc>https://jetselect.nl/blog/international-kopers</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="nl-NL" href="https://jetselect.nl/blog/international-kopers" />
     <xhtml:link rel="alternate" hreflang="en-NL" href="https://jetselect.nl/en/blog/international-buyers" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://jetselect.nl/blog/international-kopers" />
   </url>
-  -->
 
 </urlset>
