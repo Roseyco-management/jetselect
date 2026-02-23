@@ -125,6 +125,11 @@ const translations = {
             nav: {
                 prev: 'Vorige',
                 next: 'Volgende'
+            },
+            cta: {
+                title: 'Vind uw ideale privéjet',
+                desc: 'Beantwoord 5 vragen en ontvang een persoonlijke jet-aanbeveling op maat.',
+                btn: 'Begin de keuzehulp'
             }
         },
         contact: {
@@ -274,6 +279,11 @@ const translations = {
             nav: {
                 prev: 'Previous',
                 next: 'Next'
+            },
+            cta: {
+                title: 'Find your ideal private jet',
+                desc: 'Answer 5 questions and receive a personalised jet recommendation.',
+                btn: 'Start the selection guide'
             }
         },
         contact: {
