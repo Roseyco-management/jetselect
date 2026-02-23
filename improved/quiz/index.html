@@ -79,10 +79,6 @@
             color: var(--muted);
             font-weight: 500;
         }
-        .quiz-step-label span {
-            color: var(--primary);
-            font-weight: 700;
-        }
         .lang-toggle {
             display: flex;
             gap: 4px;
@@ -102,7 +98,6 @@
         }
         .lang-btn.active {
             border-color: var(--primary);
-            color: var(--primary);
             background: var(--primary);
             color: var(--white);
         }
@@ -270,137 +265,8 @@
         .btn-next:disabled { opacity: 0.4; cursor: not-allowed; }
         .btn-next:disabled:hover { background: var(--primary); }
 
-        /* ── Recommendations ── */
-        .recs-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-            gap: 20px;
-            margin-top: 8px;
-        }
-        .jet-card {
-            background: var(--white);
-            border-radius: 16px;
-            overflow: hidden;
-            box-shadow: var(--shadow);
-            border: 2px solid transparent;
-            transition: transform 0.25s, box-shadow 0.25s, border-color 0.2s;
-            display: flex;
-            flex-direction: column;
-        }
-        .jet-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-hover); }
-        .jet-card.selected { border-color: var(--accent); box-shadow: 0 8px 32px rgba(250,105,47,0.2); }
-        .jet-card-img {
-            height: 170px;
-            position: relative;
-            overflow: hidden;
-        }
-        .jet-card-img img {
-            width: 100%; height: 100%;
-            object-fit: cover;
-            transition: transform 0.4s;
-        }
-        .jet-card:hover .jet-card-img img { transform: scale(1.04); }
-        .jet-badge {
-            position: absolute;
-            top: 10px; left: 10px;
-            background: rgba(10,10,10,0.75);
-            color: #fff;
-            font-size: 10px;
-            font-weight: 700;
-            letter-spacing: 0.08em;
-            text-transform: uppercase;
-            padding: 3px 9px;
-            border-radius: 20px;
-            backdrop-filter: blur(4px);
-        }
-        .jet-body { padding: 18px; display: flex; flex-direction: column; flex: 1; }
-        .jet-name {
-            font-family: 'Playfair Display', serif;
-            font-size: 18px;
-            font-weight: 700;
-            margin-bottom: 12px;
-            color: var(--primary);
-        }
-        .jet-specs {
-            display: flex;
-            gap: 16px;
-            margin-bottom: 12px;
-            padding-bottom: 12px;
-            border-bottom: 1px solid var(--border);
-            flex-wrap: wrap;
-        }
-        .jet-spec-val { font-size: 13px; font-weight: 700; color: var(--primary); }
-        .jet-spec-lbl { font-size: 10px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.06em; }
-        .jet-tags {
-            display: flex; flex-wrap: wrap; gap: 5px;
-            margin-bottom: 16px; flex: 1;
-        }
-        .jet-tag {
-            background: var(--bg);
-            color: #555;
-            font-size: 11px;
-            font-weight: 500;
-            padding: 3px 9px;
-            border-radius: 20px;
-        }
-        .jet-actions { display: flex; gap: 8px; }
-        .btn-details {
-            flex: 1;
-            padding: 10px;
-            border: 1.5px solid var(--border);
-            background: transparent;
-            color: #555;
-            border-radius: 8px;
-            font-size: 13px;
-            font-weight: 600;
-            text-align: center;
-            text-decoration: none;
-            transition: border-color 0.2s, color 0.2s;
-            display: flex; align-items: center; justify-content: center;
-        }
-        .btn-details:hover { border-color: var(--primary); color: var(--primary); }
-        .btn-select {
-            flex: 1;
-            padding: 10px;
-            background: var(--primary);
-            color: var(--white);
-            border: none;
-            border-radius: 8px;
-            font-size: 13px;
-            font-weight: 600;
-            font-family: 'Poppins', sans-serif;
-            cursor: pointer;
-            transition: background 0.2s;
-        }
-        .btn-select:hover { background: var(--accent); }
-        .recs-skip {
-            text-align: center;
-            margin-top: 16px;
-        }
-        .recs-skip button {
-            background: none; border: none;
-            color: var(--muted);
-            font-size: 13px; font-family: 'Poppins', sans-serif;
-            cursor: pointer;
-            text-decoration: underline;
-            text-underline-offset: 3px;
-        }
-        .recs-skip button:hover { color: var(--primary); }
-
         /* ── Contact form ── */
         .form-wrap { background: var(--white); border-radius: 20px; padding: 36px; box-shadow: var(--shadow); }
-        .selected-jet-banner {
-            background: var(--accent-light);
-            border: 1.5px solid var(--accent);
-            border-radius: 10px;
-            padding: 12px 16px;
-            margin-bottom: 24px;
-            font-size: 14px;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-        .selected-jet-banner strong { color: var(--accent); }
         .form-grid {
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -499,7 +365,6 @@
             .options-grid.cols-3,
             .options-grid.cols-4 { grid-template-columns: 1fr; }
             .form-grid { grid-template-columns: 1fr; }
-            .recs-grid { grid-template-columns: 1fr; }
             .form-wrap { padding: 24px 18px; }
             .step-header { margin-bottom: 24px; }
         }
@@ -683,71 +548,54 @@
             </div>
         </div>
 
-        <!-- Step 6: Recommendations -->
+        <!-- Step 6: Contact form -->
         <div class="quiz-step" data-step="6">
             <div class="step-header">
-                <div class="step-number" data-i18n="s6.badge">Uw resultaten</div>
-                <h1 class="step-title" data-i18n="s6.title">Op basis van uw wensen raden wij aan:</h1>
-                <p class="step-desc" data-i18n="s6.desc">Selecteer een jet om uw aanvraag te starten.</p>
-            </div>
-            <div class="recs-grid" id="recsGrid"></div>
-            <div class="recs-skip">
-                <button id="skipBtn" data-i18n="s6.skip">Doorgaan zonder voorkeur →</button>
-            </div>
-        </div>
-
-        <!-- Step 7: Contact form -->
-        <div class="quiz-step" data-step="7">
-            <div class="step-header">
-                <div class="step-number" data-i18n="s7.badge">Bijna klaar</div>
-                <h1 class="step-title" data-i18n="s7.title">Vul uw gegevens in</h1>
-                <p class="step-desc" data-i18n="s7.desc">We nemen zo snel mogelijk contact met u op.</p>
+                <div class="step-number" data-i18n="s6.badge">Bijna klaar</div>
+                <h1 class="step-title" data-i18n="s6.title">Vul uw gegevens in</h1>
+                <p class="step-desc" data-i18n="s6.desc">We nemen zo snel mogelijk contact met u op.</p>
             </div>
             <div class="form-wrap">
-                <div class="selected-jet-banner" id="jetBanner" style="display:none">
-                    <span>✈️</span>
-                    <span data-i18n="s7.selectedLabel">Geselecteerde jet:</span>&nbsp;<strong id="jetBannerName"></strong>
-                </div>
                 <form id="contactForm">
                     <div class="form-grid">
                         <div class="form-group">
-                            <label for="name" data-i18n="s7.name">Naam *</label>
+                            <label for="name" data-i18n="s6.name">Naam *</label>
                             <input type="text" id="name" name="name" required minlength="2" autocomplete="name">
                             <span class="error-msg" id="name-err"></span>
                         </div>
                         <div class="form-group">
-                            <label for="email" data-i18n="s7.email">E-mail *</label>
+                            <label for="email" data-i18n="s6.email">E-mail *</label>
                             <input type="email" id="email" name="email" required autocomplete="email">
                             <span class="error-msg" id="email-err"></span>
                         </div>
                         <div class="form-group">
-                            <label for="phone" data-i18n="s7.phone">Telefoon *</label>
+                            <label for="phone" data-i18n="s6.phone">Telefoon *</label>
                             <input type="tel" id="phone" name="phone" required autocomplete="tel">
                             <span class="error-msg" id="phone-err"></span>
                         </div>
                         <div class="form-group">
-                            <label for="company" data-i18n="s7.company">Bedrijf</label>
+                            <label for="company" data-i18n="s6.company">Bedrijf</label>
                             <input type="text" id="company" name="company" autocomplete="organization">
                             <span class="error-msg" id="company-err"></span>
                         </div>
                         <div class="form-group full">
-                            <label for="message" data-i18n="s7.message">Aanvullende opmerkingen</label>
+                            <label for="message" data-i18n="s6.message">Aanvullende opmerkingen</label>
                             <textarea id="message" name="message" rows="3"></textarea>
                             <span class="error-msg" id="message-err"></span>
                         </div>
                     </div>
-                    <button type="submit" class="btn-submit" id="submitBtn" data-i18n="s7.submit">Verstuur aanvraag</button>
+                    <button type="submit" class="btn-submit" id="submitBtn" data-i18n="s6.submit">Verstuur aanvraag</button>
                 </form>
             </div>
         </div>
 
-        <!-- Step 8: Success -->
-        <div class="quiz-step" data-step="8">
+        <!-- Step 7: Success -->
+        <div class="quiz-step" data-step="7">
             <div class="success-screen">
                 <div class="success-icon">✓</div>
-                <h2 data-i18n="s8.title">Bedankt voor uw aanvraag!</h2>
-                <p data-i18n="s8.desc">We hebben uw gegevens ontvangen en nemen binnen 24 uur contact met u op met een selectie van geschikte privéjets.</p>
-                <button class="btn-restart" id="restartBtn" data-i18n="s8.restart">Nieuwe selectie maken</button>
+                <h2 data-i18n="s7.title">Bedankt voor uw aanvraag!</h2>
+                <p data-i18n="s7.desc">We hebben uw gegevens ontvangen en nemen binnen 24 uur contact met u op.</p>
+                <button class="btn-restart" id="restartBtn" data-i18n="s7.restart">Nieuwe selectie maken</button>
             </div>
         </div>
 
@@ -773,7 +621,7 @@
     // ── Translations ──────────────────────────────────────────────────────────
     const T = {
         nl: {
-            step_of: (n, t) => `Stap ${n} van ${t}`,
+            step_of: (n, t) => `Stap ${n} van 5`,
             's1.title': 'Hoe ver moet de privéjet kunnen vliegen?',
             's1.desc': 'De vliegafstand bepaalt welk type jet het meest geschikt is.',
             's1.short.title': 'Korte afstand', 's1.short.range': 'Tot 2.500 km', 's1.short.detail': 'Europese bestemmingen',
@@ -800,29 +648,22 @@
             's5.mid.sub': 'Midrange', 's5.mid.detail': 'Midsize jets',
             's5.premium.sub': 'Premium', 's5.premium.detail': 'Heavy jets',
             's5.ultra.sub': 'Ultra premium', 's5.ultra.detail': 'Ultra-long range',
-            's6.badge': 'Uw resultaten',
-            's6.title': 'Op basis van uw wensen raden wij aan:',
-            's6.desc': 'Selecteer een jet om uw aanvraag te starten.',
-            's6.skip': 'Doorgaan zonder voorkeur →',
-            's6.rangeLabel': 'Bereik', 's6.paxLabel': 'Passagiers', 's6.speedLabel': 'Snelheid',
-            's6.selectBtn': 'Selecteer', 's6.detailsBtn': 'Details',
-            's7.badge': 'Bijna klaar',
-            's7.title': 'Vul uw gegevens in',
-            's7.desc': 'We nemen zo snel mogelijk contact met u op.',
-            's7.selectedLabel': 'Geselecteerde jet:',
-            's7.name': 'Naam *', 's7.email': 'E-mail *', 's7.phone': 'Telefoon *',
-            's7.company': 'Bedrijf', 's7.message': 'Aanvullende opmerkingen',
-            's7.submit': 'Verstuur aanvraag',
-            's8.title': 'Bedankt voor uw aanvraag!',
-            's8.desc': 'We hebben uw gegevens ontvangen en nemen binnen 24 uur contact met u op.',
-            's8.restart': 'Nieuwe selectie maken',
+            's6.badge': 'Bijna klaar',
+            's6.title': 'Vul uw gegevens in',
+            's6.desc': 'We nemen zo snel mogelijk contact met u op.',
+            's6.name': 'Naam *', 's6.email': 'E-mail *', 's6.phone': 'Telefoon *',
+            's6.company': 'Bedrijf', 's6.message': 'Aanvullende opmerkingen',
+            's6.submit': 'Verstuur aanvraag',
+            's7.title': 'Bedankt voor uw aanvraag!',
+            's7.desc': 'We hebben uw gegevens ontvangen en nemen binnen 24 uur contact met u op.',
+            's7.restart': 'Nieuwe selectie maken',
             'nav.prev': '← Vorige', 'nav.next': 'Volgende →',
             'err.required': 'Dit veld is verplicht',
             'err.email': 'Voer een geldig e-mailadres in',
             'err.minlength': n => `Minimaal ${n} tekens`,
         },
         en: {
-            step_of: (n, t) => `Step ${n} of ${t}`,
+            step_of: (n, t) => `Step ${n} of 5`,
             's1.title': 'How far should the private jet fly?',
             's1.desc': 'The flight range determines which type of jet is most suitable.',
             's1.short.title': 'Short range', 's1.short.range': 'Up to 2,500 km', 's1.short.detail': 'European destinations',
@@ -849,22 +690,15 @@
             's5.mid.sub': 'Midrange', 's5.mid.detail': 'Midsize jets',
             's5.premium.sub': 'Premium', 's5.premium.detail': 'Heavy jets',
             's5.ultra.sub': 'Ultra premium', 's5.ultra.detail': 'Ultra-long range',
-            's6.badge': 'Your results',
-            's6.title': 'Based on your preferences, we recommend:',
-            's6.desc': 'Select a jet to start your request.',
-            's6.skip': 'Continue without preference →',
-            's6.rangeLabel': 'Range', 's6.paxLabel': 'Passengers', 's6.speedLabel': 'Speed',
-            's6.selectBtn': 'Select', 's6.detailsBtn': 'Details',
-            's7.badge': 'Almost done',
-            's7.title': 'Fill in your details',
-            's7.desc': 'We will contact you as soon as possible.',
-            's7.selectedLabel': 'Selected jet:',
-            's7.name': 'Name *', 's7.email': 'Email *', 's7.phone': 'Phone *',
-            's7.company': 'Company', 's7.message': 'Additional comments',
-            's7.submit': 'Submit request',
-            's8.title': 'Thank you for your request!',
-            's8.desc': 'We have received your details and will contact you within 24 hours.',
-            's8.restart': 'Start new selection',
+            's6.badge': 'Almost done',
+            's6.title': 'Fill in your details',
+            's6.desc': 'We will contact you as soon as possible.',
+            's6.name': 'Name *', 's6.email': 'Email *', 's6.phone': 'Phone *',
+            's6.company': 'Company', 's6.message': 'Additional comments',
+            's6.submit': 'Submit request',
+            's7.title': 'Thank you for your request!',
+            's7.desc': 'We have received your details and will contact you within 24 hours.',
+            's7.restart': 'Start new selection',
             'nav.prev': '← Previous', 'nav.next': 'Next →',
             'err.required': 'This field is required',
             'err.email': 'Enter a valid email address',
@@ -872,145 +706,11 @@
         }
     };
 
-    // ── Jet database ──────────────────────────────────────────────────────────
-    const JETS = [
-        {
-            id: 'embraer-phenom-300', name: 'Embraer Phenom 300E',
-            category: { nl: 'Light Jet', en: 'Light Jet' },
-            image: '../images/jets/luxury-jet-close-white.jpg',
-            url: '../vliegtuigen/embraer-phenom-300/',
-            specs: { range: 3650, pax: 6, speed: 834 },
-            ranges: ['short','medium'], paxGroups: ['1-5','6-10'],
-            priorities: ['speed','cost'], runways: ['major','regional','remote'],
-            budgets: ['5-10M'],
-            highlights: { nl: ['Beste klasse snelheid','Korte startbaan','Zuinig'], en: ['Best-in-class speed','Short runway','Efficient'] }
-        },
-        {
-            id: 'cessna-citation-xls-plus', name: 'Cessna Citation XLS+',
-            category: { nl: 'Midsize Jet', en: 'Midsize Jet' },
-            image: '../images/jets/private-jet-runway-front.jpg',
-            url: '../vliegtuigen/cessna-citation-xls-plus/',
-            specs: { range: 3700, pax: 8, speed: 832 },
-            ranges: ['short','medium'], paxGroups: ['6-10'],
-            priorities: ['cost','speed'], runways: ['major','regional','remote'],
-            budgets: ['5-10M','10-25M'],
-            highlights: { nl: ['Groot bagageruim','Bewezen betrouwbaarheid','Beste prijs/kwaliteit'], en: ['Large baggage hold','Proven reliability','Best value'] }
-        },
-        {
-            id: 'cessna-citation-latitude', name: 'Cessna Citation Latitude',
-            category: { nl: 'Super Midsize', en: 'Super Midsize' },
-            image: '../images/jets/luxury-jet-interior-cabin.jpg',
-            url: '../vliegtuigen/cessna-citation-latitude/',
-            specs: { range: 4417, pax: 9, speed: 848 },
-            ranges: ['medium','long'], paxGroups: ['6-10'],
-            priorities: ['luxury','cost'], runways: ['major','regional','remote'],
-            budgets: ['10-25M'],
-            highlights: { nl: ['Stand-up cabine','Hoog comfort','Laag verbruik'], en: ['Stand-up cabin','High comfort','Low operating costs'] }
-        },
-        {
-            id: 'embraer-legacy-500', name: 'Embraer Praetor 500',
-            category: { nl: 'Super Midsize', en: 'Super Midsize' },
-            image: '../images/jets/white-jet-tarmac-side.jpg',
-            url: '../vliegtuigen/embraer-legacy-500/',
-            specs: { range: 5556, pax: 12, speed: 870 },
-            ranges: ['medium','long'], paxGroups: ['6-10','10+'],
-            priorities: ['speed','luxury'], runways: ['major','regional','remote'],
-            budgets: ['10-25M','25-50M'],
-            highlights: { nl: ['Intercontinentaal bereik','Fly-by-wire','Brede cabine'], en: ['Intercontinental range','Fly-by-wire','Wide cabin'] }
-        },
-        {
-            id: 'gulfstream-g280', name: 'Gulfstream G280',
-            category: { nl: 'Super Midsize', en: 'Super Midsize' },
-            image: '../images/jets/private-jet-field-landing.jpg',
-            url: '../vliegtuigen/gulfstream-g280/',
-            specs: { range: 6667, pax: 10, speed: 900 },
-            ranges: ['medium','long'], paxGroups: ['6-10','10+'],
-            priorities: ['speed','luxury'], runways: ['major','regional'],
-            budgets: ['10-25M','25-50M'],
-            highlights: { nl: ['Gulfstream kwaliteit','Hoog plafond','Indrukwekkend bereik'], en: ['Gulfstream quality','High ceiling','Impressive range'] }
-        },
-        {
-            id: 'bombardier-challenger-350', name: 'Bombardier Challenger 350',
-            category: { nl: 'Heavy Jet', en: 'Heavy Jet' },
-            image: '../images/jets/executive-airport-terminal.jpg',
-            url: '../vliegtuigen/bombardier-challenger-350/',
-            specs: { range: 6483, pax: 10, speed: 870 },
-            ranges: ['long'], paxGroups: ['6-10','10+'],
-            priorities: ['luxury','speed'], runways: ['major','regional'],
-            budgets: ['25-50M'],
-            highlights: { nl: ['Ruime cabine','Bombardier luxe','Intercontinentaal'], en: ['Spacious cabin','Bombardier luxury','Intercontinental'] }
-        },
-        {
-            id: 'gulfstream-g550', name: 'Gulfstream G550',
-            category: { nl: 'Heavy Jet', en: 'Heavy Jet' },
-            image: '../images/jets/business-executive-in-jet.jpg',
-            url: '../vliegtuigen/gulfstream-g550/',
-            specs: { range: 12500, pax: 14, speed: 956 },
-            ranges: ['long'], paxGroups: ['10+'],
-            priorities: ['luxury','speed'], runways: ['major'],
-            budgets: ['25-50M','50M+'],
-            highlights: { nl: ['Ultragrote cabine','Non-stop intercontinentaal','Iconisch ontwerp'], en: ['Ultra large cabin','Non-stop intercontinental','Iconic design'] }
-        },
-        {
-            id: 'dassault-falcon-8x', name: 'Dassault Falcon 8X',
-            category: { nl: 'Ultra Long Range', en: 'Ultra Long Range' },
-            image: '../images/jets/luxury-jet-interior-cabin.jpg',
-            url: '../vliegtuigen/dassault-falcon-8x/',
-            specs: { range: 13334, pax: 14, speed: 953 },
-            ranges: ['long'], paxGroups: ['10+'],
-            priorities: ['luxury'], runways: ['major','regional','remote'],
-            budgets: ['50M+'],
-            highlights: { nl: ['3 motoren voor veiligheid','Korte baan mogelijk','Stilste cabine'], en: ['3 engines for safety','Short field capable','Quietest cabin'] }
-        },
-        {
-            id: 'gulfstream-g650', name: 'Gulfstream G650ER',
-            category: { nl: 'Ultra Long Range', en: 'Ultra Long Range' },
-            image: '../images/jets/white-jet-tarmac-side.jpg',
-            url: '../vliegtuigen/gulfstream-g650/',
-            specs: { range: 13890, pax: 14, speed: 978 },
-            ranges: ['long'], paxGroups: ['10+'],
-            priorities: ['luxury','speed'], runways: ['major'],
-            budgets: ['50M+'],
-            highlights: { nl: ['Snelste civiele jet','Meest gevraagd','Non-stop AMS–NYC'], en: ['Fastest civil jet','Most sought-after','Non-stop AMS–NYC'] }
-        },
-        {
-            id: 'bombardier-global-7500', name: 'Bombardier Global 7500',
-            category: { nl: 'Ultra Long Range', en: 'Ultra Long Range' },
-            image: '../images/jets/private-jet-runway-front.jpg',
-            url: '../vliegtuigen/bombardier-global-7500/',
-            specs: { range: 14260, pax: 14, speed: 956 },
-            ranges: ['long'], paxGroups: ['10+'],
-            priorities: ['luxury','speed'], runways: ['major'],
-            budgets: ['50M+'],
-            highlights: { nl: ['Grootste ultra-range cabine','4 woonruimtes','Langste bereik'], en: ['Largest ultra-range cabin','4 living spaces','Longest range'] }
-        }
-    ];
-
-    const ADJACENT = { '5-10M':['10-25M'], '10-25M':['5-10M','25-50M'], '25-50M':['10-25M','50M+'], '50M+':['25-50M'] };
-
-    function getRecommendations(sel) {
-        const scored = JETS.map(j => {
-            let s = 0;
-            if (j.ranges.includes(sel.range))         s += 3;
-            if (j.paxGroups.includes(sel.passengers)) s += 3;
-            if (j.budgets.includes(sel.budget))        s += 3;
-            else if (ADJACENT[sel.budget]?.some(b => j.budgets.includes(b))) s += 1;
-            if (j.priorities.includes(sel.priority))  s += 2;
-            if (j.runways.includes(sel.runway))        s += 1;
-            return { j, s };
-        }).sort((a,b) => b.s - a.s);
-
-        const top = scored.filter(x => x.s >= 4).slice(0, 3).map(x => x.j);
-        return top.length ? top : scored.filter(x => x.s >= 2).slice(0, 3).map(x => x.j);
-    }
-
     // ── State ─────────────────────────────────────────────────────────────────
     const state = {
         step: 1,
-        totalSteps: 5,
         lang: localStorage.getItem('jetselect-lang') || 'nl',
-        sel: { range: null, passengers: null, priority: null, runway: null, budget: null },
-        selectedJet: null
+        sel: { range: null, passengers: null, priority: null, runway: null, budget: null }
     };
 
     // ── Lang ──────────────────────────────────────────────────────────────────
@@ -1024,7 +724,6 @@
             const key = el.dataset.i18n;
             if (key) el.textContent = t(key);
         });
-        // Step badges
         for (let i = 1; i <= 5; i++) {
             const badge = document.querySelector(`[data-step="${i}"] .step-number`);
             if (badge) badge.textContent = t('step_of', i, 5);
@@ -1043,7 +742,7 @@
             const d = JSON.parse(localStorage.getItem('js-quiz') || 'null');
             if (!d) return;
             if (d.sel) state.sel = { ...state.sel, ...d.sel };
-            if (d.step >= 1 && d.step <= state.totalSteps) state.step = d.step;
+            if (d.step >= 1 && d.step <= 5) state.step = d.step;
         } catch(e) {}
     }
     function clearState() {
@@ -1052,15 +751,11 @@
 
     // ── Progress ──────────────────────────────────────────────────────────────
     function updateProgress() {
-        const pct = Math.min((state.step / state.totalSteps) * 100, 100);
+        const pct = Math.min((state.step / 5) * 100, 100);
         document.getElementById('progressFill').style.width = pct + '%';
 
         const stepLabelEl = document.getElementById('stepLabel');
-        if (state.step <= state.totalSteps) {
-            stepLabelEl.textContent = t('step_of', state.step, state.totalSteps);
-        } else {
-            stepLabelEl.textContent = '';
-        }
+        stepLabelEl.textContent = state.step <= 5 ? t('step_of', state.step, 5) : '';
     }
 
     // ── Navigation ────────────────────────────────────────────────────────────
@@ -1073,17 +768,12 @@
         const next = document.getElementById('nextBtn');
         const nav  = document.getElementById('quizNav');
 
-        if (n === 8) {
-            nav.style.display = 'none';
-            return;
-        }
-        nav.style.display = 'flex';
-
-        prev.style.display = n > 1 ? 'inline-block' : 'none';
-
+        // Hide nav on form and success steps
         if (n >= 6) {
-            next.style.display = 'none';
+            nav.style.display = 'none';
         } else {
+            nav.style.display = 'flex';
+            prev.style.display = n > 1 ? 'inline-block' : 'none';
             next.style.display = 'inline-block';
             const keys = ['range','passengers','priority','runway','budget'];
             next.disabled = !state.sel[keys[n-1]];
@@ -1101,13 +791,12 @@
         } else if (state.step === 5) {
             state.step = 6;
             showStep(6);
-            renderRecommendations();
         }
     }
 
     function goPrev() {
-        if (state.step > 1 && state.step <= 6) {
-            state.step = Math.min(state.step - 1, 5);
+        if (state.step > 1 && state.step <= 5) {
+            state.step--;
             showStep(state.step);
             restoreCards();
         }
@@ -1146,77 +835,12 @@
                 showStep(state.step);
             }, 320);
         } else {
-            // Budget (step 5) — wait for user to press next or auto-advance
+            // Budget (step 5) — auto-advance to form
             setTimeout(() => {
                 state.step = 6;
                 showStep(6);
-                renderRecommendations();
             }, 320);
         }
-    }
-
-    // ── Recommendations ───────────────────────────────────────────────────────
-    function renderRecommendations() {
-        const grid = document.getElementById('recsGrid');
-        const jets = getRecommendations(state.sel);
-        const lang = state.lang;
-
-        grid.innerHTML = jets.map(j => `
-            <div class="jet-card" data-jet="${j.name}">
-                <div class="jet-card-img">
-                    <img src="${j.image}" alt="${j.name}" loading="lazy">
-                    <span class="jet-badge">${j.category[lang]}</span>
-                </div>
-                <div class="jet-body">
-                    <div class="jet-name">${j.name}</div>
-                    <div class="jet-specs">
-                        <div class="jet-spec">
-                            <div class="jet-spec-val">${j.specs.range.toLocaleString()} km</div>
-                            <div class="jet-spec-lbl">${t('s6.rangeLabel')}</div>
-                        </div>
-                        <div class="jet-spec">
-                            <div class="jet-spec-val">${j.specs.pax}</div>
-                            <div class="jet-spec-lbl">${t('s6.paxLabel')}</div>
-                        </div>
-                        <div class="jet-spec">
-                            <div class="jet-spec-val">${j.specs.speed} km/h</div>
-                            <div class="jet-spec-lbl">${t('s6.speedLabel')}</div>
-                        </div>
-                    </div>
-                    <div class="jet-tags">
-                        ${j.highlights[lang].map(h => `<span class="jet-tag">${h}</span>`).join('')}
-                    </div>
-                    <div class="jet-actions">
-                        <a href="${j.url}" class="btn-details" target="_blank">${t('s6.detailsBtn')}</a>
-                        <button class="btn-select" data-jet="${j.name}">${t('s6.selectBtn')}</button>
-                    </div>
-                </div>
-            </div>`).join('');
-
-        grid.querySelectorAll('.btn-select').forEach(btn => {
-            btn.addEventListener('click', () => selectJet(btn.dataset.jet, btn.closest('.jet-card')));
-        });
-
-        document.getElementById('skipBtn').onclick = () => goToForm(null);
-    }
-
-    function selectJet(name, card) {
-        document.querySelectorAll('#recsGrid .jet-card').forEach(c => c.classList.remove('selected'));
-        card.classList.add('selected');
-        setTimeout(() => goToForm(name), 300);
-    }
-
-    function goToForm(jetName) {
-        state.selectedJet = jetName;
-        const banner = document.getElementById('jetBanner');
-        if (jetName) {
-            document.getElementById('jetBannerName').textContent = jetName;
-            banner.style.display = 'flex';
-        } else {
-            banner.style.display = 'none';
-        }
-        state.step = 7;
-        showStep(7);
     }
 
     // ── Form submission ───────────────────────────────────────────────────────
@@ -1253,7 +877,6 @@
         btn.disabled = true;
         btn.textContent = state.lang === 'nl' ? 'Verzenden...' : 'Sending...';
 
-        const jetNote = state.selectedJet ? `Geselecteerde jet: ${state.selectedJet}\n\n` : '';
         const data = {
             aircraft_type: state.sel.priority || null,
             passenger_count: state.sel.passengers || null,
@@ -1264,7 +887,7 @@
             email: document.getElementById('email').value.trim(),
             phone: document.getElementById('phone').value.trim() || null,
             company: document.getElementById('company').value.trim() || null,
-            notes: (jetNote + (document.getElementById('message').value.trim() || '')).trim() || null,
+            notes: document.getElementById('message').value.trim() || null,
             user_agent: navigator.userAgent,
             referrer: document.referrer || null,
             ip_address: null
@@ -1274,12 +897,12 @@
             const { error } = await sb.from('wizard_submissions').insert([data]);
             if (error) throw error;
             clearState();
-            state.step = 8;
-            showStep(8);
+            state.step = 7;
+            showStep(7);
         } catch(err) {
             console.error(err);
             btn.disabled = false;
-            btn.textContent = t('s7.submit');
+            btn.textContent = t('s6.submit');
             alert(state.lang === 'nl' ? 'Er is een fout opgetreden. Probeer het opnieuw.' : 'An error occurred. Please try again.');
         }
     }
@@ -1298,7 +921,6 @@
         document.getElementById('restartBtn').addEventListener('click', () => {
             clearState();
             state.sel = { range: null, passengers: null, priority: null, runway: null, budget: null };
-            state.selectedJet = null;
             state.step = 1;
             document.querySelectorAll('.option-card').forEach(c => c.classList.remove('selected'));
             document.getElementById('contactForm').reset();
@@ -1312,7 +934,6 @@
                 state.lang = btn.dataset.lang;
                 localStorage.setItem('jetselect-lang', state.lang);
                 applyLang();
-                if (state.step === 6) renderRecommendations();
             });
         });
 
