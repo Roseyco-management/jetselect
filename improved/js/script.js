@@ -103,6 +103,20 @@ const translations = {
                 messageLabel: 'Aanvullende opmerkingen',
                 submitBtn: 'Verstuur aanvraag'
             },
+            results: {
+                title: 'Op basis van uw wensen raden wij aan:',
+                desc: 'Selecteer een jet om uw aanvraag te starten.',
+                skipBtn: 'Doorgaan zonder voorkeur →',
+                selectBtn: 'Selecteer deze jet',
+                detailsBtn: 'Details bekijken',
+                rangeLabel: 'Bereik',
+                passengerLabel: 'Passagiers',
+                speedLabel: 'Snelheid',
+                noMatchTitle: 'Geen exacte match gevonden',
+                noMatchDesc: 'Op basis van uw criteria vinden onze adviseurs graag de beste opties voor u.',
+                noMatchBtn: 'Stuur uw aanvraag in',
+                selectedJetLabel: 'Geselecteerde jet'
+            },
             success: {
                 title: 'Bedankt voor uw aanvraag!',
                 message: 'We hebben uw gegevens ontvangen en nemen binnen 24 uur contact met u op met een selectie van geschikte privéjets.',
@@ -237,6 +251,20 @@ const translations = {
                 companyLabel: 'Company',
                 messageLabel: 'Additional comments',
                 submitBtn: 'Submit request'
+            },
+            results: {
+                title: 'Based on your preferences, we recommend:',
+                desc: 'Select a jet to start your request.',
+                skipBtn: 'Continue without preference →',
+                selectBtn: 'Select this jet',
+                detailsBtn: 'View details',
+                rangeLabel: 'Range',
+                passengerLabel: 'Passengers',
+                speedLabel: 'Speed',
+                noMatchTitle: 'No exact match found',
+                noMatchDesc: 'Our advisors will be happy to find the best options for you based on your criteria.',
+                noMatchBtn: 'Submit your request',
+                selectedJetLabel: 'Selected jet'
             },
             success: {
                 title: 'Thank you for your request!',
@@ -627,10 +655,225 @@ class LanguageManager {
     }
 }
 
+// ─── Jet Database ─────────────────────────────────────────────────────────────
+
+const JET_DATABASE = [
+    {
+        id: 'embraer-phenom-300',
+        name: 'Embraer Phenom 300E',
+        category: { nl: 'Light Jet', en: 'Light Jet' },
+        image: '/images/jets/luxury-jet-close-white.jpg',
+        detailUrl: '/vliegtuigen/embraer-phenom-300/',
+        specs: { range: 3650, passengers: 6, speed: 834 },
+        ranges: ['short', 'medium'],
+        passengerGroups: ['1-5', '6-10'],
+        priorities: ['speed', 'cost'],
+        runways: ['major', 'regional', 'remote'],
+        budgets: ['5-10M'],
+        highlights: {
+            nl: ['Beste klasse snelheid', 'Korte startbaan', 'Zuinig in gebruik'],
+            en: ['Best-in-class speed', 'Short runway capable', 'Cost efficient']
+        }
+    },
+    {
+        id: 'cessna-citation-xls-plus',
+        name: 'Cessna Citation XLS+',
+        category: { nl: 'Midsize Jet', en: 'Midsize Jet' },
+        image: '/images/jets/private-jet-runway-front.jpg',
+        detailUrl: '/vliegtuigen/cessna-citation-xls-plus/',
+        specs: { range: 3700, passengers: 8, speed: 832 },
+        ranges: ['short', 'medium'],
+        passengerGroups: ['6-10'],
+        priorities: ['cost', 'speed'],
+        runways: ['major', 'regional', 'remote'],
+        budgets: ['5-10M', '10-25M'],
+        highlights: {
+            nl: ['Groot bagageruim', 'Bewezen betrouwbaarheid', 'Uitstekende prijs/kwaliteit'],
+            en: ['Large baggage hold', 'Proven reliability', 'Excellent value']
+        }
+    },
+    {
+        id: 'cessna-citation-latitude',
+        name: 'Cessna Citation Latitude',
+        category: { nl: 'Super Midsize Jet', en: 'Super Midsize Jet' },
+        image: '/images/jets/luxury-jet-interior-cabin.jpg',
+        detailUrl: '/vliegtuigen/cessna-citation-latitude/',
+        specs: { range: 4417, passengers: 9, speed: 848 },
+        ranges: ['medium', 'long'],
+        passengerGroups: ['6-10'],
+        priorities: ['luxury', 'cost'],
+        runways: ['major', 'regional', 'remote'],
+        budgets: ['10-25M'],
+        highlights: {
+            nl: ['Stand-up cabine', 'Hoog comfort', 'Laag verbruik'],
+            en: ['Stand-up cabin', 'High comfort', 'Low operating costs']
+        }
+    },
+    {
+        id: 'embraer-legacy-500',
+        name: 'Embraer Praetor 500',
+        category: { nl: 'Super Midsize Jet', en: 'Super Midsize Jet' },
+        image: '/images/jets/white-jet-tarmac-side.jpg',
+        detailUrl: '/vliegtuigen/embraer-legacy-500/',
+        specs: { range: 5556, passengers: 12, speed: 870 },
+        ranges: ['medium', 'long'],
+        passengerGroups: ['6-10', '10+'],
+        priorities: ['speed', 'luxury'],
+        runways: ['major', 'regional', 'remote'],
+        budgets: ['10-25M', '25-50M'],
+        highlights: {
+            nl: ['Intercontinentaal bereik', 'Fly-by-wire', 'Brede cabine'],
+            en: ['Intercontinental range', 'Fly-by-wire', 'Wide cabin']
+        }
+    },
+    {
+        id: 'gulfstream-g280',
+        name: 'Gulfstream G280',
+        category: { nl: 'Super Midsize Jet', en: 'Super Midsize Jet' },
+        image: '/images/jets/private-jet-field-landing.jpg',
+        detailUrl: '/vliegtuigen/gulfstream-g280/',
+        specs: { range: 6667, passengers: 10, speed: 900 },
+        ranges: ['medium', 'long'],
+        passengerGroups: ['6-10', '10+'],
+        priorities: ['speed', 'luxury'],
+        runways: ['major', 'regional'],
+        budgets: ['10-25M', '25-50M'],
+        highlights: {
+            nl: ['Gulfstream kwaliteit', 'Hoog plafond', 'Indrukwekkend bereik'],
+            en: ['Gulfstream quality', 'High cabin ceiling', 'Impressive range']
+        }
+    },
+    {
+        id: 'bombardier-challenger-350',
+        name: 'Bombardier Challenger 350',
+        category: { nl: 'Heavy Jet', en: 'Heavy Jet' },
+        image: '/images/jets/executive-airport-terminal.jpg',
+        detailUrl: '/vliegtuigen/bombardier-challenger-350/',
+        specs: { range: 6483, passengers: 10, speed: 870 },
+        ranges: ['long'],
+        passengerGroups: ['6-10', '10+'],
+        priorities: ['luxury', 'speed'],
+        runways: ['major', 'regional'],
+        budgets: ['25-50M'],
+        highlights: {
+            nl: ['Ruime cabine', 'Bombardier luxe', 'Intercontinentaal'],
+            en: ['Spacious cabin', 'Bombardier luxury', 'Intercontinental']
+        }
+    },
+    {
+        id: 'gulfstream-g550',
+        name: 'Gulfstream G550',
+        category: { nl: 'Heavy Jet', en: 'Heavy Jet' },
+        image: '/images/jets/business-executive-in-jet.jpg',
+        detailUrl: '/vliegtuigen/gulfstream-g550/',
+        specs: { range: 12500, passengers: 14, speed: 956 },
+        ranges: ['long'],
+        passengerGroups: ['10+'],
+        priorities: ['luxury', 'speed'],
+        runways: ['major'],
+        budgets: ['25-50M', '50M+'],
+        highlights: {
+            nl: ['Ultragrote cabine', 'Non-stop intercontinentaal', 'Iconisch ontwerp'],
+            en: ['Ultra large cabin', 'Non-stop intercontinental', 'Iconic design']
+        }
+    },
+    {
+        id: 'dassault-falcon-8x',
+        name: 'Dassault Falcon 8X',
+        category: { nl: 'Ultra Long Range', en: 'Ultra Long Range' },
+        image: '/images/jets/luxury-jet-interior-cabin.jpg',
+        detailUrl: '/vliegtuigen/dassault-falcon-8x/',
+        specs: { range: 13334, passengers: 14, speed: 953 },
+        ranges: ['long'],
+        passengerGroups: ['10+'],
+        priorities: ['luxury'],
+        runways: ['major', 'regional', 'remote'],
+        budgets: ['50M+'],
+        highlights: {
+            nl: ['3 motoren voor extra veiligheid', 'Korte baan mogelijk', 'Stilste cabine in klasse'],
+            en: ['3 engines for extra safety', 'Short field capable', 'Quietest cabin in class']
+        }
+    },
+    {
+        id: 'gulfstream-g650',
+        name: 'Gulfstream G650ER',
+        category: { nl: 'Ultra Long Range', en: 'Ultra Long Range' },
+        image: '/images/jets/white-jet-tarmac-side.jpg',
+        detailUrl: '/vliegtuigen/gulfstream-g650/',
+        specs: { range: 13890, passengers: 14, speed: 978 },
+        ranges: ['long'],
+        passengerGroups: ['10+'],
+        priorities: ['luxury', 'speed'],
+        runways: ['major'],
+        budgets: ['50M+'],
+        highlights: {
+            nl: ['Snelste civiele jet', 'Meest gevraagd wereldwijd', 'Non-stop van AMS naar NYC'],
+            en: ['Fastest civil jet', 'Most sought-after worldwide', 'Non-stop AMS to NYC']
+        }
+    },
+    {
+        id: 'bombardier-global-7500',
+        name: 'Bombardier Global 7500',
+        category: { nl: 'Ultra Long Range', en: 'Ultra Long Range' },
+        image: '/images/jets/private-jet-runway-front.jpg',
+        detailUrl: '/vliegtuigen/bombardier-global-7500/',
+        specs: { range: 14260, passengers: 14, speed: 956 },
+        ranges: ['long'],
+        passengerGroups: ['10+'],
+        priorities: ['luxury', 'speed'],
+        runways: ['major'],
+        budgets: ['50M+'],
+        highlights: {
+            nl: ['Grootste cabine ultra-range', '4 woonruimtes aan boord', 'Langste bereik ter wereld'],
+            en: ['Largest ultra-range cabin', '4 living spaces on board', 'Longest range in the world']
+        }
+    }
+];
+
+const ADJACENT_BUDGETS = {
+    '5-10M':  ['10-25M'],
+    '10-25M': ['5-10M', '25-50M'],
+    '25-50M': ['10-25M', '50M+'],
+    '50M+':   ['25-50M']
+};
+
+function generateRecommendations(selections) {
+    const scored = JET_DATABASE.map(jet => {
+        let score = 0;
+        if (jet.ranges.includes(selections.range))             score += 3;
+        if (jet.passengerGroups.includes(selections.passengers)) score += 3;
+        if (jet.budgets.includes(selections.budget))           score += 3;
+        else if (ADJACENT_BUDGETS[selections.budget]?.some(b => jet.budgets.includes(b))) score += 1;
+        if (jet.priorities.includes(selections.priority))     score += 2;
+        if (jet.runways.includes(selections.runway))           score += 1;
+        return { jet, score };
+    });
+
+    const results = scored
+        .filter(s => s.score >= 4)
+        .sort((a, b) => b.score - a.score)
+        .slice(0, 3)
+        .map(s => s.jet);
+
+    // Fallback: relax threshold if nothing matches well
+    if (results.length === 0) {
+        return scored
+            .filter(s => s.score >= 2)
+            .sort((a, b) => b.score - a.score)
+            .slice(0, 3)
+            .map(s => s.jet);
+    }
+
+    return results;
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+
 class JetSelector {
     constructor() {
         this.currentStep = 1;
         this.totalSteps = 5;
+        this.selectedJet = null;
         this.selections = {
             range: null,
             passengers: null,
@@ -639,12 +882,58 @@ class JetSelector {
             budget: null
         };
 
+        this.restoreFromStorage();
         this.init();
+    }
+
+    restoreFromStorage() {
+        try {
+            const saved = localStorage.getItem('jetselect-wizard');
+            if (!saved) return;
+            const { selections, step } = JSON.parse(saved);
+            if (selections) this.selections = { ...this.selections, ...selections };
+            if (step && step >= 1 && step <= this.totalSteps) {
+                this.currentStep = step;
+            }
+        } catch (e) {
+            // ignore corrupt storage
+        }
+    }
+
+    saveToStorage() {
+        try {
+            localStorage.setItem('jetselect-wizard', JSON.stringify({
+                selections: this.selections,
+                step: this.currentStep
+            }));
+        } catch (e) {}
+    }
+
+    clearStorage() {
+        try { localStorage.removeItem('jetselect-wizard'); } catch (e) {}
     }
 
     init() {
         this.setupEventListeners();
+        this.showStep(this.currentStep);
         this.updateProgress();
+        this.updateNavigationButtons();
+        this.restoreCardSelections();
+    }
+
+    restoreCardSelections() {
+        Object.entries(this.selections).forEach(([key, value]) => {
+            if (!value) return;
+            const stepNum = Object.keys({ range:1, passengers:2, priority:3, runway:4, budget:5 }
+                .valueOf ? { range:1, passengers:2, priority:3, runway:4, budget:5 } : {})
+                .find(k => k === key);
+            const stepIndex = { range:1, passengers:2, priority:3, runway:4, budget:5 }[key];
+            if (!stepIndex) return;
+            const step = document.querySelector(`.step-container[data-step="${stepIndex}"]`);
+            if (!step) return;
+            const card = step.querySelector(`.option-card[data-value="${value}"]`);
+            if (card) card.classList.add('selected');
+        });
     }
 
     setupEventListeners() {
@@ -872,6 +1161,7 @@ class JetSelector {
         const stepKey = this.getStepKey(parseInt(step));
         const wasAlreadySelected = this.selections[stepKey] === value;
         this.selections[stepKey] = value;
+        this.saveToStorage();
 
         // Enable next button
         const nextBtn = document.getElementById('nextBtn');
@@ -916,18 +1206,20 @@ class JetSelector {
         }
 
         // Move to next step
-        if (this.currentStep < 6) {
+        if (this.currentStep < 8) {
             this.currentStep++;
             this.showStep(this.currentStep);
             this.updateProgress();
             this.updateNavigationButtons();
 
-            // If moving to form step, populate summary
             if (this.currentStep === 6) {
+                this.populateRecommendations();
+            }
+
+            if (this.currentStep === 7) {
                 this.populateSummary();
             }
 
-            // Smooth scroll to selector section
             this.smoothScrollTo('#selector', -100);
         }
     }
@@ -981,7 +1273,7 @@ class JetSelector {
     updateProgress() {
         // Smooth progress bar animation
         const progressFill = document.getElementById('progressFill');
-        const progress = (this.currentStep / this.totalSteps) * 100;
+        const progress = Math.min((this.currentStep / this.totalSteps) * 100, 100);
         motion.animate(progressFill,
             { width: `${progress}%` },
             { duration: 0.6, easing: 'cubic-bezier(0.16, 1, 0.3, 1)' }
@@ -1101,8 +1393,13 @@ class JetSelector {
 
         // Handle next button
         if (this.currentStep === 6) {
+            // Recommendations step — user selects via jet cards
             nextBtn.style.display = 'none';
         } else if (this.currentStep === 7) {
+            // Contact form — no next button
+            nextBtn.style.display = 'none';
+        } else if (this.currentStep === 8) {
+            // Success screen — hide both
             nextBtn.style.display = 'none';
             prevBtn.style.display = 'none';
         } else {
@@ -1157,6 +1454,117 @@ class JetSelector {
             labels.runway[this.selections.runway] || '-';
         document.getElementById('summaryBudget').textContent =
             labels.budget[this.selections.budget] || '-';
+
+        // Show selected jet if one was chosen
+        const jetRow = document.getElementById('summaryJetRow');
+        if (jetRow) {
+            if (this.selectedJet) {
+                document.getElementById('summaryJet').textContent = this.selectedJet;
+                jetRow.style.display = '';
+            } else {
+                jetRow.style.display = 'none';
+            }
+        }
+    }
+
+    populateRecommendations() {
+        const lang = window.languageManager.getCurrentLang();
+        const t = translations[lang].wizard.results;
+        const grid = document.getElementById('recommendationsGrid');
+        if (!grid) return;
+
+        const jets = generateRecommendations(this.selections);
+
+        if (jets.length === 0) {
+            grid.innerHTML = `
+                <div class="results-no-match">
+                    <h3>${t.noMatchTitle}</h3>
+                    <p>${t.noMatchDesc}</p>
+                    <button class="cta-button" id="noMatchCta">${t.noMatchBtn}</button>
+                </div>`;
+            document.getElementById('noMatchCta')?.addEventListener('click', () => {
+                this.currentStep = 7;
+                this.showStep(7);
+                this.updateProgress();
+                this.updateNavigationButtons();
+                this.populateSummary();
+                this.smoothScrollTo('#selector', -100);
+            });
+            return;
+        }
+
+        grid.innerHTML = jets.map(jet => `
+            <div class="jet-card" data-jet-id="${jet.id}">
+                <div class="jet-card-image">
+                    <img src="${jet.image}" alt="${jet.name}" loading="lazy">
+                    <span class="jet-category-badge">${jet.category[lang] || jet.category.nl}</span>
+                </div>
+                <div class="jet-card-body">
+                    <h3 class="jet-name">${jet.name}</h3>
+                    <div class="jet-specs">
+                        <div class="jet-spec">
+                            <span class="jet-spec-value">${jet.specs.range.toLocaleString()} km</span>
+                            <span class="jet-spec-label">${t.rangeLabel}</span>
+                        </div>
+                        <div class="jet-spec">
+                            <span class="jet-spec-value">${jet.specs.passengers}</span>
+                            <span class="jet-spec-label">${t.passengerLabel}</span>
+                        </div>
+                        <div class="jet-spec">
+                            <span class="jet-spec-value">${jet.specs.speed} km/h</span>
+                            <span class="jet-spec-label">${t.speedLabel}</span>
+                        </div>
+                    </div>
+                    <div class="jet-highlights">
+                        ${jet.highlights[lang].map(h => `<span class="highlight-tag">${h}</span>`).join('')}
+                    </div>
+                    <div class="jet-actions">
+                        <a href="${jet.detailUrl}" class="btn-jet-details" target="_blank">${t.detailsBtn}</a>
+                        <button class="btn-jet-select" data-jet-name="${jet.name}">${t.selectBtn}</button>
+                    </div>
+                </div>
+            </div>`).join('');
+
+        // Wire up select buttons
+        grid.querySelectorAll('.btn-jet-select').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const jetName = btn.dataset.jetName;
+                this.selectedJet = jetName;
+
+                // Highlight selected card
+                grid.querySelectorAll('.jet-card').forEach(c => c.classList.remove('selected'));
+                btn.closest('.jet-card').classList.add('selected');
+
+                // Small delay for visual feedback then advance
+                setTimeout(() => {
+                    this.currentStep = 7;
+                    this.showStep(7);
+                    this.updateProgress();
+                    this.updateNavigationButtons();
+                    this.populateSummary();
+                    this.smoothScrollTo('#selector', -100);
+                }, 300);
+            });
+        });
+
+        // Wire up skip button
+        document.getElementById('skipToForm')?.addEventListener('click', () => {
+            this.selectedJet = null;
+            this.currentStep = 7;
+            this.showStep(7);
+            this.updateProgress();
+            this.updateNavigationButtons();
+            this.populateSummary();
+            this.smoothScrollTo('#selector', -100);
+        });
+
+        // Stagger card entrance
+        setTimeout(() => {
+            const cards = grid.querySelectorAll('.jet-card');
+            if (cards.length > 0 && window.animationManager) {
+                window.animationManager.staggerIn(cards);
+            }
+        }, 50);
     }
 
     async handleFormSubmit(e) {
@@ -1188,10 +1596,11 @@ class JetSelector {
         const contactData = Object.fromEntries(formData);
 
         // Prepare data for Supabase
+        const jetNote = this.selectedJet ? `Geselecteerde jet: ${this.selectedJet}\n\n` : '';
         const submissionData = {
             // Wizard selections
             aircraft_type: this.selections.priority || null,
-            passenger_count: parseInt(this.selections.passengers) || null,
+            passenger_count: this.selections.passengers || null,
             range: this.selections.range || null,
             budget: this.selections.budget || null,
             timeline: this.selections.runway || null,
@@ -1201,7 +1610,7 @@ class JetSelector {
             email: contactData.email,
             phone: contactData.phone || null,
             company: contactData.company || null,
-            notes: contactData.message || null,
+            notes: jetNote + (contactData.message || '') || null,
 
             // Metadata
             ...getSubmissionMetadata()
@@ -1221,8 +1630,9 @@ class JetSelector {
             console.log('Saved to Supabase:', data);
 
             // Show success message
-            this.currentStep = 7;
-            this.showStep(7);
+            this.clearStorage();
+            this.currentStep = 8;
+            this.showStep(8);
             this.updateNavigationButtons();
             this.smoothScrollTo('#selector', -100);
 
@@ -1248,9 +1658,9 @@ class JetSelector {
 
         // Get elements
         const successIcon = document.querySelector('.success-icon');
-        const heading = document.querySelector('[data-step="7"] .step-title');
-        const message = document.querySelector('[data-step="7"] .step-description');
-        const button = document.querySelector('[data-step="7"] .cta-button');
+        const heading = document.querySelector('[data-step="8"] .step-title');
+        const message = document.querySelector('[data-step="8"] .step-description');
+        const button = document.querySelector('[data-step="8"] .cta-button');
 
         if (!successIcon || !heading || !message || !button) {
             console.warn('Success screen elements not found');

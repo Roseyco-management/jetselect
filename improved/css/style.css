@@ -738,10 +738,241 @@ body {
 }
 
 /* Initial hidden state for success screen elements */
-[data-step="7"] .step-title,
-[data-step="7"] .step-description,
-[data-step="7"] .cta-button {
+[data-step="8"] .step-title,
+[data-step="8"] .step-description,
+[data-step="8"] .cta-button {
     opacity: 0;
+}
+
+/* ─── Jet Recommendation Cards ─────────────────────────────────────── */
+.recommendations-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 24px;
+    margin: 32px 0 16px;
+}
+
+.jet-card {
+    background: var(--white);
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.07);
+    border: 2px solid transparent;
+    transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.2s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+.jet-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 36px rgba(0,0,0,0.13);
+}
+
+.jet-card.selected {
+    border-color: var(--accent-color);
+    box-shadow: 0 8px 32px rgba(250, 105, 47, 0.22);
+}
+
+.jet-card-image {
+    position: relative;
+    height: 175px;
+    overflow: hidden;
+}
+
+.jet-card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+
+.jet-card:hover .jet-card-image img {
+    transform: scale(1.04);
+}
+
+.jet-category-badge {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    background: rgba(10,10,10,0.72);
+    color: #fff;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 4px 10px;
+    border-radius: 20px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    backdrop-filter: blur(6px);
+}
+
+.jet-card-body {
+    padding: 20px 20px 18px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.jet-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 19px;
+    font-weight: 700;
+    color: #0a0a0a;
+    margin: 0 0 14px;
+    line-height: 1.25;
+}
+
+.jet-specs {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 14px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid #f0f0f0;
+    flex-wrap: wrap;
+}
+
+.jet-spec {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.jet-spec-value {
+    font-size: 14px;
+    font-weight: 700;
+    color: #0a0a0a;
+}
+
+.jet-spec-label {
+    font-size: 10px;
+    color: #999;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+}
+
+.jet-highlights {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 18px;
+    flex: 1;
+}
+
+.highlight-tag {
+    background: #f4f4f4;
+    color: #555;
+    font-size: 11px;
+    font-weight: 500;
+    padding: 4px 10px;
+    border-radius: 20px;
+    white-space: nowrap;
+}
+
+.jet-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.btn-jet-details {
+    flex: 1;
+    padding: 10px 14px;
+    border: 1.5px solid #d4d4d4;
+    background: transparent;
+    color: #555;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+    transition: border-color 0.2s, color 0.2s;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.btn-jet-details:hover {
+    border-color: #0a0a0a;
+    color: #0a0a0a;
+}
+
+.btn-jet-select {
+    flex: 1;
+    padding: 10px 14px;
+    background: #0a0a0a;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.1s;
+    white-space: nowrap;
+}
+
+.btn-jet-select:hover {
+    background: var(--accent-color);
+}
+
+.btn-jet-select:active {
+    transform: scale(0.97);
+}
+
+.results-skip {
+    text-align: center;
+    margin: 4px 0 0;
+}
+
+.results-skip-btn {
+    background: none;
+    border: none;
+    color: #999;
+    font-size: 13px;
+    cursor: pointer;
+    padding: 4px 8px;
+    transition: color 0.2s;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.results-skip-btn:hover {
+    color: #0a0a0a;
+}
+
+.results-no-match {
+    text-align: center;
+    padding: 40px 24px;
+    background: #f8f8f8;
+    border-radius: 16px;
+    margin: 16px 0;
+}
+
+.results-no-match p {
+    color: #666;
+    margin: 8px 0 20px;
+}
+
+.results-no-match .cta-button {
+    display: inline-block;
+    padding: 12px 28px;
+    background: #0a0a0a;
+    color: #fff;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .recommendations-grid {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+    .jet-card-image {
+        height: 160px;
+    }
 }
 
 /* Confetti dots - will be created dynamically by JS */

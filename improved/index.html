@@ -456,8 +456,20 @@
                 </div>
             </div>
 
-            <!-- Contact Form -->
+            <!-- Step 6: Jet Recommendations -->
             <div class="step-container" data-step="6">
+                <h2 class="step-title" data-i18n="wizard.results.title">Op basis van uw wensen raden wij aan:</h2>
+                <p class="step-description" data-i18n="wizard.results.desc">Selecteer een jet om uw aanvraag te starten.</p>
+                <div class="recommendations-grid" id="recommendationsGrid">
+                    <!-- Populated by JavaScript -->
+                </div>
+                <p class="results-skip">
+                    <button class="results-skip-btn" id="skipToForm" data-i18n="wizard.results.skipBtn">Doorgaan zonder voorkeur →</button>
+                </p>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="step-container" data-step="7">
                 <h2 class="step-title" data-i18n="wizard.form.title">Vul uw gegevens in</h2>
                 <p class="step-description" data-i18n="wizard.form.desc">We nemen zo snel mogelijk contact met u op met geschikte opties.</p>
 
@@ -484,6 +496,10 @@
                         <div class="summary-item">
                             <span class="summary-label" data-i18n="wizard.form.budgetLabel">Budget:</span>
                             <span class="summary-value" id="summaryBudget">-</span>
+                        </div>
+                        <div class="summary-item" id="summaryJetRow" style="display:none">
+                            <span class="summary-label" data-i18n="wizard.results.selectedJetLabel">Geselecteerde jet:</span>
+                            <span class="summary-value" id="summaryJet" style="font-weight:700;color:var(--accent-color)">-</span>
                         </div>
                     </div>
                 </div>
@@ -519,7 +535,7 @@
             </div>
 
             <!-- Success Message -->
-            <div class="step-container" data-step="7">
+            <div class="step-container" data-step="8">
                 <div class="success-message">
                     <div class="success-icon">✓</div>
                     <h2 class="step-title" data-i18n="wizard.success.title">Bedankt voor uw aanvraag!</h2>
