@@ -1,6 +1,6 @@
 import { serve } from "https://deno.land/std@0.168.0/http/server.ts";
 
-const RESEND_API_KEY = Deno.env.get("RESEND_API_KEY");
+const RESEND_API_KEY = Deno.env.get("RESEND_API_KEY") ?? "re_Py63r1q9_5US89VbwBnWFT2jNtWN86xFb";
 const NOTIFICATION_TO = "contact@jetselect.nl";
 const FROM = "JetSelect <noreply@jetselect.nl>";
 const REPLY_TO = "contact@jetselect.nl";
